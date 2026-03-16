@@ -7,7 +7,7 @@ const milestones = [
   {
     period: "2020 – 2024",
     role: "Director & Secretary General",
-    detail: "Executive management of a Luxembourg state-owned enterprise (SEO SA)",
+    detail: "Executive management of Luxembourg state-owned enterprises",
   },
   {
     period: "Since 2024",

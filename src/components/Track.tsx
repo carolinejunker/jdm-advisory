@@ -7,7 +7,7 @@ const milestones = [
   {
     period: "2020 – 2024",
     role: "Direktor & Generalsekretär",
-    detail: "Geschäftsleitung eines luxemburgischen Staatsunternehmens (SEO SA)",
+    detail: "Geschäftsleitung luxemburgischer Staatsunternehmen",
   },
   {
     period: "Seit 2024",
