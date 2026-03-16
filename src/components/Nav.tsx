@@ -10,20 +10,22 @@ const translations = {
   en: {
     about: "About",
     services: "Services",
+    track: "Track Record",
     contact: "Contact",
     switchLabel: "DE",
-    switchHref: "/de",
+    switchHref: "/",
   },
   de: {
     about: "Über mich",
     services: "Leistungen",
+    track: "Stationen",
     contact: "Kontakt",
     switchLabel: "EN",
-    switchHref: "/",
+    switchHref: "/en",
   },
 };
 
-export default function Nav({ locale = "en" }: NavProps) {
+export default function Nav({ locale = "de" }: NavProps) {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const t = translations[locale];
@@ -37,6 +39,7 @@ export default function Nav({ locale = "en" }: NavProps) {
   const links = [
     { href: "#about", label: t.about },
     { href: "#services", label: t.services },
+    { href: "#track", label: t.track },
     { href: "#contact", label: t.contact },
   ];
 
@@ -50,7 +53,7 @@ export default function Nav({ locale = "en" }: NavProps) {
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <a
-          href={locale === "de" ? "/de" : "/"}
+          href="/"
           className="text-gold font-[family-name:var(--font-heading)] text-xl font-semibold tracking-wide"
         >
           JDM

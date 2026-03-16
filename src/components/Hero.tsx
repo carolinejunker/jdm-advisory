@@ -18,16 +18,15 @@ export default function Hero() {
         {/* Divider */}
         <div className="w-16 h-px bg-gold/60 mx-auto mb-8" />
 
-        {/* Tagline */}
-        <p className="text-lg md:text-xl text-slate max-w-2xl mx-auto leading-relaxed mb-4">
-          Independent Advisor.
-          <br className="hidden md:block" />{" "}
-          Second Opinions for High-Stakes Decisions.
+        {/* Claim */}
+        <p className="text-lg md:text-xl text-cream/90 max-w-2xl mx-auto leading-relaxed mb-4 font-medium">
+          20 Jahre Boardroom. Jetzt auf eigene Rechnung.
         </p>
 
-        {/* Locations */}
-        <p className="text-sm uppercase tracking-[0.3em] text-gold/70 mb-12">
-          Luxembourg · Dubai
+        {/* Subtitle */}
+        <p className="text-base md:text-lg text-slate max-w-2xl mx-auto leading-relaxed mb-12">
+          Unternehmer und unabhängiger Berater — mit wechselnden Themen,
+          aber immer dem gleichen Anspruch.
         </p>
 
         {/* CTA */}
@@ -35,7 +34,7 @@ export default function Hero() {
           href="#contact"
           className="inline-block border border-gold/40 text-gold text-sm uppercase tracking-widest px-8 py-3 hover:bg-gold hover:text-navy transition-all duration-300"
         >
-          Get in touch
+          Erstgespräch buchen
         </a>
       </div>
 
