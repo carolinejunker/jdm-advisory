@@ -564,6 +564,20 @@ export default function EqualPayPage() {
         </section>
       </main>
 
+      {/* Disclaimer */}
+      <section className="py-8 border-t border-navy-lighter">
+        <div className="max-w-4xl mx-auto px-6">
+          <p className="text-slate/40 text-xs leading-relaxed text-center">
+            <strong className="text-slate/50">Hinweis:</strong> Die Inhalte dieser Seite dienen
+            der allgemeinen Information und stellen keine Rechtsberatung dar. Für
+            verbindliche rechtliche Einschätzungen wenden Sie sich bitte an einen
+            spezialisierten Rechtsanwalt. Trotz sorgfältiger Recherche übernehmen
+            wir keine Haftung für die Richtigkeit, Vollständigkeit und Aktualität
+            der bereitgestellten Informationen.
+          </p>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="py-8 border-t border-navy-lighter">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
