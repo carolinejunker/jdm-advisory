@@ -15,15 +15,16 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Jens Druckenmüller — Independent Advisor",
+  title: "Jens Druckenmüller — Unternehmer & Berater",
   description:
-    "Independent Advisory & Second Opinions for High-Stakes Decisions. Luxembourg · Dubai.",
+    "Unternehmer und unabhängiger Berater — mit wechselnden Themen, aber immer dem gleichen Anspruch. Luxemburg.",
   openGraph: {
-    title: "Jens Druckenmüller — Independent Advisor",
+    title: "Jens Druckenmüller — Unternehmer & Berater",
     description:
-      "Independent Advisory & Second Opinions for High-Stakes Decisions.",
+      "20 Jahre Boardroom. Jetzt auf eigene Rechnung.",
     url: "https://jdm-advisory.com",
     type: "website",
+    locale: "de_DE",
   },
 };
 
@@ -33,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
+    <html lang="de" className={`${playfair.variable} ${inter.variable}`}>
       <body className="antialiased">{children}</body>
     </html>
   );
