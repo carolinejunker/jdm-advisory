@@ -23,88 +23,151 @@ const risks = [
   },
 ];
 
-const steps = [
+const complianceSteps = [
   {
     nr: "01",
-    title: "Kostenloses Erstgespräch",
-    price: "0 €",
+    title: "Erstgespräch",
+    price: "Kostenlos",
     duration: "15 Minuten",
     description:
-      "Wir lernen uns kennen, ich verschaffe mir einen ersten Überblick über Ihre Situation. Im Anschluss erhalten Sie eine schriftliche Zusammenfassung und einen Vorschlag für die weitere Zusammenarbeit.",
+      "Wir klären, wo Sie stehen und was der sinnvollste nächste Schritt ist. Sie erhalten eine schriftliche Zusammenfassung.",
     deliverables: [
       "Erste Einschätzung Ihres Handlungsbedarfs",
       "Schriftliche Zusammenfassung",
       "Vorschlag nächste Schritte",
     ],
-    cta: "Erstgespräch buchen",
-    highlight: false,
   },
   {
     nr: "02",
     title: "Überblicks-Workshop",
-    price: "298 €",
+    price: "350 €",
     duration: "90 Minuten",
     description:
-      "Sie erfahren alles, was Sie über die EU-Entgelttransparenzrichtlinie wissen müssen: Pflichten, Fristen, Risiken und erste Quick Wins für Ihr Unternehmen.",
+      "Alles, was Sie über die EU-Richtlinie wissen müssen: Pflichten, Fristen, Risiken und erste Quick Wins.",
     deliverables: [
       "Kompakter Überblick über alle Pflichten",
-      "Fristen und Zeitplan für Ihr Unternehmen",
+      "Fristen und Zeitplan",
       "Risikobewertung auf einen Blick",
       "Erste Handlungsempfehlungen",
     ],
-    cta: "Workshop buchen",
-    highlight: false,
   },
   {
     nr: "03",
-    title: "Gap-Assessment & Arbeitssitzung",
-    price: "1.998 €",
+    title: "Gap-Assessment",
+    price: "2.500 €",
     duration: "Halber Tag + Nachbereitung",
     description:
-      "Wir gehen Ihre Vergütungsstruktur systematisch durch. Sie erhalten ein vollständiges Gap-Assessment, identifizierte Risiken, Quick Wins und einen konkreten Maßnahmenplan.",
+      "Systematische Prüfung Ihrer Vergütungsstruktur. Sie erhalten einen vollständigen Bericht mit Maßnahmenplan.",
     deliverables: [
-      "Vollständiges Gap-Assessment (18 Prüfpunkte)",
-      "Risikobewertung pro Bereich (Ampelsystem)",
-      "Konkreter Maßnahmenplan mit Prioritäten",
-      "Quick Wins und To-Dos als schriftliches Dokument",
+      "18-Punkte Gap-Assessment",
+      "Risikobewertung (Ampelsystem)",
+      "Maßnahmenplan mit Prioritäten",
       "Begründungskatalog für Entgeltunterschiede",
     ],
-    cta: "Assessment buchen",
-    highlight: true,
   },
   {
     nr: "04",
-    title: "Implementierungsbegleitung",
+    title: "Compliance-Paket",
     price: "Individuell",
-    duration: "Nach Komplexität",
+    duration: "Nach Bedarf",
     description:
-      "Von der Bestandsaufnahme bis zur vollständigen Compliance: Stellenbewertungssystem, Reporting, Betriebsratseinbindung, Schulung der Führungskräfte.",
+      "Umsetzung aller Maßnahmen bis zur vollständigen Compliance: Reporting, Prozesse, Dokumentation.",
+    deliverables: [
+      "Auskunftsprozess etablieren",
+      "GPG-Reporting vorbereiten",
+      "Arbeitsverträge bereinigen",
+      "Schulung Führungskräfte",
+    ],
+  },
+];
+
+const transformSteps = [
+  {
+    nr: "01",
+    title: "Verstehen",
+    label: "Strategiegespräch",
+    price: "Kostenlos",
+    duration: "30 Minuten",
+    description:
+      "Wo steht Ihr Vergütungssystem heute? Was sind Ihre Ziele als Arbeitgeber? Wir denken über Compliance hinaus.",
+    deliverables: [
+      "Analyse Ihrer Ausgangslage",
+      "Identifikation strategischer Chancen",
+      "Roadmap-Vorschlag",
+    ],
+  },
+  {
+    nr: "02",
+    title: "Aufdecken",
+    label: "Vergütungsdiagnose",
+    price: "5.000 €",
+    duration: "1–2 Wochen",
+    description:
+      "Tiefenanalyse Ihres gesamten Vergütungssystems: Stellenbewertung, Gehaltsbänder, variable Vergütung, Gleichwertigkeit.",
+    deliverables: [
+      "Vollständige Vergütungsanalyse",
+      "Gleichwertigkeitsbewertung aller Stellen",
+      "Benchmark gegen Marktdaten",
+      "Schwachstellenbericht mit Handlungsfeldern",
+    ],
+  },
+  {
+    nr: "03",
+    title: "Gestalten",
+    label: "Systemdesign",
+    price: "Ab 10.000 €",
+    duration: "4–8 Wochen",
+    description:
+      "Wir designen Ihr neues Vergütungssystem: geschlechtsneutral, transparent, wettbewerbsfähig. Ein System, das Talente anzieht und hält.",
     deliverables: [
       "Geschlechtsneutrales Stellenbewertungssystem",
-      "Vorbereitung GPG-Reporting (7 Kennzahlen)",
-      "Auskunftsprozess etablieren",
-      "Schulung Führungskräfte & HR",
-      "Laufende Begleitung bis zur Compliance",
+      "Gehaltsbänder und Karrierestufen",
+      "Transparente Vergütungsrichtlinie",
+      "Moderne Bonus- und Benefits-Struktur",
     ],
-    cta: "Angebot anfragen",
-    highlight: false,
+  },
+  {
+    nr: "04",
+    title: "Verankern",
+    label: "Implementierung",
+    price: "Nach Umfang",
+    duration: "3–6 Monate",
+    description:
+      "Rollout, Schulung, Change Management. Ihr neues System wird gelebt — nicht nur dokumentiert. Compliance kommt automatisch.",
+    deliverables: [
+      "Implementierung und Rollout",
+      "Führungskräfte-Training",
+      "Change-Kommunikation",
+      "Laufendes Monitoring und Reporting",
+      "Compliance als Nebenprodukt ✓",
+    ],
+  },
+];
+
+const benefits = [
+  {
+    title: "Talente gewinnen",
+    text: "Transparente Gehälter in Stellenausschreibungen — selbstbewusst, weil Ihr System sauber ist.",
+  },
+  {
+    title: "Talente halten",
+    text: "Keine bösen Überraschungen mehr. Beschäftigte verstehen, warum sie verdienen was sie verdienen.",
+  },
+  {
+    title: "Führungskräfte entlasten",
+    text: "Gehaltsentscheidungen auf Basis klarer Kriterien — statt Bauchgefühl und Verhandlungspoker.",
+  },
+  {
+    title: "Arbeitgebermarke stärken",
+    text: "Faire Vergütung als USP. Nicht weil Sie müssen, sondern weil Sie es ernst meinen.",
   },
 ];
 
 const timeline = [
-  { date: "Jetzt", event: "Bestandsaufnahme starten, Geheimhaltungsklauseln prüfen", urgent: true },
+  { date: "Jetzt", event: "Bestandsaufnahme starten", urgent: true },
   { date: "7. Juni 2026", event: "Richtlinie tritt in Kraft — alle Grundpflichten gelten", urgent: true },
   { date: "7. Juni 2027", event: "Erstes GPG-Reporting (ab 150 Beschäftigte)", urgent: false },
   { date: "7. Juni 2031", event: "Reporting auch für Unternehmen ab 100 Beschäftigte", urgent: false },
-];
-
-const pflichten = [
-  { text: "Gehaltsspannen in allen Stellenausschreibungen", size: "Alle" },
-  { text: "Verbot der Frage nach dem bisherigen Gehalt", size: "Alle" },
-  { text: "Individuelles Auskunftsrecht der Beschäftigten", size: "Alle" },
-  { text: "Aufhebung von Gehaltsgeheimhaltungsklauseln", size: "Alle" },
-  { text: "Gender Pay Gap Reporting (7 Kennzahlen)", size: "Ab 100 MA" },
-  { text: "Gemeinsame Entgeltbewertung bei GPG ≥ 5%", size: "Ab 100 MA" },
 ];
 
 export default function EqualPayPage() {
@@ -120,6 +183,12 @@ export default function EqualPayPage() {
             JDM
           </Link>
           <div className="flex items-center gap-6">
+            <a
+              href="#wege"
+              className="text-gold text-sm uppercase tracking-widest hover:text-gold-light transition-colors"
+            >
+              Leistungen
+            </a>
             <a
               href="#kontakt"
               className="text-gold text-sm uppercase tracking-widest hover:text-gold-light transition-colors"
@@ -143,37 +212,38 @@ export default function EqualPayPage() {
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-32 bg-gradient-to-b from-transparent via-gold/40 to-transparent" />
 
           <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
-            {/* Urgency badge */}
             <div className="inline-block mb-8 px-4 py-2 border border-red-500/30 bg-red-500/10 rounded-sm">
               <p className="text-red-400 text-sm font-medium tracking-wide">
-                ⏰ Umsetzungsfrist: 7. Juni 2026 — weniger als 3 Monate
+                ⏰ EU-Entgelttransparenzrichtlinie — Frist: 7. Juni 2026
               </p>
             </div>
 
             <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-6xl lg:text-7xl font-light tracking-tight text-cream mb-6">
-              Equal Pay
+              Equal Pay ist nicht
               <br />
-              <span className="text-gold">Compliance</span>
+              <span className="text-gold">das Ziel.</span>
+              <br />
+              Es ist der Anfang.
             </h1>
 
             <div className="w-16 h-px bg-gold/60 mx-auto mb-8" />
 
             <p className="text-lg md:text-xl text-cream/90 max-w-3xl mx-auto leading-relaxed mb-4">
-              Die EU-Entgelttransparenzrichtlinie verändert alles.
-              Unbegrenzter Schadensersatz, Beweislastumkehr, Vergabeausschluss.
+              Die EU-Richtlinie zwingt Sie zum Handeln.
+              Die Frage ist: Haken Sie nur eine Pflicht ab —
+              oder nutzen Sie den Moment?
             </p>
 
             <p className="text-base md:text-lg text-slate max-w-2xl mx-auto leading-relaxed mb-12">
-              Ich begleite Ihr Unternehmen von der Bestandsaufnahme bis zur
-              vollständigen Compliance — strukturiert, praxisnah, auf den Punkt.
+              Andere machen Sie compliant. Ich mache Sie besser.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="#produkte"
+                href="#wege"
                 className="inline-block border border-gold/40 text-gold text-sm uppercase tracking-widest px-8 py-3 hover:bg-gold hover:text-navy transition-all duration-300"
               >
-                Leistungen ansehen
+                Zwei Wege ansehen
               </a>
               <a
                 href="#kontakt"
@@ -185,15 +255,15 @@ export default function EqualPayPage() {
           </div>
         </section>
 
-        {/* Risks */}
+        {/* Risks (compact) */}
         <section className="py-24 md:py-32 bg-navy-light/30">
           <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-16">
               <p className="text-red-400 text-sm uppercase tracking-[0.3em] mb-4">
-                Risiken
+                Warum jetzt handeln
               </p>
               <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl text-cream leading-tight">
-                Was Unternehmen droht, die nicht handeln
+                Was passiert, wenn Sie nichts tun
               </h2>
             </div>
 
@@ -212,165 +282,205 @@ export default function EqualPayPage() {
               ))}
             </div>
 
-            <div className="mt-12 p-8 border border-red-500/20 bg-red-500/5 rounded-sm text-center">
-              <p className="text-cream text-lg font-medium mb-2">
-                Deutschland hat einen Gender Pay Gap von 16% — einen der höchsten in der EU.
-              </p>
-              <p className="text-slate text-sm">
-                Das BAG-Urteil vom 23.10.2025 gilt bereits heute. Klagen sind jetzt schon möglich und erfolgreich.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Pflichten */}
-        <section className="py-24 md:py-32">
-          <div className="max-w-4xl mx-auto px-6">
-            <div className="text-center mb-16">
-              <p className="text-gold text-sm uppercase tracking-[0.3em] mb-4">
-                Pflichten
-              </p>
-              <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl text-cream leading-tight">
-                Was auf Sie zukommt
-              </h2>
-              <p className="text-slate mt-4">
-                Die Grundpflichten gelten für <strong className="text-cream">alle Unternehmen</strong> — unabhängig von der Größe.
-              </p>
-            </div>
-
-            <div className="space-y-4">
-              {pflichten.map((p) => (
+            {/* Timeline compact */}
+            <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4">
+              {timeline.map((t) => (
                 <div
-                  key={p.text}
-                  className="flex items-center justify-between p-5 border border-navy-lighter rounded-sm"
+                  key={t.date}
+                  className={`p-4 border rounded-sm text-center ${
+                    t.urgent
+                      ? "border-red-500/20 bg-red-500/5"
+                      : "border-navy-lighter"
+                  }`}
                 >
-                  <div className="flex items-center gap-4">
-                    <span className="text-gold">✓</span>
-                    <span className="text-cream text-sm">{p.text}</span>
-                  </div>
-                  <span className="text-xs uppercase tracking-widest text-gold/60 whitespace-nowrap ml-4">
-                    {p.size}
-                  </span>
+                  <p
+                    className={`text-sm font-medium mb-1 ${
+                      t.urgent ? "text-red-400" : "text-gold"
+                    }`}
+                  >
+                    {t.date}
+                  </p>
+                  <p className="text-slate text-xs">{t.event}</p>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* Timeline */}
-        <section className="py-24 md:py-32 bg-navy-light/30">
-          <div className="max-w-4xl mx-auto px-6">
+        {/* THE CHOICE — Two Tracks */}
+        <section id="wege" className="py-24 md:py-32">
+          <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-16">
               <p className="text-gold text-sm uppercase tracking-[0.3em] mb-4">
-                Zeitplan
+                Zwei Wege
               </p>
-              <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl text-cream leading-tight">
-                Kritische Fristen
+              <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl text-cream leading-tight mb-6">
+                Wollen Sie nur compliant sein?
+                <br />
+                <span className="text-gold">
+                  Oder wollen Sie ein modernes Vergütungssystem?
+                </span>
               </h2>
+              <p className="text-slate max-w-2xl mx-auto">
+                Beide Wege sind valide. Aber nur einer macht aus einer Pflicht einen
+                Wettbewerbsvorteil.
+              </p>
             </div>
 
-            <div className="relative">
-              <div className="absolute left-4 top-0 bottom-0 w-px bg-navy-lighter" />
-              <div className="space-y-8">
-                {timeline.map((t) => (
-                  <div key={t.date} className="relative flex items-start gap-6 ml-4">
-                    <div
-                      className={`absolute left-0 -translate-x-1/2 w-3 h-3 rounded-full mt-1.5 ${
-                        t.urgent ? "bg-red-400" : "bg-gold"
-                      }`}
-                    />
-                    <div className="ml-6">
-                      <p
-                        className={`text-sm font-medium mb-1 ${
-                          t.urgent ? "text-red-400" : "text-gold"
-                        }`}
-                      >
-                        {t.date}
-                      </p>
-                      <p className="text-cream text-sm">{t.event}</p>
+            {/* Track A: Compliance */}
+            <div className="mb-20">
+              <div className="flex items-center gap-4 mb-8">
+                <div className="w-12 h-px bg-slate/30" />
+                <h3 className="text-slate text-sm uppercase tracking-[0.3em]">
+                  Weg A — Compliance
+                </h3>
+                <div className="flex-1 h-px bg-slate/30" />
+              </div>
+
+              <p className="text-slate mb-8 max-w-3xl">
+                Sie wollen die Anforderungen der EU-Richtlinie erfüllen, Risiken
+                minimieren und schnell handlungsfähig sein. Pragmatisch, effizient,
+                auf den Punkt.
+              </p>
+
+              <div className="grid md:grid-cols-4 gap-6">
+                {complianceSteps.map((s) => (
+                  <div
+                    key={s.nr}
+                    className="p-6 border border-navy-lighter rounded-sm"
+                  >
+                    <span className="text-slate/30 font-[family-name:var(--font-heading)] text-3xl font-light">
+                      {s.nr}
+                    </span>
+                    <h4 className="text-cream font-medium mt-3 mb-1">
+                      {s.title}
+                    </h4>
+                    <div className="flex items-baseline gap-2 mb-3">
+                      <span className="text-gold text-lg font-medium">
+                        {s.price}
+                      </span>
+                      <span className="text-slate text-xs">{s.duration}</span>
                     </div>
+                    <p className="text-slate text-xs leading-relaxed mb-4">
+                      {s.description}
+                    </p>
+                    <ul className="space-y-1">
+                      {s.deliverables.map((d) => (
+                        <li
+                          key={d}
+                          className="flex items-start gap-1.5 text-xs text-slate/80"
+                        >
+                          <span className="text-gold/60 mt-0.5">✓</span>
+                          <span>{d}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 ))}
+              </div>
+
+              <div className="mt-6 text-center">
+                <a
+                  href="#kontakt"
+                  className="inline-block border border-slate/30 text-slate text-sm uppercase tracking-widest px-6 py-2.5 hover:border-gold/40 hover:text-gold transition-all duration-300"
+                >
+                  Compliance-Weg starten
+                </a>
+              </div>
+            </div>
+
+            {/* Track B: Transformation */}
+            <div>
+              <div className="flex items-center gap-4 mb-8">
+                <div className="w-12 h-px bg-gold/40" />
+                <h3 className="text-gold text-sm uppercase tracking-[0.3em]">
+                  Weg B — Transformation
+                </h3>
+                <div className="flex-1 h-px bg-gold/40" />
+                <span className="text-[10px] uppercase tracking-widest text-navy bg-gold px-2 py-1 rounded-sm">
+                  Empfohlen
+                </span>
+              </div>
+
+              <p className="text-cream mb-8 max-w-3xl text-lg">
+                Sie nutzen die Richtlinie als Anlass, Vergütung grundlegend neu zu
+                denken. Fair, transparent, wettbewerbsfähig — ein System, das Talente
+                anzieht und hält. Compliance kommt automatisch.
+              </p>
+
+              <div className="grid md:grid-cols-4 gap-6">
+                {transformSteps.map((s) => (
+                  <div
+                    key={s.nr}
+                    className="p-6 border border-gold/20 bg-gold/5 rounded-sm"
+                  >
+                    <span className="text-gold/30 font-[family-name:var(--font-heading)] text-3xl font-light">
+                      {s.nr}
+                    </span>
+                    <p className="text-gold text-xs uppercase tracking-wider mt-2">
+                      {s.title}
+                    </p>
+                    <h4 className="text-cream font-medium mt-1 mb-1">
+                      {s.label}
+                    </h4>
+                    <div className="flex items-baseline gap-2 mb-3">
+                      <span className="text-gold text-lg font-medium">
+                        {s.price}
+                      </span>
+                      <span className="text-slate text-xs">{s.duration}</span>
+                    </div>
+                    <p className="text-slate text-xs leading-relaxed mb-4">
+                      {s.description}
+                    </p>
+                    <ul className="space-y-1">
+                      {s.deliverables.map((d) => (
+                        <li
+                          key={d}
+                          className="flex items-start gap-1.5 text-xs text-slate/80"
+                        >
+                          <span className="text-gold mt-0.5">✓</span>
+                          <span>{d}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+
+              <div className="mt-6 text-center">
+                <a
+                  href="#kontakt"
+                  className="inline-block bg-gold text-navy text-sm uppercase tracking-widest px-6 py-2.5 hover:bg-gold-light transition-all duration-300"
+                >
+                  Transformations-Weg starten
+                </a>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Products */}
-        <section id="produkte" className="py-24 md:py-32">
+        {/* Benefits — Why Transform */}
+        <section className="py-24 md:py-32 bg-navy-light/30">
           <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-16">
               <p className="text-gold text-sm uppercase tracking-[0.3em] mb-4">
-                Leistungen
+                Warum Transformation
               </p>
               <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl text-cream leading-tight">
-                Von der Ersteinschätzung bis zur Compliance
+                Was ein modernes Vergütungssystem Ihnen bringt
               </h2>
-              <p className="text-slate mt-4 max-w-2xl mx-auto">
-                Vier Stufen — Sie entscheiden, wie tief wir gehen.
-                Jede Stufe baut auf der vorherigen auf.
-              </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8">
-              {steps.map((s) => (
-                <div
-                  key={s.nr}
-                  className={`relative p-8 border rounded-sm ${
-                    s.highlight
-                      ? "border-gold/40 bg-gold/5"
-                      : "border-navy-lighter"
-                  }`}
-                >
-                  {s.highlight && (
-                    <span className="absolute top-4 right-4 text-[10px] uppercase tracking-widest text-gold bg-gold/10 px-2 py-1 rounded-sm">
-                      Empfohlen
-                    </span>
-                  )}
-
-                  <span className="text-gold/30 font-[family-name:var(--font-heading)] text-4xl font-light">
-                    {s.nr}
-                  </span>
-
-                  <h3 className="font-[family-name:var(--font-heading)] text-xl text-cream mt-4 mb-1">
-                    {s.title}
-                  </h3>
-
-                  <div className="flex items-baseline gap-3 mb-4">
-                    <span className="text-gold text-2xl font-medium">
-                      {s.price}
-                    </span>
-                    <span className="text-slate text-xs uppercase tracking-wider">
-                      {s.duration}
-                    </span>
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              {benefits.map((b) => (
+                <div key={b.title} className="flex gap-4">
+                  <span className="text-gold text-xl mt-1">→</span>
+                  <div>
+                    <h3 className="text-cream font-medium mb-1">{b.title}</h3>
+                    <p className="text-slate text-sm leading-relaxed">
+                      {b.text}
+                    </p>
                   </div>
-
-                  <p className="text-slate text-sm leading-relaxed mb-6">
-                    {s.description}
-                  </p>
-
-                  <ul className="space-y-2 mb-8">
-                    {s.deliverables.map((d) => (
-                      <li
-                        key={d}
-                        className="flex items-start gap-2 text-sm text-slate"
-                      >
-                        <span className="text-gold mt-0.5">✓</span>
-                        <span>{d}</span>
-                      </li>
-                    ))}
-                  </ul>
-
-                  <a
-                    href="#kontakt"
-                    className={`inline-block text-sm uppercase tracking-widest px-6 py-2.5 transition-all duration-300 ${
-                      s.highlight
-                        ? "bg-gold text-navy hover:bg-gold-light"
-                        : "border border-gold/40 text-gold hover:bg-gold hover:text-navy"
-                    }`}
-                  >
-                    {s.cta}
-                  </a>
                 </div>
               ))}
             </div>
@@ -378,7 +488,7 @@ export default function EqualPayPage() {
         </section>
 
         {/* About / Trust */}
-        <section className="py-24 md:py-32 bg-navy-light/30">
+        <section className="py-24 md:py-32">
           <div className="max-w-4xl mx-auto px-6">
             <div className="text-center mb-12">
               <p className="text-gold text-sm uppercase tracking-[0.3em] mb-4">
@@ -391,37 +501,37 @@ export default function EqualPayPage() {
 
             <div className="text-center space-y-5 text-slate leading-relaxed max-w-2xl mx-auto">
               <p>
-                Über 20 Jahre Erfahrung in Unternehmensberatung, Internal Audit und
-                Geschäftsleitung — zuletzt als Direktor und Generalsekretär eines
-                luxemburgischen Staatsunternehmens.
+                Über 20 Jahre Erfahrung in Unternehmensberatung, Internal Audit
+                und Geschäftsleitung — zuletzt als Direktor und Generalsekretär
+                eines luxemburgischen Staatsunternehmens.
               </p>
               <p>
-                Das Thema Equal Pay Compliance verbindet meine Expertise in
-                Compliance, Audit und Unternehmensführung. Ich kenne die
-                Anforderungen aus Unternehmenssicht und weiß, was in der Praxis
-                funktioniert.
+                Ich kenne Vergütungssysteme von beiden Seiten: als Berater, der
+                sie prüft, und als Geschäftsleiter, der sie verantwortet. Dieses
+                Thema verbindet Compliance, HR-Strategie und
+                Unternehmensführung — genau mein Terrain.
               </p>
               <p className="text-cream font-medium">
                 Aktuell begleite ich erste Pilotprojekte zur Implementierung
-                der EU-Entgelttransparenzrichtlinie.
+                moderner Vergütungssysteme im Kontext der EU-Richtlinie.
               </p>
             </div>
           </div>
         </section>
 
         {/* CTA / Contact */}
-        <section id="kontakt" className="py-24 md:py-32">
+        <section id="kontakt" className="py-24 md:py-32 bg-navy-light/30">
           <div className="max-w-4xl mx-auto px-6">
             <div className="text-center mb-16">
               <p className="text-gold text-sm uppercase tracking-[0.3em] mb-4">
                 Nächster Schritt
               </p>
               <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl text-cream leading-tight mb-4">
-                Kostenloses Erstgespräch
+                Lassen Sie uns sprechen
               </h2>
               <p className="text-slate max-w-xl mx-auto">
-                15 Minuten. Keine Verpflichtung. Wir klären, wo Sie stehen und
-                was der sinnvollste nächste Schritt ist.
+                Egal ob Compliance oder Transformation — alles beginnt mit einem
+                Gespräch. 15 Minuten, keine Verpflichtung.
               </p>
             </div>
 
@@ -457,14 +567,12 @@ export default function EqualPayPage() {
       {/* Footer */}
       <footer className="py-8 border-t border-navy-lighter">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-4">
-            <Link
-              href="/"
-              className="text-slate/50 text-xs hover:text-slate transition-colors"
-            >
-              ← Zurück zu jdm-advisory.com
-            </Link>
-          </div>
+          <Link
+            href="/"
+            className="text-slate/50 text-xs hover:text-slate transition-colors"
+          >
+            ← Zurück zu jdm-advisory.com
+          </Link>
           <p className="text-slate/50 text-xs">
             © {new Date().getFullYear()} Jens Druckenmüller
           </p>

@@ -23,88 +23,151 @@ const risks = [
   },
 ];
 
-const steps = [
+const complianceSteps = [
   {
     nr: "01",
-    title: "Free Initial Consultation",
-    price: "€0",
+    title: "Initial Consultation",
+    price: "Free",
     duration: "15 minutes",
     description:
-      "We get to know each other and I get a first overview of your situation. Afterwards you receive a written summary and a proposal for next steps.",
+      "We clarify where you stand and what the most sensible next step is. You receive a written summary.",
     deliverables: [
-      "Initial assessment of your compliance needs",
+      "Initial assessment of your needs",
       "Written summary",
       "Proposed next steps",
     ],
-    cta: "Book a call",
-    highlight: false,
   },
   {
     nr: "02",
     title: "Overview Workshop",
-    price: "€298",
+    price: "€350",
     duration: "90 minutes",
     description:
-      "Everything you need to know about the EU Pay Transparency Directive: obligations, deadlines, risks and first quick wins for your company.",
+      "Everything you need to know about the EU Directive: obligations, deadlines, risks and first quick wins.",
     deliverables: [
       "Compact overview of all obligations",
-      "Deadlines and timeline for your company",
+      "Deadlines and timeline",
       "Risk assessment at a glance",
       "Initial recommendations",
     ],
-    cta: "Book workshop",
-    highlight: false,
   },
   {
     nr: "03",
-    title: "Gap Assessment & Working Session",
-    price: "€1,998",
+    title: "Gap Assessment",
+    price: "€2,500",
     duration: "Half day + follow-up",
     description:
-      "We systematically review your compensation structure. You receive a complete gap assessment, identified risks, quick wins and a concrete action plan.",
+      "Systematic review of your compensation structure. You receive a complete report with action plan.",
     deliverables: [
-      "Complete gap assessment (18 checkpoints)",
-      "Risk rating per area (traffic light system)",
-      "Concrete action plan with priorities",
-      "Quick wins and to-dos as a written document",
+      "18-point gap assessment",
+      "Risk rating (traffic light system)",
+      "Action plan with priorities",
       "Justification catalogue for pay differences",
     ],
-    cta: "Book assessment",
-    highlight: true,
   },
   {
     nr: "04",
-    title: "Implementation Support",
+    title: "Compliance Package",
     price: "Custom",
-    duration: "Based on complexity",
+    duration: "As needed",
     description:
-      "From initial assessment to full compliance: job evaluation system, reporting, works council involvement, management training.",
+      "Implementation of all measures to achieve full compliance: reporting, processes, documentation.",
+    deliverables: [
+      "Information request process setup",
+      "GPG reporting preparation",
+      "Employment contract review",
+      "Management training",
+    ],
+  },
+];
+
+const transformSteps = [
+  {
+    nr: "01",
+    title: "Understand",
+    label: "Strategy Session",
+    price: "Free",
+    duration: "30 minutes",
+    description:
+      "Where does your compensation system stand today? What are your goals as an employer? We think beyond compliance.",
+    deliverables: [
+      "Analysis of your starting position",
+      "Identification of strategic opportunities",
+      "Roadmap proposal",
+    ],
+  },
+  {
+    nr: "02",
+    title: "Uncover",
+    label: "Compensation Diagnosis",
+    price: "€5,000",
+    duration: "1–2 weeks",
+    description:
+      "Deep analysis of your entire compensation system: job evaluation, salary bands, variable pay, equivalence.",
+    deliverables: [
+      "Complete compensation analysis",
+      "Equivalence assessment of all roles",
+      "Benchmark against market data",
+      "Vulnerability report with action areas",
+    ],
+  },
+  {
+    nr: "03",
+    title: "Design",
+    label: "System Design",
+    price: "From €10,000",
+    duration: "4–8 weeks",
+    description:
+      "We design your new compensation system: gender-neutral, transparent, competitive. A system that attracts and retains talent.",
     deliverables: [
       "Gender-neutral job evaluation system",
-      "GPG reporting preparation (7 indicators)",
-      "Information request process setup",
-      "Management & HR training",
-      "Ongoing support until compliance",
+      "Salary bands and career levels",
+      "Transparent compensation policy",
+      "Modern bonus and benefits structure",
     ],
-    cta: "Request a quote",
-    highlight: false,
+  },
+  {
+    nr: "04",
+    title: "Embed",
+    label: "Implementation",
+    price: "Based on scope",
+    duration: "3–6 months",
+    description:
+      "Rollout, training, change management. Your new system is lived — not just documented. Compliance comes automatically.",
+    deliverables: [
+      "Implementation and rollout",
+      "Management training",
+      "Change communication",
+      "Ongoing monitoring and reporting",
+      "Compliance as a by-product ✓",
+    ],
+  },
+];
+
+const benefits = [
+  {
+    title: "Win Talent",
+    text: "Transparent salaries in job postings — confidently, because your system is sound.",
+  },
+  {
+    title: "Retain Talent",
+    text: "No more unpleasant surprises. Employees understand why they earn what they earn.",
+  },
+  {
+    title: "Empower Leaders",
+    text: "Salary decisions based on clear criteria — not gut feeling and negotiation poker.",
+  },
+  {
+    title: "Strengthen Your Brand",
+    text: "Fair pay as a USP. Not because you have to, but because you mean it.",
   },
 ];
 
 const timeline = [
-  { date: "Now", event: "Start assessment, review confidentiality clauses", urgent: true },
+  { date: "Now", event: "Start assessment", urgent: true },
   { date: "7 June 2026", event: "Directive takes effect — all basic obligations apply", urgent: true },
   { date: "7 June 2027", event: "First GPG reporting (from 150 employees)", urgent: false },
   { date: "7 June 2031", event: "Reporting also for companies from 100 employees", urgent: false },
-];
-
-const obligations = [
-  { text: "Salary ranges in all job postings", size: "All" },
-  { text: "Ban on asking about previous salary", size: "All" },
-  { text: "Individual right to pay information", size: "All" },
-  { text: "Removal of pay secrecy clauses", size: "All" },
-  { text: "Gender Pay Gap reporting (7 indicators)", size: "100+ emp." },
-  { text: "Joint pay assessment when GPG ≥ 5%", size: "100+ emp." },
 ];
 
 export default function EqualPayEnPage() {
@@ -120,6 +183,12 @@ export default function EqualPayEnPage() {
             JDM
           </Link>
           <div className="flex items-center gap-6">
+            <a
+              href="#paths"
+              className="text-gold text-sm uppercase tracking-widest hover:text-gold-light transition-colors"
+            >
+              Services
+            </a>
             <a
               href="#contact"
               className="text-gold text-sm uppercase tracking-widest hover:text-gold-light transition-colors"
@@ -145,34 +214,36 @@ export default function EqualPayEnPage() {
           <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
             <div className="inline-block mb-8 px-4 py-2 border border-red-500/30 bg-red-500/10 rounded-sm">
               <p className="text-red-400 text-sm font-medium tracking-wide">
-                ⏰ Deadline: 7 June 2026 — less than 3 months away
+                ⏰ EU Pay Transparency Directive — Deadline: 7 June 2026
               </p>
             </div>
 
             <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-6xl lg:text-7xl font-light tracking-tight text-cream mb-6">
-              Equal Pay
+              Equal Pay is not
               <br />
-              <span className="text-gold">Compliance</span>
+              <span className="text-gold">the goal.</span>
+              <br />
+              It&apos;s the beginning.
             </h1>
 
             <div className="w-16 h-px bg-gold/60 mx-auto mb-8" />
 
             <p className="text-lg md:text-xl text-cream/90 max-w-3xl mx-auto leading-relaxed mb-4">
-              The EU Pay Transparency Directive changes everything.
-              Unlimited damages, reversal of burden of proof, procurement exclusion.
+              The EU Directive forces you to act.
+              The question is: Do you just tick a box —
+              or do you seize the moment?
             </p>
 
             <p className="text-base md:text-lg text-slate max-w-2xl mx-auto leading-relaxed mb-12">
-              I guide your company from initial assessment to full
-              compliance — structured, practical, to the point.
+              Others make you compliant. I make you better.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="#services"
+                href="#paths"
                 className="inline-block border border-gold/40 text-gold text-sm uppercase tracking-widest px-8 py-3 hover:bg-gold hover:text-navy transition-all duration-300"
               >
-                View services
+                See both paths
               </a>
               <a
                 href="#contact"
@@ -189,10 +260,10 @@ export default function EqualPayEnPage() {
           <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-16">
               <p className="text-red-400 text-sm uppercase tracking-[0.3em] mb-4">
-                Risks
+                Why act now
               </p>
               <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl text-cream leading-tight">
-                What companies face if they don&apos;t act
+                What happens if you do nothing
               </h2>
             </div>
 
@@ -211,173 +282,211 @@ export default function EqualPayEnPage() {
               ))}
             </div>
 
-            <div className="mt-12 p-8 border border-red-500/20 bg-red-500/5 rounded-sm text-center">
-              <p className="text-cream text-lg font-medium mb-2">
-                Germany has a Gender Pay Gap of 16% — one of the highest in the EU.
-              </p>
-              <p className="text-slate text-sm">
-                The Federal Labour Court ruling of 23 Oct 2025 already applies today. Claims are possible and successful right now.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Obligations */}
-        <section className="py-24 md:py-32">
-          <div className="max-w-4xl mx-auto px-6">
-            <div className="text-center mb-16">
-              <p className="text-gold text-sm uppercase tracking-[0.3em] mb-4">
-                Obligations
-              </p>
-              <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl text-cream leading-tight">
-                What&apos;s coming your way
-              </h2>
-              <p className="text-slate mt-4">
-                The basic obligations apply to <strong className="text-cream">all companies</strong> — regardless of size.
-              </p>
-            </div>
-
-            <div className="space-y-4">
-              {obligations.map((p) => (
+            <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4">
+              {timeline.map((t) => (
                 <div
-                  key={p.text}
-                  className="flex items-center justify-between p-5 border border-navy-lighter rounded-sm"
+                  key={t.date}
+                  className={`p-4 border rounded-sm text-center ${
+                    t.urgent
+                      ? "border-red-500/20 bg-red-500/5"
+                      : "border-navy-lighter"
+                  }`}
                 >
-                  <div className="flex items-center gap-4">
-                    <span className="text-gold">✓</span>
-                    <span className="text-cream text-sm">{p.text}</span>
-                  </div>
-                  <span className="text-xs uppercase tracking-widest text-gold/60 whitespace-nowrap ml-4">
-                    {p.size}
-                  </span>
+                  <p
+                    className={`text-sm font-medium mb-1 ${
+                      t.urgent ? "text-red-400" : "text-gold"
+                    }`}
+                  >
+                    {t.date}
+                  </p>
+                  <p className="text-slate text-xs">{t.event}</p>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* Timeline */}
-        <section className="py-24 md:py-32 bg-navy-light/30">
-          <div className="max-w-4xl mx-auto px-6">
+        {/* THE CHOICE — Two Tracks */}
+        <section id="paths" className="py-24 md:py-32">
+          <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-16">
               <p className="text-gold text-sm uppercase tracking-[0.3em] mb-4">
-                Timeline
+                Two Paths
               </p>
-              <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl text-cream leading-tight">
-                Critical deadlines
+              <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl text-cream leading-tight mb-6">
+                Do you just want to be compliant?
+                <br />
+                <span className="text-gold">
+                  Or do you want a modern compensation system?
+                </span>
               </h2>
+              <p className="text-slate max-w-2xl mx-auto">
+                Both paths are valid. But only one turns an obligation into a
+                competitive advantage.
+              </p>
             </div>
 
-            <div className="relative">
-              <div className="absolute left-4 top-0 bottom-0 w-px bg-navy-lighter" />
-              <div className="space-y-8">
-                {timeline.map((t) => (
-                  <div key={t.date} className="relative flex items-start gap-6 ml-4">
-                    <div
-                      className={`absolute left-0 -translate-x-1/2 w-3 h-3 rounded-full mt-1.5 ${
-                        t.urgent ? "bg-red-400" : "bg-gold"
-                      }`}
-                    />
-                    <div className="ml-6">
-                      <p
-                        className={`text-sm font-medium mb-1 ${
-                          t.urgent ? "text-red-400" : "text-gold"
-                        }`}
-                      >
-                        {t.date}
-                      </p>
-                      <p className="text-cream text-sm">{t.event}</p>
+            {/* Track A: Compliance */}
+            <div className="mb-20">
+              <div className="flex items-center gap-4 mb-8">
+                <div className="w-12 h-px bg-slate/30" />
+                <h3 className="text-slate text-sm uppercase tracking-[0.3em]">
+                  Path A — Compliance
+                </h3>
+                <div className="flex-1 h-px bg-slate/30" />
+              </div>
+
+              <p className="text-slate mb-8 max-w-3xl">
+                You want to meet the EU Directive requirements, minimise risk
+                and act quickly. Pragmatic, efficient, to the point.
+              </p>
+
+              <div className="grid md:grid-cols-4 gap-6">
+                {complianceSteps.map((s) => (
+                  <div
+                    key={s.nr}
+                    className="p-6 border border-navy-lighter rounded-sm"
+                  >
+                    <span className="text-slate/30 font-[family-name:var(--font-heading)] text-3xl font-light">
+                      {s.nr}
+                    </span>
+                    <h4 className="text-cream font-medium mt-3 mb-1">
+                      {s.title}
+                    </h4>
+                    <div className="flex items-baseline gap-2 mb-3">
+                      <span className="text-gold text-lg font-medium">
+                        {s.price}
+                      </span>
+                      <span className="text-slate text-xs">{s.duration}</span>
                     </div>
+                    <p className="text-slate text-xs leading-relaxed mb-4">
+                      {s.description}
+                    </p>
+                    <ul className="space-y-1">
+                      {s.deliverables.map((d) => (
+                        <li
+                          key={d}
+                          className="flex items-start gap-1.5 text-xs text-slate/80"
+                        >
+                          <span className="text-gold/60 mt-0.5">✓</span>
+                          <span>{d}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 ))}
+              </div>
+
+              <div className="mt-6 text-center">
+                <a
+                  href="#contact"
+                  className="inline-block border border-slate/30 text-slate text-sm uppercase tracking-widest px-6 py-2.5 hover:border-gold/40 hover:text-gold transition-all duration-300"
+                >
+                  Start compliance path
+                </a>
+              </div>
+            </div>
+
+            {/* Track B: Transformation */}
+            <div>
+              <div className="flex items-center gap-4 mb-8">
+                <div className="w-12 h-px bg-gold/40" />
+                <h3 className="text-gold text-sm uppercase tracking-[0.3em]">
+                  Path B — Transformation
+                </h3>
+                <div className="flex-1 h-px bg-gold/40" />
+                <span className="text-[10px] uppercase tracking-widest text-navy bg-gold px-2 py-1 rounded-sm">
+                  Recommended
+                </span>
+              </div>
+
+              <p className="text-cream mb-8 max-w-3xl text-lg">
+                You use the Directive as an opportunity to fundamentally rethink
+                compensation. Fair, transparent, competitive — a system that attracts
+                and retains talent. Compliance comes automatically.
+              </p>
+
+              <div className="grid md:grid-cols-4 gap-6">
+                {transformSteps.map((s) => (
+                  <div
+                    key={s.nr}
+                    className="p-6 border border-gold/20 bg-gold/5 rounded-sm"
+                  >
+                    <span className="text-gold/30 font-[family-name:var(--font-heading)] text-3xl font-light">
+                      {s.nr}
+                    </span>
+                    <p className="text-gold text-xs uppercase tracking-wider mt-2">
+                      {s.title}
+                    </p>
+                    <h4 className="text-cream font-medium mt-1 mb-1">
+                      {s.label}
+                    </h4>
+                    <div className="flex items-baseline gap-2 mb-3">
+                      <span className="text-gold text-lg font-medium">
+                        {s.price}
+                      </span>
+                      <span className="text-slate text-xs">{s.duration}</span>
+                    </div>
+                    <p className="text-slate text-xs leading-relaxed mb-4">
+                      {s.description}
+                    </p>
+                    <ul className="space-y-1">
+                      {s.deliverables.map((d) => (
+                        <li
+                          key={d}
+                          className="flex items-start gap-1.5 text-xs text-slate/80"
+                        >
+                          <span className="text-gold mt-0.5">✓</span>
+                          <span>{d}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+
+              <div className="mt-6 text-center">
+                <a
+                  href="#contact"
+                  className="inline-block bg-gold text-navy text-sm uppercase tracking-widest px-6 py-2.5 hover:bg-gold-light transition-all duration-300"
+                >
+                  Start transformation path
+                </a>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Services */}
-        <section id="services" className="py-24 md:py-32">
+        {/* Benefits */}
+        <section className="py-24 md:py-32 bg-navy-light/30">
           <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-16">
               <p className="text-gold text-sm uppercase tracking-[0.3em] mb-4">
-                Services
+                Why Transform
               </p>
               <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl text-cream leading-tight">
-                From initial assessment to full compliance
+                What a modern compensation system gives you
               </h2>
-              <p className="text-slate mt-4 max-w-2xl mx-auto">
-                Four levels — you decide how deep we go.
-                Each level builds on the previous one.
-              </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8">
-              {steps.map((s) => (
-                <div
-                  key={s.nr}
-                  className={`relative p-8 border rounded-sm ${
-                    s.highlight
-                      ? "border-gold/40 bg-gold/5"
-                      : "border-navy-lighter"
-                  }`}
-                >
-                  {s.highlight && (
-                    <span className="absolute top-4 right-4 text-[10px] uppercase tracking-widest text-gold bg-gold/10 px-2 py-1 rounded-sm">
-                      Recommended
-                    </span>
-                  )}
-
-                  <span className="text-gold/30 font-[family-name:var(--font-heading)] text-4xl font-light">
-                    {s.nr}
-                  </span>
-
-                  <h3 className="font-[family-name:var(--font-heading)] text-xl text-cream mt-4 mb-1">
-                    {s.title}
-                  </h3>
-
-                  <div className="flex items-baseline gap-3 mb-4">
-                    <span className="text-gold text-2xl font-medium">
-                      {s.price}
-                    </span>
-                    <span className="text-slate text-xs uppercase tracking-wider">
-                      {s.duration}
-                    </span>
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              {benefits.map((b) => (
+                <div key={b.title} className="flex gap-4">
+                  <span className="text-gold text-xl mt-1">→</span>
+                  <div>
+                    <h3 className="text-cream font-medium mb-1">{b.title}</h3>
+                    <p className="text-slate text-sm leading-relaxed">
+                      {b.text}
+                    </p>
                   </div>
-
-                  <p className="text-slate text-sm leading-relaxed mb-6">
-                    {s.description}
-                  </p>
-
-                  <ul className="space-y-2 mb-8">
-                    {s.deliverables.map((d) => (
-                      <li
-                        key={d}
-                        className="flex items-start gap-2 text-sm text-slate"
-                      >
-                        <span className="text-gold mt-0.5">✓</span>
-                        <span>{d}</span>
-                      </li>
-                    ))}
-                  </ul>
-
-                  <a
-                    href="#contact"
-                    className={`inline-block text-sm uppercase tracking-widest px-6 py-2.5 transition-all duration-300 ${
-                      s.highlight
-                        ? "bg-gold text-navy hover:bg-gold-light"
-                        : "border border-gold/40 text-gold hover:bg-gold hover:text-navy"
-                    }`}
-                  >
-                    {s.cta}
-                  </a>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* About / Trust */}
-        <section className="py-24 md:py-32 bg-navy-light/30">
+        {/* About */}
+        <section className="py-24 md:py-32">
           <div className="max-w-4xl mx-auto px-6">
             <div className="text-center mb-12">
               <p className="text-gold text-sm uppercase tracking-[0.3em] mb-4">
@@ -390,40 +499,40 @@ export default function EqualPayEnPage() {
 
             <div className="text-center space-y-5 text-slate leading-relaxed max-w-2xl mx-auto">
               <p>
-                Over 20 years of experience in management consulting, internal audit
-                and executive management — most recently as Director and Secretary
-                General of a Luxembourg state-owned enterprise.
+                Over 20 years of experience in management consulting, internal
+                audit and executive management — most recently as Director and
+                Secretary General of a Luxembourg state-owned enterprise.
               </p>
               <p>
-                Equal Pay Compliance combines my expertise in compliance, audit
-                and corporate governance. I understand the requirements from a
-                business perspective and know what works in practice.
+                I know compensation systems from both sides: as an advisor who
+                reviews them, and as an executive who owns them. This topic sits
+                at the intersection of compliance, HR strategy and corporate
+                governance — exactly my terrain.
               </p>
               <p className="text-cream font-medium">
                 Currently guiding first pilot projects for the implementation
-                of the EU Pay Transparency Directive.
+                of modern compensation systems in the context of the EU Directive.
               </p>
             </div>
           </div>
         </section>
 
-        {/* CTA / Contact */}
-        <section id="contact" className="py-24 md:py-32">
+        {/* Contact */}
+        <section id="contact" className="py-24 md:py-32 bg-navy-light/30">
           <div className="max-w-4xl mx-auto px-6">
             <div className="text-center mb-16">
               <p className="text-gold text-sm uppercase tracking-[0.3em] mb-4">
                 Next Step
               </p>
               <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl text-cream leading-tight mb-4">
-                Free Initial Consultation
+                Let&apos;s talk
               </h2>
               <p className="text-slate max-w-xl mx-auto">
-                15 minutes. No obligation. We clarify where you stand and
-                what the most sensible next step is.
+                Whether compliance or transformation — everything starts with a
+                conversation. 15 minutes, no obligation.
               </p>
             </div>
 
-            {/* Calendly placeholder */}
             <div className="mb-16 p-12 border border-dashed border-navy-lighter rounded-sm text-center">
               <p className="text-slate text-sm mb-4">
                 Calendly booking widget
@@ -442,7 +551,7 @@ export default function EqualPayEnPage() {
             <div className="text-center">
               <p className="text-slate text-sm mb-2">Or reach out directly:</p>
               <a
-                href="mailto:jens@jdm-advisory.com?subject=Equal%20Pay%20Initial%20Consultation"
+                href="mailto:jens@jdm-advisory.com?subject=Equal%20Pay%20Consultation"
                 className="inline-block text-gold hover:text-gold-light transition-colors text-sm uppercase tracking-widest"
               >
                 jens@jdm-advisory.com
@@ -455,14 +564,12 @@ export default function EqualPayEnPage() {
       {/* Footer */}
       <footer className="py-8 border-t border-navy-lighter">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-4">
-            <Link
-              href="/en"
-              className="text-slate/50 text-xs hover:text-slate transition-colors"
-            >
-              ← Back to jdm-advisory.com
-            </Link>
-          </div>
+          <Link
+            href="/en"
+            className="text-slate/50 text-xs hover:text-slate transition-colors"
+          >
+            ← Back to jdm-advisory.com
+          </Link>
           <p className="text-slate/50 text-xs">
             © {new Date().getFullYear()} Jens Druckenmüller
           </p>
