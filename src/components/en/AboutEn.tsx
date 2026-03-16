@@ -4,11 +4,12 @@ export default function AboutEn() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           {/* Photo */}
-          <div className="relative aspect-[3/4] bg-navy-lighter rounded-sm overflow-hidden border border-navy-lighter">
+          <div className="relative aspect-[3/4] rounded-sm overflow-hidden border border-gold/20">
+            <div className="absolute inset-0 bg-navy/20 mix-blend-multiply z-10" />
             <img
               src="/jens.jpg"
               alt="Jens Druckenmüller"
-              className="w-full h-full object-cover object-top"
+              className="w-full h-full object-cover object-top grayscale-[30%] brightness-90 contrast-105"
             />
           </div>
 
