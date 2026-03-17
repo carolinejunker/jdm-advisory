@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 interface NavProps {
   locale?: "en" | "de";
@@ -16,6 +17,7 @@ const translations = {
     contact: "Contact",
     switchLabel: "DE",
     switchHref: "/",
+    home: "/en",
   },
   de: {
     about: "Über mich",
@@ -26,6 +28,7 @@ const translations = {
     contact: "Kontakt",
     switchLabel: "EN",
     switchHref: "/en",
+    home: "/",
   },
 };
 
@@ -33,6 +36,11 @@ export default function Nav({ locale = "de" }: NavProps) {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const t = translations[locale];
+  const pathname = usePathname();
+
+  // Check if we're on the homepage (where anchor links work directly)
+  const isHome = pathname === "/" || pathname === "/en";
+  const prefix = isHome ? "" : t.home;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -41,11 +49,11 @@ export default function Nav({ locale = "de" }: NavProps) {
   }, []);
 
   const links = [
-    { href: "#about", label: t.about },
-    { href: "#services", label: t.services },
-    { href: "#track", label: t.track },
+    { href: `${prefix}#about`, label: t.about },
+    { href: `${prefix}#services`, label: t.services },
+    { href: `${prefix}#track`, label: t.track },
     { href: t.blogHref, label: t.blog },
-    { href: "#contact", label: t.contact },
+    { href: `${prefix}#contact`, label: t.contact },
   ];
 
   return (
