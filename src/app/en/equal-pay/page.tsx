@@ -100,7 +100,7 @@ const transformSteps = [
     nr: "02",
     title: "Uncover",
     label: "Compensation Diagnosis",
-    price: "€5,000",
+    price: "From €5,000",
     duration: "1–2 weeks",
     description:
       "Deep analysis of your entire compensation system: job evaluation, salary bands, variable pay, equivalence.",

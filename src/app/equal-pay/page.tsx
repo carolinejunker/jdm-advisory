@@ -100,7 +100,7 @@ const transformSteps = [
     nr: "02",
     title: "Aufdecken",
     label: "Vergütungsdiagnose",
-    price: "5.000 €",
+    price: "Ab 5.000 €",
     duration: "1–2 Wochen",
     description:
       "Tiefenanalyse Ihres gesamten Vergütungssystems: Stellenbewertung, Gehaltsbänder, variable Vergütung, Gleichwertigkeit.",
