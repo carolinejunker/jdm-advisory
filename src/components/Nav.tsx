@@ -11,6 +11,8 @@ const translations = {
     about: "About",
     services: "Services",
     track: "Track Record",
+    blog: "Insights",
+    blogHref: "/en/blog",
     contact: "Contact",
     switchLabel: "DE",
     switchHref: "/",
@@ -19,6 +21,8 @@ const translations = {
     about: "Über mich",
     services: "Leistungen",
     track: "Stationen",
+    blog: "Blog",
+    blogHref: "/blog",
     contact: "Kontakt",
     switchLabel: "EN",
     switchHref: "/en",
@@ -40,6 +44,7 @@ export default function Nav({ locale = "de" }: NavProps) {
     { href: "#about", label: t.about },
     { href: "#services", label: t.services },
     { href: "#track", label: t.track },
+    { href: t.blogHref, label: t.blog },
     { href: "#contact", label: t.contact },
   ];
 

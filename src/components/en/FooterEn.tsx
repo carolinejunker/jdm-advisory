@@ -6,6 +6,9 @@ export default function FooterEn() {
           © {new Date().getFullYear()} Jens Druckenmüller. All rights reserved.
         </p>
         <div className="flex items-center gap-4">
+          <a href="/en/blog" className="text-slate/40 text-xs hover:text-slate transition-colors">
+            Insights
+          </a>
           <a href="/en/imprint" className="text-slate/40 text-xs hover:text-slate transition-colors">
             Imprint
           </a>

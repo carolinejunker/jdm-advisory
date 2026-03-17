@@ -6,6 +6,9 @@ export default function Footer() {
           © {new Date().getFullYear()} Jens Druckenmüller. Alle Rechte vorbehalten.
         </p>
         <div className="flex items-center gap-4">
+          <a href="/blog" className="text-slate/40 text-xs hover:text-slate transition-colors">
+            Blog
+          </a>
           <a href="/impressum" className="text-slate/40 text-xs hover:text-slate transition-colors">
             Impressum
           </a>
