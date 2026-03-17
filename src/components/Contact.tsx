@@ -7,11 +7,11 @@ export default function Contact() {
             Kontakt
           </p>
           <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl text-cream leading-tight">
-            Lass uns sprechen
+            Lassen Sie uns sprechen
           </h2>
           <p className="text-slate mt-4 max-w-lg mx-auto">
-            Du hast eine Frage, ein Projekt oder willst einfach mal hören,
-            ob ich der Richtige bin? Meld dich.
+            Sie haben eine Frage, ein Projekt oder möchten herausfinden,
+            ob wir zueinander passen? Ich freue mich auf Ihre Nachricht.
           </p>
         </div>
 

@@ -3,7 +3,7 @@ const ventures = [
     title: "Equal Pay Compliance",
     subtitle: "EU-Entgelttransparenzrichtlinie 2026",
     description:
-      "Von der Bestandsaufnahme bis zur vollständigen Implementierung — damit dein Unternehmen bis Juni 2026 compliant ist.",
+      "Von der Bestandsaufnahme bis zur vollständigen Implementierung — damit Ihr Unternehmen bis Juni 2026 compliant ist.",
     href: "/equal-pay",
     badge: "Neu",
     icon: (
@@ -40,7 +40,7 @@ export default function Services() {
             Woran ich gerade arbeite
           </h2>
           <p className="text-slate mt-4 max-w-xl mx-auto">
-            Jedes Thema hat seine eigene Tiefe. Klick dich rein.
+            Jedes Thema hat seine eigene Tiefe. Erfahren Sie mehr.
           </p>
         </div>
 
