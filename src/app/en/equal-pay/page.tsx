@@ -184,11 +184,17 @@ export default function EqualPayEnPage() {
           </Link>
           <div className="flex items-center gap-6">
             <a
-              href="#paths"
-              className="text-gold text-sm uppercase tracking-widest hover:text-gold-light transition-colors"
+              href="/en#services"
+              className="text-gold text-sm uppercase tracking-widest hover:text-gold-light transition-colors hidden md:inline"
             >
               Services
             </a>
+            <Link
+              href="/en/blog"
+              className="text-gold text-sm uppercase tracking-widest hover:text-gold-light transition-colors"
+            >
+              Insights
+            </Link>
             <a
               href="#contact"
               className="text-gold text-sm uppercase tracking-widest hover:text-gold-light transition-colors"
