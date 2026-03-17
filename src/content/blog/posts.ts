@@ -623,6 +623,424 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "vergutungssysteme-neu-denken",
+    title:
+      "Warum Equal Pay Compliance nicht reicht: Vergütungssysteme neu denken",
+    description:
+      "Equal Pay ist mehr als Pflichterfüllung. Warum kluge Unternehmen ihre Vergütungssysteme jetzt modernisieren — und daraus einen Wettbewerbsvorteil machen.",
+    date: "2026-03-17",
+    author: "Jens Druckenmüller",
+    keywords: [
+      "Vergütungssystem modernisieren",
+      "Equal Pay Strategie",
+      "Entgeltgleichheit Unternehmen",
+      "Daimler Equal Pay Urteil",
+      "BAG Paarvergleich Arbeitgeber",
+      "Gehaltstransparenz Employer Branding",
+      "Vergütungsstruktur geschlechtsneutral",
+    ],
+    lang: "de",
+    content: `
+      <p>Die meisten Unternehmen betrachten Equal Pay als regulatorische Pflichtübung. Etwas, das man abhaken muss — wie eine Datenschutzerklärung oder ein Brandschutzkonzept. <strong>Das ist ein strategischer Fehler.</strong></p>
+
+      <p>Die EU-Entgelttransparenzrichtlinie (EU) 2023/970 verlangt nicht nur Transparenz. Sie erzwingt einen Paradigmenwechsel in der Art, wie Unternehmen Vergütung denken, strukturieren und kommunizieren. Wer diesen Wandel nur als Bürde sieht, verpasst die Chance. Wer ihn aktiv gestaltet, gewinnt — im Recruiting, in der Mitarbeiterbindung und vor Gericht.</p>
+
+      <p>Denn eines hat die Rechtsprechung bereits klargestellt: <strong>Intransparente Vergütungssysteme sind angreifbar.</strong> Und die Konsequenzen gehen weit über Bußgelder hinaus.</p>
+
+      <h2>Der Daimler-Fall: Ein Weckruf für jedes Unternehmen</h2>
+
+      <p>Was passiert, wenn eine erfahrene Führungskraft nach 15 Jahren feststellt, dass sie deutlich weniger verdient als ihre männlichen Kollegen? Sie klagt. Und das Bundesarbeitsgericht gibt ihr Recht.</p>
+
+      <p>Der Fall einer Abteilungsleiterin bei Daimler Trucks ist das bisher deutlichste Signal an deutsche Arbeitgeber. Die Frau war seit 15 Jahren auf der dritten Führungsebene des Unternehmens tätig. Nach einer Elternzeit merkte sie, dass sie deutlich schlechter bezahlt wurde als männliche Kollegen in vergleichbarer Position. Von einem Kollegen kannte sie das konkrete Gehalt — und klagte auf die Differenz.</p>
+
+      <h3>Das LAG: Nur der Median</h3>
+
+      <p>Das Landesarbeitsgericht (LAG) Stuttgart sprach ihr zunächst eine Entschädigung von rund <strong>130.000 Euro für vier Jahre</strong> zu — orientiert am Median der männlichen Abteilungsleiter. Ein Anspruch auf das Gehalt des bestbezahlten Kollegen? Abgelehnt. Die Begründung: Der Grundsatz der Entgeltgleichheit diene nicht dazu, unterdurchschnittliche Gehälter auf das Niveau überdurchschnittlicher Gehälter anzuheben.</p>
+
+      <h3>Das BAG: Paarvergleich ist zulässig</h3>
+
+      <p>Das Bundesarbeitsgericht sah das anders. Am <strong>23. Oktober 2025 (Az. 8 AZR 300/24)</strong> stellte der 8. Senat klar: Für die Vermutung einer geschlechtsbezogenen Entgeltbenachteiligung genügt ein sogenannter <strong>Paarvergleich</strong>. Es reicht, wenn <em>ein einziger</em> Kollege des anderen Geschlechts in gleicher oder gleichwertiger Position besser bezahlt wird. Die Größe der Vergleichsgruppe und die Höhe der Medianentgelte sind für das Eingreifen der Vermutungswirkung ohne Bedeutung.</p>
+
+      <p>GFF-Anwältin Sarah Lincoln brachte es in der Verhandlung auf den Punkt: <strong>„Frauen müssen sich nicht mit Mittelmaß zufriedengeben."</strong> Wenn eine Frau einen männlichen Kollegen findet, der die gleiche oder gleichwertige Arbeit verrichtet und besser bezahlt wird, kann sie sich mit ihm vergleichen. Der Arbeitgeber muss dann beweisen, warum die Ungleichbehandlung sachlich gerechtfertigt ist.</p>
+
+      <h3>Die Dimension: 420.000 Euro — und es hört nicht auf</h3>
+
+      <p>Die Klägerin forderte insgesamt <strong>420.000 Euro</strong>. Das BAG verwies den Fall zurück ans LAG — Daimler erhält eine weitere Chance, sachliche Gründe für die Differenz vorzubringen. Aber die Richtung ist klar: Kann der Arbeitgeber die Vermutung nicht widerlegen, hat die Frau Anspruch auf das gleiche Gehalt wie der zum Vergleich herangezogene Kollege.</p>
+
+      <p>Besonders brisant: Laut der Gesellschaft für Freiheitsrechte (GFF) liegen <strong>90 % der Frauen bei Daimler unter dem männlichen Median</strong>. Sechs weitere Klägerinnen haben sich bereits angeschlossen. Der Daimler-Fall ist kein Einzelfall — er ist der Beginn einer Welle.</p>
+
+      <h3>Was Geschäftsführer daraus lernen müssen</h3>
+
+      <p>Die Vorsitzende Richterin Martina Ahrendt kritisierte in der Verhandlung, dass die Gehaltsfindung bei den Daimler-Truck-Führungskräften <strong>„wenig transparent"</strong> sei und <strong>keinen fixen Kriterien</strong> folge. Das BAG nannte das Entgeltsystem der Beklagten schlicht <strong>„intransparent"</strong>.</p>
+
+      <p>Das ist die zentrale Botschaft: Ein intransparentes Vergütungssystem ist nicht nur unfair — es ist <strong>nicht verteidigbar</strong>. Vor Gericht und vor der Öffentlichkeit.</p>
+
+      <h2>Was als Rechtfertigung zählt — und was nicht</h2>
+
+      <p>Viele Arbeitgeber gehen davon aus, dass sie Gehaltsunterschiede mit gängigen Argumenten erklären können. Die aktuelle Rechtsprechung und die EU-Richtlinie setzen hier enge Grenzen.</p>
+
+      <h3>✅ Zulässige Rechtfertigungsgründe</h3>
+
+      <p><strong>Messbare Leistung und individuelle Zielerreichung:</strong> Unterschiedliche Vergütung kann gerechtfertigt sein, wenn sie auf <strong>objektiv messbaren Leistungskennzahlen (KPIs)</strong> beruht, die transparent dokumentiert und nachvollziehbar sind. Eine einfache Leistungsbeurteilung durch den Vorgesetzten reicht dafür in der Praxis nicht aus. Es braucht standardisierte Bewertungsverfahren, klar definierte Ziele und eine Dokumentation, die einer gerichtlichen Überprüfung standhält.</p>
+
+      <p><strong>Einschlägige Berufserfahrung und Qualifikation:</strong> Höhere Vergütung kann sachlich begründet sein, wenn ein Beschäftigter über mehr <em>einschlägige</em> Berufserfahrung oder Zusatzqualifikationen verfügt, die für die konkrete Tätigkeit relevant sind und sich auf die Qualität oder Quantität der Arbeitsleistung auswirken. <strong>Wichtig:</strong> Bloßes Dienstalter allein genügt nicht. Die Erfahrung muss einen nachweisbaren Bezug zur aktuellen Rolle haben.</p>
+
+      <p><strong>Markt- und Standortfaktoren:</strong> Regionale Arbeitsmarktbedingungen oder unterschiedliche Kostenstrukturen können eine abweichende Vergütung rechtfertigen — aber nur, wenn dies im Unternehmen <strong>systematisch und nachvollziehbar</strong> angewendet und dokumentiert wird. Eine Standortzulage für alle Beschäftigten in München wegen höherer Lebenshaltungskosten? Zulässig. Ein individuell höheres Gehalt, weil „der Markt es verlangt hat"? Kaum haltbar.</p>
+
+      <h3>❌ Unzulässige Rechtfertigungen</h3>
+
+      <p><strong>Verhandlungsgeschick:</strong> Das BAG hat bereits 2023 klargestellt: Besseres Verhandlungsgeschick ist <strong>keine sachliche Rechtfertigung</strong> für Gehaltsunterschiede. Die EU-Richtlinie zielt gerade darauf ab, dass Vergütung nicht von der individuellen Verhandlungsstärke abhängt — denn diese korreliert nachweislich mit Geschlecht, Sozialisation und Machtposition. „Er hat eben besser verhandelt" ist vor Gericht keine Verteidigung mehr.</p>
+
+      <p><strong>Persönliche Lebensumstände:</strong> Unterschiede aufgrund von Familienstand, Unterhaltspflichten oder privater Situation sind nicht zulässig — außer es handelt sich um objektiv gleiche, geschlechtsneutrale Zusatzleistungen.</p>
+
+      <p><strong>Historisch gewachsene Unterschiede:</strong> Die Gehaltshistorie allein rechtfertigt keine Fortsetzung bestehender Unterschiede. Dass ein Mitarbeiter „schon immer mehr verdient hat", ist kein Argument — es ist ein Symptom des Problems.</p>
+
+      <h3>Jeder Vergütungsbestandteil einzeln</h3>
+
+      <p>Ein Punkt, den viele Arbeitgeber übersehen: <strong>Sämtliche Vergütungsbestandteile müssen für sich betrachtet diskriminierungsfrei sein.</strong> Es reicht nicht aus, Unterschiede beim Grundgehalt durch höhere Boni oder Sachleistungen auszugleichen. Grundgehalt, Zulagen, Boni, Sonderzahlungen, Sachleistungen, Altersvorsorge — jeder einzelne Bestandteil muss auf objektiven und geschlechtsneutralen Kriterien basieren. Quersubventionierung ist keine Lösung.</p>
+
+      <h2>Von „nicht diskriminieren" zu „aktiv gestalten": Der Paradigmenwechsel</h2>
+
+      <p>Die meisten Unternehmen operieren noch in der <strong>alten Welt der Vergütung</strong>: Individuelle Verhandlungen bestimmen das Einstiegsgehalt. Der „Marktwert" eines Kandidaten rechtfertigt Abweichungen. Gehaltsbänder existieren, sind aber weit gefasst und intransparent. Gehaltserhöhungen folgen keinem System, sondern dem Ermessen einzelner Führungskräfte. Und das Ergebnis? Vergütungsstrukturen, die historisch gewachsen sind — aber nicht erklärbar.</p>
+
+      <p>Die <strong>neue Welt</strong> sieht anders aus:</p>
+
+      <ul>
+        <li><strong>Objektive Kriterien</strong> statt individueller Verhandlung: Die Vergütung wird durch nachvollziehbare Bewertungskriterien bestimmt, nicht durch die Durchsetzungsfähigkeit des Bewerbers.</li>
+        <li><strong>Dokumentierte Entscheidungen</strong> statt Bauchgefühl: Jede Vergütungsentscheidung — von der Einstellung bis zur Beförderung — wird schriftlich begründet und archiviert.</li>
+        <li><strong>Transparente Gehaltsbänder</strong> statt verdeckter Spannen: Beschäftigte und Bewerber wissen, in welchem Rahmen sich die Vergütung für ihre Position bewegt.</li>
+        <li><strong>Regelmäßige Überprüfung</strong> statt punktueller Korrekturen: Die Vergütungsstruktur wird systematisch auf Gaps analysiert — nicht erst, wenn jemand klagt.</li>
+      </ul>
+
+      <h3>Die vier Bewertungskriterien der Richtlinie</h3>
+
+      <p>Art. 4 der Richtlinie definiert vier Kriterien, nach denen die Gleichwertigkeit von Tätigkeiten bewertet werden muss:</p>
+
+      <ol>
+        <li><strong>Kompetenzen:</strong> Ausbildung, Berufserfahrung, fachliche und soziale Fähigkeiten</li>
+        <li><strong>Belastungen:</strong> Physische, psychische und emotionale Anforderungen der Tätigkeit</li>
+        <li><strong>Verantwortung:</strong> Entscheidungsbefugnis, Führungsverantwortung, finanzielle Verantwortung</li>
+        <li><strong>Arbeitsbedingungen:</strong> Arbeitsumfeld, Arbeitszeiten, besondere Bedingungen</li>
+      </ol>
+
+      <p>Entscheidend — und von vielen Unternehmen vernachlässigt: <strong>Art. 4 Abs. 4 verlangt ausdrücklich, dass Soft Skills angemessen berücksichtigt werden.</strong> Kommunikationsfähigkeit, Empathie, Teamführung, Konfliktlösung — diese Kompetenzen dürfen bei der Tätigkeitsbewertung nicht systematisch untergewichtet werden. In der Praxis geschieht genau das: Tätigkeiten mit physischer Belastung werden oft höher bewertet als solche mit psychischer oder emotionaler Beanspruchung. Das Ergebnis ist eine strukturelle Unterbewertung von Rollen, die überproportional von Frauen besetzt sind.</p>
+
+      <p>Ein Vergütungssystem, das diesen Kriterien folgt, ist nicht nur richtlinienkonform — es ist <strong>fair, erklärbar und verteidigbar</strong>. Genau das, was Daimler fehlte.</p>
+
+      <h2>Der Business Case: Warum sich Modernisierung lohnt</h2>
+
+      <p>Equal Pay als strategische Initiative zu betrachten, ist kein Idealismus — es ist betriebswirtschaftliche Vernunft. Hier sind vier Gründe:</p>
+
+      <h3>1. Employer Branding: Transparenz als Wettbewerbsvorteil</h3>
+
+      <p>Der Arbeitsmarkt hat sich gedreht. Qualifizierte Fachkräfte wählen ihren Arbeitgeber — nicht umgekehrt. Studien zeigen konsistent: <strong>Transparente Gehaltsangaben erhöhen die Qualität und Quantität der Bewerbungen.</strong> Eine nachvollziehbare Vergütungsstruktur signalisiert: Hier wird fair bezahlt. Hier werden Entscheidungen nach Kriterien getroffen, nicht nach Sympathie.</p>
+
+      <p>Gerade die Generation, die jetzt in Führungspositionen hineinwächst, erwartet Transparenz. Wer sie bietet, gewinnt Talente. Wer sie verweigert, verliert sie — an Unternehmen, die mutiger sind.</p>
+
+      <h3>2. Risikominimierung: Prävention ist billiger als Nachzahlung</h3>
+
+      <p>Der Daimler-Fall zeigt die Dimension: Eine einzelne Klage kann <strong>sechsstellige Nachzahlungen</strong> auslösen — zuzüglich Zinsen und immateriellem Schadensersatz. Und die Richtlinie sieht <strong>keine Deckelung</strong> des Schadensersatzes vor (Art. 16). Dazu kommen Prozesskosten, Reputationsschäden und der organisatorische Aufwand einer erzwungenen Entgeltbewertung.</p>
+
+      <p>Die proaktive Modernisierung des Vergütungssystems kostet einen Bruchteil dessen, was eine verlorene Klage kostet — von der Signalwirkung für weitere Klägerinnen ganz zu schweigen.</p>
+
+      <h3>3. Öffentliche Aufträge: Compliance als Geschäftsvoraussetzung</h3>
+
+      <p>Art. 24 der Richtlinie ermöglicht den <strong>Ausschluss von öffentlichen Aufträgen</strong> bei Verstößen gegen die Entgelttransparenzpflichten. Für Unternehmen, die regelmäßig an Ausschreibungen teilnehmen, ist Equal Pay Compliance damit keine Option mehr — sie ist eine <strong>Geschäftsvoraussetzung</strong>. Besonders kritisch: Bei einem ungerechtfertigten Gap von über 5 % droht der Vergabeausschluss.</p>
+
+      <h3>4. Reporting wird öffentlich: Jedes Unternehmen wird vergleichbar</h3>
+
+      <p>Die Kennzahlen 1 bis 5 der Berichtspflicht müssen <strong>öffentlich zugänglich</strong> gemacht werden — auf der Unternehmenswebsite oder auf gleichwertigem Weg. Das bedeutet: Bewerber sehen Ihren Gender Pay Gap, bevor sie sich bewerben. Beschäftigte vergleichen Ihr Unternehmen mit dem Wettbewerber. Journalisten, Gewerkschaften und NGOs erstellen Rankings.</p>
+
+      <p>Wer dann mit einem hohen, unerklärten Gap dasteht, hat nicht nur ein Compliance-Problem — sondern ein <strong>Reputationsproblem</strong>. Wer proaktiv modernisiert hat und gute Zahlen vorweisen kann, gewinnt im Vergleich.</p>
+
+      <h2>Was Sie jetzt tun sollten</h2>
+
+      <p>Die Entgelttransparenzrichtlinie tritt am 7. Juni 2026 in Kraft. Die Datenbasis für den ersten Bericht ist das Kalenderjahr 2026. Die Rechtsprechung nimmt die Pflichten bereits vorweg. Die Zeit zum Handeln ist <strong>jetzt</strong>.</p>
+
+      <p>Doch Compliance allein reicht nicht. Wer nur das Nötigste tut — Geheimhaltungsklauseln streichen, Gehaltsspannen in Stellenanzeigen einfügen, einmal im Jahr einen Bericht erstellen —, wird feststellen, dass die eigentlichen Probleme tiefer liegen. In gewachsenen Strukturen, intransparenten Entscheidungsprozessen und Vergütungssystemen, die einer gerichtlichen Überprüfung nicht standhalten.</p>
+
+      <p><strong>Compliance ist der Anfang. Transformation ist das Ziel.</strong></p>
+
+      <p>Wir begleiten Unternehmen dabei, ihre Vergütungssysteme nicht nur richtlinienkonform, sondern zukunftsfähig aufzustellen — als strategischen Vorteil, nicht als bürokratische Last. Pragmatisch, strukturiert und vertraulich.</p>
+
+      <p><strong><a href="/equal-pay">Vereinbaren Sie ein unverbindliches Erstgespräch →</a></strong></p>
+    `,
+    faqItems: [
+      {
+        question:
+          "Was hat das Daimler-Urteil für mein Unternehmen zu bedeuten?",
+        answer:
+          "Das BAG-Urteil vom 23. Oktober 2025 (Az. 8 AZR 300/24) im Daimler-Fall hat grundlegende Bedeutung für alle Arbeitgeber: Es genügt ein Paarvergleich mit einem einzigen besser bezahlten Kollegen des anderen Geschlechts, um die Vermutung einer Entgeltdiskriminierung zu begründen. Der Arbeitgeber muss dann nachweisen, dass die Differenz sachlich gerechtfertigt ist. Das BAG kritisierte zudem Daimlers Entgeltsystem als intransparent. Unternehmen ohne nachvollziehbare Vergütungskriterien stehen im Klagfall ohne Verteidigungslinie da.",
+      },
+      {
+        question:
+          "Ist Verhandlungsgeschick ein zulässiger Grund für Gehaltsunterschiede?",
+        answer:
+          "Nein. Das BAG hat bereits 2023 entschieden, dass besseres Verhandlungsgeschick keine sachliche Rechtfertigung für geschlechtsbezogene Gehaltsunterschiede darstellt. Die EU-Entgelttransparenzrichtlinie zielt gerade darauf ab, dass Vergütung nicht von der individuellen Verhandlungsstärke abhängt, da diese nachweislich mit Geschlecht, Sozialisation und Machtposition korreliert. Zulässig sind nur objektive, geschlechtsneutrale Kriterien wie messbare Leistung, einschlägige Berufserfahrung oder nachweisbare Qualifikationen.",
+      },
+      {
+        question: "Was sind objektive Kriterien für die Vergütung?",
+        answer:
+          "Die EU-Richtlinie definiert vier Bewertungskriterien: Kompetenzen (Ausbildung, Berufserfahrung, fachliche und soziale Fähigkeiten), Belastungen (physische, psychische und emotionale Anforderungen), Verantwortung (Entscheidungsbefugnis, Führungs- und Finanzverantwortung) und Arbeitsbedingungen (Arbeitsumfeld, Arbeitszeiten, besondere Bedingungen). Wichtig: Art. 4 Abs. 4 verlangt ausdrücklich, dass auch Soft Skills wie Kommunikationsfähigkeit und Teamführung angemessen berücksichtigt werden.",
+      },
+      {
+        question: "Müssen auch Boni und Sonderzahlungen gleich sein?",
+        answer:
+          "Ja — jeder einzelne Vergütungsbestandteil muss für sich betrachtet diskriminierungsfrei sein. Es reicht nicht aus, Unterschiede beim Grundgehalt durch höhere Boni oder andere Zusatzleistungen auszugleichen. Grundgehalt, variable Vergütung, Zulagen, Sonderzahlungen, Sachleistungen und betriebliche Altersvorsorge müssen jeweils auf objektiven und geschlechtsneutralen Kriterien basieren. Eine Quersubventionierung zwischen Vergütungsbestandteilen ist nicht zulässig.",
+      },
+      {
+        question: "Was bedeutet das BAG-Urteil zum Paarvergleich?",
+        answer:
+          "Das BAG hat am 23. Oktober 2025 entschieden, dass für die Vermutung einer geschlechtsbezogenen Entgeltbenachteiligung ein Paarvergleich mit einer einzigen Vergleichsperson des anderen Geschlechts ausreicht. Es ist kein statistischer Gruppenvergleich und keine überwiegende Wahrscheinlichkeit erforderlich. Kann der Arbeitgeber die Vermutung nicht widerlegen, muss er das gleiche Entgelt zahlen wie dem zum Vergleich herangezogenen Kollegen — nicht nur die Differenz zum Median.",
+      },
+      {
+        question: "Wie wird der Gender Pay Gap öffentlich?",
+        answer:
+          "Ab 2027 müssen berichtspflichtige Unternehmen fünf der sieben Reporting-Kennzahlen öffentlich zugänglich machen — etwa auf der Unternehmenswebsite. Dazu gehören der durchschnittliche und der mediane Gender Pay Gap, der Gap bei variabler Vergütung, die Verteilung nach Entgeltquartilen und der Gap nach Beschäftigtenkategorien. Das bedeutet: Bewerber, Beschäftigte, Wettbewerber und die Öffentlichkeit können Unternehmen direkt vergleichen.",
+      },
+      {
+        question:
+          "Kann ein transparentes Vergütungssystem beim Recruiting helfen?",
+        answer:
+          "Ja, erheblich. Transparente Gehaltsangaben erhöhen nachweislich die Qualität und Quantität der Bewerbungen. Gerade jüngere Fachkräfte erwarten Gehaltstransparenz und bewerten Arbeitgeber danach. Ein nachvollziehbares Vergütungssystem signalisiert Fairness und Professionalität — und differenziert im Wettbewerb um Talente gegenüber Unternehmen, die intransparent bleiben. Mit der öffentlichen Berichtspflicht wird diese Differenzierung für jeden sichtbar.",
+      },
+      {
+        question:
+          "Was passiert, wenn das Vergütungssystem als intransparent gilt?",
+        answer:
+          "Ein intransparentes Vergütungssystem ist vor Gericht kaum verteidigbar. Im Daimler-Fall kritisierte das BAG ausdrücklich, dass die Gehaltsfindung bei Führungskräften keinen fixen Kriterien folge und intransparent sei. Ohne dokumentierte, objektive Vergütungskriterien kann der Arbeitgeber die Vermutung einer Entgeltdiskriminierung praktisch nicht widerlegen. Dazu kommt: Bei Verstößen gegen Transparenzpflichten greift die Beweislastumkehr nach Art. 18 der Richtlinie automatisch — ohne dass die klagende Person Indizien vorlegen muss.",
+      },
+    ],
+  },
+  {
+    slug: "entgelttransparenz-kmu",
+    title:
+      "Entgelttransparenz für KMU: Auch kleine Unternehmen müssen handeln",
+    description:
+      "Die Entgelttransparenzrichtlinie gilt auch für KMU. Welche Pflichten kleine Unternehmen ab Juni 2026 erfüllen müssen — und wie Sie sich pragmatisch vorbereiten.",
+    date: "2026-03-17",
+    author: "Jens Druckenmüller",
+    keywords: [
+      "Entgelttransparenz KMU",
+      "Equal Pay kleine Unternehmen",
+      "Gehaltstransparenz Mittelstand",
+      "Entgelttransparenzrichtlinie Kleinunternehmen",
+      "Auskunftsrecht Arbeitnehmer KMU",
+      "Lohntransparenz Pflichten Arbeitgeber",
+    ],
+    lang: "de",
+    content: `
+      <p><strong>„Das betrifft uns nicht. Wir haben nur 30 Mitarbeiter."</strong></p>
+
+      <p>Diesen Satz hören wir regelmäßig — von Geschäftsführern, HR-Leitern und Steuerberatern kleiner und mittlerer Unternehmen. Und er ist <strong>falsch</strong>.</p>
+
+      <p>Die EU-Entgelttransparenzrichtlinie (EU) 2023/970, die bis zum 7. Juni 2026 in nationales Recht umgesetzt werden muss, unterscheidet zwar nach Unternehmensgröße — aber nur bei den <strong>Berichtspflichten</strong>. Die Kernpflichten der Richtlinie gelten für alle Arbeitgeber. Unabhängig davon, ob Sie 5, 50 oder 5.000 Beschäftigte haben.</p>
+
+      <p>Und gerade KMU sind verwundbarer, als sie denken. In kleinen Teams fallen Gehaltsunterschiede schneller auf. Ohne Betriebsrat fehlt der Puffer. Und die Beweislastumkehr bei Transparenzverstößen greift automatisch — auch im 10-Mann-Betrieb.</p>
+
+      <p>Dieser Artikel klärt auf: Welche Pflichten gelten für KMU? Warum sind kleine Unternehmen besonders betroffen? Und wie setzen Sie die Anforderungen pragmatisch um — ohne überflüssige Bürokratie?</p>
+
+      <h2>Der Irrtum: „Die Schwellenwerte retten uns"</h2>
+
+      <p>Das häufigste Missverständnis zur Entgelttransparenzrichtlinie betrifft die Schwellenwerte. Ja, die Richtlinie definiert Grenzen: <strong>100, 150 und 250 Beschäftigte</strong>. Aber diese Schwellenwerte betreffen ausschließlich die <strong>regelmäßigen Berichtspflichten</strong> — also die Veröffentlichung der sieben Gender-Pay-Gap-Kennzahlen.</p>
+
+      <ul>
+        <li><strong>Ab 250 Beschäftigte:</strong> Jährliche Berichterstattung (ab 7. Juni 2027)</li>
+        <li><strong>150–249 Beschäftigte:</strong> Alle 3 Jahre (ab 7. Juni 2027)</li>
+        <li><strong>100–149 Beschäftigte:</strong> Alle 3 Jahre (ab 7. Juni 2031)</li>
+        <li><strong>Unter 100 Beschäftigte:</strong> Keine Berichtspflicht</li>
+      </ul>
+
+      <p>Viele KMU lesen diese Staffelung — und haken das Thema ab. <strong>Das ist ein gefährlicher Fehler.</strong> Denn alle anderen Pflichten der Richtlinie gelten unabhängig von der Unternehmensgröße. Und davon gibt es einige.</p>
+
+      <h3>Was auch ein 5-Mann-Betrieb tun muss</h3>
+
+      <p>Bereits ab dem 7. Juni 2026 gelten für <strong>jeden Arbeitgeber</strong> — vom Handwerksbetrieb bis zum Tech-Startup:</p>
+
+      <ul>
+        <li>Gehaltsangaben in Stellenausschreibungen oder vor dem Vorstellungsgespräch</li>
+        <li>Verbot der Frage nach dem bisherigen Gehalt</li>
+        <li>Geschlechtsneutrale Stellentitel und Ausschreibungen</li>
+        <li>Transparente, objektive und geschlechtsneutrale Vergütungskriterien</li>
+        <li>Individuelles Auskunftsrecht aller Beschäftigten</li>
+        <li>Streichung von Geheimhaltungsklauseln zum Gehalt</li>
+        <li>Jährliche Information der Beschäftigten über ihr Auskunftsrecht</li>
+      </ul>
+
+      <p>Keine Berichtspflicht bedeutet nicht keine Pflicht. Es bedeutet nur, dass Sie Ihren Gender Pay Gap nicht öffentlich kommunizieren müssen. Alles andere? Gilt.</p>
+
+      <h2>Warum KMU sogar stärker betroffen sein können</h2>
+
+      <p>Paradoxerweise sind gerade kleine Unternehmen in einigen Punkten <strong>verwundbarer</strong> als Großkonzerne. Hier sind fünf Gründe:</p>
+
+      <h3>1. In kleinen Teams fallen Unterschiede schneller auf</h3>
+
+      <p>In einem Konzern mit 10.000 Mitarbeitern ist das Gehalt des Kollegen eine abstrakte Zahl. In einem Team von 15 Leuten? Da weiß nach dem ersten gemeinsamen Mittagessen jeder, wer was verdient. Je kleiner das Team, desto schneller verbreiten sich Informationen — und desto schneller entstehen Fragen.</p>
+
+      <h3>2. Geheimhaltungsklauseln werden nichtig</h3>
+
+      <p>Viele KMU setzen auf vertragliche Geheimhaltungsklauseln, um Gehaltsdiskussionen zu unterbinden. <strong>Ab dem 7. Juni 2026 sind diese Klauseln nichtig</strong> (Art. 7 Abs. 5). Beschäftigte dürfen frei über ihre Vergütung sprechen. Das ist kein optionales Zugeständnis — es ist ein geschütztes Recht. Klauseln, die es einschränken, werden unwirksam. Punkt.</p>
+
+      <h3>3. Kein Betriebsrat als Puffer</h3>
+
+      <p>In Großunternehmen läuft vieles über den Betriebsrat. Beschwerden werden kanalisiert, Konflikte moderiert, Informationen gefiltert. In den meisten KMU gibt es keinen Betriebsrat. Das bedeutet: Wenn eine Mitarbeiterin einen Gehaltsunterschied bemerkt und sich ungerecht behandelt fühlt, ist der <strong>nächste Schritt die Klage</strong> — nicht das Betriebsratsgespräch.</p>
+
+      <h3>4. Der Paarvergleich funktioniert auch im kleinen Betrieb</h3>
+
+      <p>Das BAG hat am 23. Oktober 2025 (Az. 8 AZR 300/24) klargestellt: Für die Vermutung einer Entgeltdiskriminierung genügt ein <strong>Paarvergleich mit einem einzigen Kollegen</strong> des anderen Geschlechts. Keine Statistik, kein Gruppenvergleich. In einem 20-Mann-Betrieb reicht es, wenn eine Mitarbeiterin einen männlichen Kollegen findet, der gleiche oder gleichwertige Arbeit verrichtet und mehr verdient. Dann liegt die Beweislast beim Arbeitgeber.</p>
+
+      <h3>5. Beweislastumkehr greift automatisch</h3>
+
+      <p>Art. 18 der Richtlinie verschärft die Lage weiter: Bei <strong>Verstößen gegen Transparenzpflichten</strong> — etwa wenn ein Unternehmen das Auskunftsrecht nicht erfüllt oder keine geschlechtsneutralen Vergütungskriterien vorweisen kann — kehrt sich die Beweislast <strong>automatisch</strong> um. Ohne dass die klagende Person überhaupt Indizien vorlegen muss. Der Arbeitgeber muss dann beweisen, dass <em>keine</em> Diskriminierung vorliegt. Für ein KMU ohne dokumentierte Vergütungsstruktur ist das praktisch unmöglich.</p>
+
+      <h2>Die konkreten Pflichten für KMU unter 100 Mitarbeitern</h2>
+
+      <p>Hier die vollständige Übersicht, was die Richtlinie von Unternehmen unter 100 Beschäftigten konkret verlangt:</p>
+
+      <h3>Gehaltsangaben in Stellenausschreibungen (Art. 5)</h3>
+
+      <p>Bewerberinnen und Bewerber müssen <strong>vor dem Vorstellungsgespräch</strong> über die Gehaltsspanne oder das Einstiegsgehalt informiert werden. Das kann in der Stellenausschreibung selbst geschehen oder auf anderem Weg. Entscheidend: Die Information muss vorliegen, <em>bevor</em> über Gehalt verhandelt wird. Auch auf Portalen wie StepStone, Indeed oder LinkedIn ist diese Angabe künftig Pflicht.</p>
+
+      <h3>Verbot der Gehaltshistorie-Frage (Art. 5 Abs. 2)</h3>
+
+      <p>Arbeitgeber dürfen Bewerber <strong>nicht mehr nach ihrem bisherigen Gehalt fragen</strong> — weder direkt noch indirekt. Formulierungen wie „Was verdienen Sie aktuell?" oder „Bitte nennen Sie Ihre Gehaltsvorstellung auf Basis Ihres aktuellen Gehalts" sind unzulässig. Der Hintergrund: Bestehende Entgeltungleichheiten sollen nicht von einem Arbeitsverhältnis ins nächste übertragen werden.</p>
+
+      <h3>Geschlechtsneutrale Stellentitel (Art. 5 Abs. 3)</h3>
+
+      <p>Stellenausschreibungen und Berufsbezeichnungen müssen geschlechtsneutral formuliert sein. Was in vielen Unternehmen bereits Praxis ist, wird rechtliche Pflicht.</p>
+
+      <h3>Transparente Vergütungskriterien (Art. 6)</h3>
+
+      <p>Arbeitgeber müssen die Kriterien offenlegen, nach denen Entgelt und Karriereentwicklung bestimmt werden. Diese Kriterien müssen <strong>objektiv und geschlechtsneutral</strong> sein. Für KMU unter 50 Beschäftigten enthält die Richtlinie eine mögliche Erleichterung: Mitgliedstaaten <em>können</em> sie von der Pflicht befreien, auch Kriterien für die Gehaltsentwicklung (Beförderungen, Stufenaufstiege) offenzulegen. Ob Deutschland von dieser Option Gebrauch macht, ist noch offen.</p>
+
+      <h3>Individuelles Auskunftsrecht (Art. 7)</h3>
+
+      <p><strong>Jeder Beschäftigte</strong> — in jedem Unternehmen, unabhängig von der Größe — hat das Recht, Auskunft über das durchschnittliche Entgeltniveau vergleichbarer Beschäftigter zu verlangen, aufgeschlüsselt nach Geschlecht. Der Arbeitgeber muss innerhalb von <strong>zwei Monaten</strong> antworten. Das bisherige deutsche Entgelttransparenzgesetz beschränkte dieses Recht auf Unternehmen ab 200 Beschäftigten. <strong>Diese Schwelle fällt.</strong></p>
+
+      <h3>Streichung aller Geheimhaltungsklauseln (Art. 7 Abs. 5)</h3>
+
+      <p>Vertragliche Klauseln, die Beschäftigten verbieten, über ihr Gehalt zu sprechen, werden <strong>unwirksam</strong>. Beschäftigte dürfen frei über ihre Vergütung kommunizieren. Bestehende Klauseln sollten proaktiv aus allen Verträgen entfernt werden — nicht erst bei der nächsten Vertragserneuerung.</p>
+
+      <h3>Jährliche Informationspflicht (Art. 7 Abs. 3)</h3>
+
+      <p>Arbeitgeber müssen ihre Beschäftigten <strong>jährlich</strong> über ihr Auskunftsrecht informieren — einschließlich der konkreten Schritte, die zur Ausübung dieses Rechts unternommen werden können. Ein kurzes Informationsschreiben oder eine E-Mail genügt, aber es muss nachweislich geschehen.</p>
+
+      <h2>Pragmatische Umsetzung für KMU: 5 Schritte</h2>
+
+      <p>Die gute Nachricht: Die Umsetzung für KMU muss kein Großprojekt sein. Mit fünf konkreten Schritten schaffen Sie die Grundlage — ohne externe Berater-Armada und ohne monatelange Workshops.</p>
+
+      <h3>Schritt 1: Arbeitsverträge prüfen — Geheimhaltungsklauseln streichen</h3>
+
+      <p>Gehen Sie alle bestehenden Arbeitsverträge und Musterverträge durch. Jede Klausel, die Beschäftigten verbietet, über ihr Gehalt zu sprechen, muss raus. Das ist keine optionale Empfehlung — es ist ab Juni 2026 zwingendes Recht. Nutzen Sie die nächste Vertragsrevision nicht als Anlass, sondern handeln Sie <strong>jetzt</strong>. Die bloße Existenz solcher Klauseln kann als Signal fehlender Compliance gewertet werden.</p>
+
+      <h3>Schritt 2: Stellenausschreibungen anpassen — Gehaltsspannen definieren</h3>
+
+      <p>Definieren Sie für jede Position in Ihrem Unternehmen eine Gehaltsspanne. Das muss keine wissenschaftliche Analyse sein — aber eine fundierte Einschätzung, die sich an Marktdaten, interner Konsistenz und objektiven Kriterien orientiert. Integrieren Sie diese Spannen in alle Stellenausschreibungen. Und schulen Sie jeden, der Vorstellungsgespräche führt: Die Frage nach dem bisherigen Gehalt ist ab sofort <strong>tabu</strong>.</p>
+
+      <h3>Schritt 3: Einfache Vergütungsstruktur aufbauen</h3>
+
+      <p>Sie brauchen kein komplexes Job-Grading-System mit 30 Levels und 200 Funktionsgruppen. Was Sie brauchen, ist eine <strong>nachvollziehbare Struktur</strong>: Welche Funktionen gibt es in Ihrem Unternehmen? Welche Levels gibt es innerhalb dieser Funktionen (z. B. Junior, Senior, Lead)? Und was ist die Gehaltsspanne für jede Kombination?</p>
+
+      <p>Dokumentieren Sie die Kriterien, nach denen jemand in ein bestimmtes Level eingestuft wird — Kompetenzen, Erfahrung, Verantwortung. Das muss kein 50-seitiges Handbuch sein. Eine übersichtliche Tabelle mit klaren Definitionen reicht als Startpunkt.</p>
+
+      <h3>Schritt 4: Auskunftsprozess festlegen</h3>
+
+      <p>Ab Juni 2026 kann jeder Beschäftigte Auskunft über das durchschnittliche Entgeltniveau vergleichbarer Kollegen verlangen. Sie haben <strong>zwei Monate</strong> Zeit für die Antwort. Legen Sie jetzt fest: Wer ist zuständig? In welchem Format wird geantwortet? Welche Daten werden herangezogen? Und wie stellen Sie sicher, dass die Frist eingehalten wird?</p>
+
+      <p>In einem KMU kann das der Geschäftsführer selbst sein oder die Person, die HR verantwortet. Entscheidend ist: <strong>Der Prozess existiert, bevor die erste Anfrage kommt.</strong></p>
+
+      <h3>Schritt 5: Dokumentation — jede Gehaltsentscheidung schriftlich begründen</h3>
+
+      <p>Dieser Schritt kostet wenig und schützt viel. Ab sofort sollten Sie <strong>jede Gehaltsentscheidung schriftlich begründen</strong> — bei Einstellungen, Beförderungen, Gehaltserhöhungen und auch bei Ablehnungen von Gehaltsanpassungen. Warum bekommt Mitarbeiter A dieses Gehalt? Welche objektiven Kriterien liegen zugrunde?</p>
+
+      <p>Im Streitfall ist diese Dokumentation Ihre <strong>Verteidigungslinie</strong>. Ohne sie stehen Sie bei einer Klage mit leeren Händen da — und die automatische Beweislastumkehr macht den Rest.</p>
+
+      <h2>Staatliche Unterstützung kommt — aber warten ist keine Option</h2>
+
+      <p>Art. 11 der Richtlinie verpflichtet die Mitgliedstaaten, <strong>KMU technische Unterstützung und Schulungen</strong> bereitzustellen, um ihnen die Einhaltung der Pflichten zu erleichtern. Die Expertenkommission empfiehlt kostenlose Tools und Schnittstellen zu gängiger Software wie DATEV oder AGENDA.</p>
+
+      <p>In Luxemburg ist das <strong>LOGIB-Tool</strong> bereits verfügbar — ein kostenloses Analyseinstrument, mit dem Unternehmen ihren Gender Pay Gap berechnen können. Ähnliche Tools werden voraussichtlich auch in Deutschland kommen.</p>
+
+      <p><strong>Aber:</strong> Die Grundpflichten gelten ab dem 7. Juni 2026 — <strong>mit oder ohne Hilfstools</strong>. Geheimhaltungsklauseln müssen gestrichen, Stellenausschreibungen angepasst, Auskunftsprozesse eingerichtet sein. Darauf zu warten, dass der Staat ein Tool bereitstellt, ist keine Strategie — es ist ein Risiko.</p>
+
+      <p>Dazu kommt: Die Datenbasis für das Jahr 2026 wird bereits jetzt gesammelt. Auch wenn Sie als KMU unter 100 Beschäftigten keine Berichtspflicht haben — Ihre Vergütungsentscheidungen in 2026 können Gegenstand von Auskunftsanfragen und Klagen werden. <strong>Jede Entscheidung, die Sie heute treffen, muss morgen erklärbar sein.</strong></p>
+
+      <h2>Der Vorteil kleiner Strukturen</h2>
+
+      <p>Es gibt auch eine gute Seite: KMU sind oft <strong>schneller und agiler</strong> als Großkonzerne. Wo ein DAX-Unternehmen Monate braucht, um eine globale Vergütungsrichtlinie auszurollen, kann ein Mittelständler seine Strukturen in Wochen anpassen.</p>
+
+      <p>Ein einfaches, transparentes Vergütungssystem ist für ein KMU kein Nachteil — es ist ein <strong>Wettbewerbsvorteil</strong>. Im Recruiting signalisiert es Fairness und Professionalität. Gegenüber bestehenden Mitarbeitern schafft es Vertrauen. Und im Klagfall bietet es eine dokumentierte Grundlage, die kein Gericht ignorieren kann.</p>
+
+      <p>Nutzen Sie den Vorteil kleiner Strukturen: <strong>Weniger Komplexität, schnellere Umsetzung, direktere Kommunikation.</strong></p>
+
+      <h2>Auch als KMU können Sie sich vorbereiten — und einen Vorteil daraus machen</h2>
+
+      <p>Die Entgelttransparenzrichtlinie ist kein Thema nur für Konzerne. Sie betrifft <strong>jeden Arbeitgeber in der EU</strong>. Die Grundpflichten gelten ab Juni 2026 — für alle. Die Rechtsprechung wartet nicht auf die Unternehmensgröße. Und Ihre Beschäftigten haben ein Auskunftsrecht, das sie nutzen werden.</p>
+
+      <p>Die gute Nachricht: Mit den richtigen Schritten ist die Umsetzung für KMU überschaubar. Kein Mammutprojekt, kein sechsstelliges Berater-Budget. Sondern pragmatische Maßnahmen, die Ihr Unternehmen schützen — und es als fairen Arbeitgeber positionieren.</p>
+
+      <p>Wir unterstützen kleine und mittlere Unternehmen bei der pragmatischen Umsetzung der Entgelttransparenzrichtlinie — von der Vertragsprüfung über die Vergütungsstruktur bis zum Auskunftsprozess. Strukturiert, effizient und auf KMU-Bedürfnisse zugeschnitten.</p>
+
+      <p><strong><a href="/equal-pay">Vereinbaren Sie ein unverbindliches Erstgespräch →</a></strong></p>
+    `,
+    faqItems: [
+      {
+        question:
+          "Gilt die Entgelttransparenzrichtlinie auch für Unternehmen unter 100 Mitarbeitern?",
+        answer:
+          "Ja. Die Kernpflichten der Richtlinie gelten für alle Arbeitgeber, unabhängig von der Unternehmensgröße. Dazu gehören Gehaltsangaben in Stellenausschreibungen, das Verbot der Gehaltsfrage, geschlechtsneutrale Stellentitel, transparente Vergütungskriterien, das individuelle Auskunftsrecht aller Beschäftigten und die Aufhebung von Geheimhaltungsklauseln. Nur die regelmäßigen Berichtspflichten (Veröffentlichung der Gender-Pay-Gap-Kennzahlen) sind nach Unternehmensgröße gestaffelt und greifen erst ab 100 Beschäftigten.",
+      },
+      {
+        question:
+          "Muss ich als kleiner Betrieb Gehälter in Stellenanzeigen angeben?",
+        answer:
+          "Ja. Nach Art. 5 der Richtlinie müssen Bewerberinnen und Bewerber vor dem Vorstellungsgespräch über die Gehaltsspanne oder das Einstiegsgehalt informiert werden — unabhängig von der Unternehmensgröße. Das kann direkt in der Stellenanzeige geschehen oder auf anderem Weg, solange die Information vorliegt, bevor über Gehalt verhandelt wird. Gleichzeitig wird die Frage nach dem bisherigen Gehalt verboten.",
+      },
+      {
+        question:
+          "Ab wann müssen KMU über den Gender Pay Gap berichten?",
+        answer:
+          "Die Berichtspflicht ist gestaffelt: Unternehmen ab 250 Beschäftigten berichten jährlich ab dem 7. Juni 2027, Unternehmen mit 150–249 Beschäftigten alle drei Jahre ab 2027, und Unternehmen mit 100–149 Beschäftigten alle drei Jahre ab dem 7. Juni 2031. KMU mit unter 100 Beschäftigten haben keine Berichtspflicht, müssen aber alle anderen Pflichten der Richtlinie erfüllen — insbesondere das individuelle Auskunftsrecht aller Beschäftigten.",
+      },
+      {
+        question:
+          "Können Mitarbeiter in kleinen Firmen Auskunft über Gehälter verlangen?",
+        answer:
+          "Ja. Art. 7 der Richtlinie gibt jedem Beschäftigten — unabhängig von der Unternehmensgröße — das Recht, Auskunft über das durchschnittliche Entgeltniveau vergleichbarer Beschäftigter zu verlangen, aufgeschlüsselt nach Geschlecht. Der Arbeitgeber muss innerhalb von zwei Monaten antworten. Das bisherige deutsche Entgelttransparenzgesetz beschränkte dieses Recht auf Unternehmen ab 200 Beschäftigten — diese Schwelle fällt mit der Umsetzung der EU-Richtlinie.",
+      },
+      {
+        question:
+          "Dürfen Arbeitsverträge noch Geheimhaltungsklauseln zum Gehalt enthalten?",
+        answer:
+          "Nein. Ab dem 7. Juni 2026 werden vertragliche Klauseln, die Beschäftigten verbieten, über ihr Gehalt zu sprechen, unwirksam (Art. 7 Abs. 5 der Richtlinie). Beschäftigte dürfen frei über ihre Vergütung kommunizieren. Arbeitgeber sollten solche Klauseln proaktiv aus allen bestehenden Verträgen und Musterverträgen entfernen — die bloße Existenz kann als Signal fehlender Compliance gewertet werden.",
+      },
+      {
+        question:
+          "Was kostet die Nichteinhaltung für kleine Unternehmen?",
+        answer:
+          "Die Konsequenzen sind erheblich: Die Richtlinie sieht unbegrenzten Schadensersatz ohne Deckelung vor, die automatische Beweislastumkehr bei Transparenzverstößen und wirksame, abschreckende Bußgelder. Dazu kommt: Das BAG hat mit dem Paarvergleich (Az. 8 AZR 300/24) klargestellt, dass ein einzelner besser bezahlter Kollege des anderen Geschlechts genügt, um eine Vermutung der Diskriminierung zu begründen. Im Klagfall muss dann der Arbeitgeber nachweisen, dass keine Diskriminierung vorliegt — auch im kleinen Betrieb.",
+      },
+      {
+        question:
+          "Gibt es Unterstützung für KMU bei der Umsetzung?",
+        answer:
+          "Ja. Art. 11 der Richtlinie verpflichtet die Mitgliedstaaten, KMU technische Unterstützung und Schulungen bereitzustellen. In Luxemburg ist das kostenlose LOGIB-Tool bereits verfügbar. Für Deutschland empfiehlt die Expertenkommission kostenlose Analysetools und Schnittstellen zu gängiger Software wie DATEV oder AGENDA. Aber: Die Grundpflichten gelten ab dem 7. Juni 2026 — mit oder ohne staatliche Hilfstools. Auf Unterstützung zu warten ist keine Option.",
+      },
+      {
+        question:
+          "Muss ich als Freiberufler mit Angestellten auch handeln?",
+        answer:
+          "Ja, sobald Sie Arbeitgeber sind — also mindestens einen Arbeitnehmer beschäftigen —, gelten die Grundpflichten der Richtlinie. Das betrifft Gehaltsangaben bei Stellenausschreibungen, das Verbot der Gehaltsfrage, geschlechtsneutrale Vergütungskriterien und das individuelle Auskunftsrecht. Die Rechtsform (Freiberufler, GmbH, Einzelunternehmen) spielt keine Rolle — entscheidend ist das Arbeitgeberverhältnis.",
+      },
+      {
+        question:
+          "Wie kann ich als KMU ein einfaches Vergütungssystem aufbauen?",
+        answer:
+          "Starten Sie pragmatisch: Definieren Sie die Funktionen in Ihrem Unternehmen und ordnen Sie ihnen Levels zu (z. B. Junior, Senior, Lead). Legen Sie für jede Kombination eine Gehaltsspanne fest und dokumentieren Sie die Kriterien für die Einstufung — Kompetenzen, Erfahrung, Verantwortung. Das muss kein 50-seitiges Handbuch sein. Eine klare Übersicht mit nachvollziehbaren Kriterien reicht als Startpunkt und bietet im Klagfall eine dokumentierte Verteidigungslinie.",
+      },
+    ],
+  },
 ];
 
 export function getPostsByLang(lang: "de" | "en"): BlogPost[] {
