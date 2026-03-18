@@ -1,5 +1,6 @@
 import HeroEn from "@/components/en/HeroEn";
 import AboutEn from "@/components/en/AboutEn";
+import AIPartnerEn from "@/components/en/AIPartnerEn";
 import ServicesEn from "@/components/en/ServicesEn";
 import TrackEn from "@/components/en/TrackEn";
 import ContactEn from "@/components/en/ContactEn";
@@ -13,6 +14,7 @@ export default function HomeEn() {
       <main>
         <HeroEn />
         <AboutEn />
+        <AIPartnerEn />
         <ServicesEn />
         <TrackEn />
         <ContactEn />
