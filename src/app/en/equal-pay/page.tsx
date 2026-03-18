@@ -13,8 +13,8 @@ const risks = [
   },
   {
     icon: "📊",
-    title: "Pair Comparison (BAG 2025)",
-    text: "A single higher-paid colleague of the other gender is enough as a benchmark — adjustment to their salary level.",
+    title: "Pair Comparison Principle",
+    text: "A single higher-paid colleague of the other gender is enough to establish a presumption of discrimination — as courts in Germany have already confirmed.",
   },
   {
     icon: "🚫",
