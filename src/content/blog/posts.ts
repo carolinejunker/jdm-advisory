@@ -1046,35 +1046,36 @@ export const blogPosts: BlogPost[] = [
   // ============================================================
   {
     slug: "entgelttransparenzrichtlinie-2026",
-    title: "EU Pay Transparency Directive 2026: What Employers Need to Do Now",
+    title: "EU Pay Transparency Directive 2026: What Every European Employer Needs to Know",
     description:
-      "EU Pay Transparency Directive: New obligations for all employers from June 2026. Salary ranges in job ads, burden of proof, reporting — prepare now.",
+      "EU Pay Transparency Directive: New obligations for all employers across Europe from June 2026. Salary ranges, reporting, burden of proof — act now.",
     date: "2026-03-17",
     author: "Jens Druckenmüller",
     keywords: [
       "Pay Transparency Directive",
       "Equal Pay 2026",
-      "Salary Transparency Obligation",
-      "Gender Pay Gap Europe",
+      "Salary Transparency Europe",
+      "Gender Pay Gap EU",
       "EU Directive 2023/970",
-      "Pay Equity EU",
+      "Pay Equity Europe",
       "Pay Reporting Requirements",
       "Wage Transparency Employers",
-      "Pay Gap Compliance",
+      "Pay Gap Compliance EU",
+      "Luxembourg Pay Transparency",
     ],
     lang: "en",
     content: `
-      <p><strong>82 days.</strong> That's how much time remains until 7 June 2026 — the deadline by which the EU Pay Transparency Directive (EU) 2023/970 must be transposed into national law. And Germany? It hasn't even published a draft bill yet. Out of 27 member states, only two have transposed the directive so far — with Sweden being the only country to do so fully.</p>
+      <p><strong>7 June 2026.</strong> That's the deadline by which all 27 EU member states must transpose the Pay Transparency Directive (EU) 2023/970 into national law. As of March 2026, only Sweden has done so fully. Most countries — including Germany and Luxembourg — are still working on their national implementation.</p>
 
       <p>That might sound like a grace period. It isn't.</p>
 
-      <p>Regardless of when the German legislature delivers: the obligations are coming. The courts are already anticipating them. And the data you'll need for your 2027 reporting is based on calendar year 2026. If you don't act now, you'll be standing empty-handed before the supervisory authority — or in court — twelve months from now.</p>
+      <p>Regardless of where your company is based in Europe: the obligations are coming. In some countries, courts are already anticipating the directive. And the data you'll need for your first report in 2027 is based on <strong>calendar year 2026</strong>. If you don't act now, you'll be standing empty-handed before the supervisory authority — or in court — twelve months from now.</p>
 
-      <p>This article gives you a complete overview: What does the directive require? What has the German Federal Labour Court (BAG) already decided? What are the risks — and what can you do <em>today</em>?</p>
+      <p>This article gives you a complete overview: What does the directive require? How are different member states preparing? What are the risks — and what can you do <em>today</em>?</p>
 
       <h2>What the Pay Transparency Directive requires — for all employers</h2>
 
-      <p>One of the biggest misconceptions: many executives believe the directive only affects large companies with reporting obligations. Wrong. The core obligations of the directive apply to <strong>all employers</strong>, regardless of company size. Here are the key requirements:</p>
+      <p>One of the biggest misconceptions: many executives believe the directive only affects large companies with reporting obligations. Wrong. The core obligations apply to <strong>all employers across the EU</strong>, regardless of company size or country. Here are the key requirements:</p>
 
       <h3>Salary information in job postings (Art. 5)</h3>
       <p>Going forward, applicants must be informed about the <strong>salary range or starting pay</strong> for the advertised position <strong>before the job interview</strong>. This can be included in the job posting itself or communicated through other means — the key point is: the information must be available before salary negotiations begin.</p>
@@ -1083,34 +1084,34 @@ export const blogPosts: BlogPost[] = [
       <p>Asking about previous salary is banned. Employers may no longer ask applicants about their current or previous pay — neither directly nor indirectly. The aim is to prevent existing pay inequalities from being carried over from one employment relationship to the next.</p>
 
       <h3>Gender-neutral job titles (Art. 5 para. 3)</h3>
-      <p>Job postings and job titles must be formulated in a gender-neutral manner. What many companies already practice voluntarily will now become a legal requirement.</p>
+      <p>Job postings and job titles must be formulated in a gender-neutral manner. What many companies already practice voluntarily will now become a legal requirement across the EU.</p>
 
       <h3>Transparent pay criteria (Art. 6)</h3>
       <p>Employers must disclose the criteria used to determine pay and career progression. These criteria must be objective and gender-neutral. This applies equally to base salary, variable pay, allowances, and promotion decisions.</p>
 
       <h3>Individual right to information for all employees (Art. 7)</h3>
-      <p>Every employee gains the right to request information about the <strong>average pay level</strong> of comparable colleagues — broken down by gender. This applies regardless of company size. Germany's existing Pay Transparency Act (Entgelttransparenzgesetz) previously limited this right to companies with 200 or more employees. That threshold is gone.</p>
+      <p>Every employee gains the right to request information about the <strong>average pay level</strong> of comparable colleagues — broken down by gender. This applies regardless of company size. In several member states, existing legislation already provided a limited version of this right — for example, Germany's Pay Transparency Act (Entgelttransparenzgesetz) restricted it to companies with 200 or more employees. With the directive, <strong>those thresholds fall across the EU</strong>.</p>
 
       <h3>End of pay secrecy (Art. 7 para. 5)</h3>
       <p>Clauses in employment contracts that prevent employees from discussing their pay become void. Employees will be free to communicate openly about their compensation. Companies that still have such clauses in their contracts should remove them <strong>immediately</strong> — not wait for the next contract revision.</p>
 
-      <h2>The BAG ruling of October 2025: Why waiting is not an option</h2>
+      <h2>Courts aren't waiting: Why the directive is already having an effect</h2>
 
-      <p>Anyone banking on the German implementation leaving room for manoeuvre or being further delayed hasn't reckoned with the German Federal Labour Court (BAG).</p>
+      <p>Employers who assume they can wait for national transposition are making a strategic mistake. Courts in several member states are already incorporating the directive's principles into existing case law.</p>
 
-      <p>On <strong>23 October 2025</strong>, the BAG handed down a ruling (case no. 8 AZR 300/24) that has already changed the rules of the game — fundamentally.</p>
+      <p>The most striking example comes from Germany. On <strong>23 October 2025</strong>, the German Federal Labour Court (Bundesarbeitsgericht, BAG) handed down a landmark ruling (case no. 8 AZR 300/24) that has implications far beyond Germany's borders.</p>
 
       <h3>A single-pair comparison is sufficient</h3>
       <p>The BAG clarified: to establish a presumption of gender-based pay discrimination, a so-called <strong>pair comparison</strong> is sufficient. This means: it is enough if <em>a single</em> colleague of the other gender in the same or equivalent role is paid more to establish a presumption of discrimination.</p>
 
-      <p>No statistics required. No group comparison. A single case is enough.</p>
+      <p>No statistics required. No group comparison. A single case is enough. While this ruling is binding in Germany, it signals the direction of travel for courts across Europe as the directive takes effect.</p>
 
-      <h3>Reversal of the burden of proof already applies today</h3>
-      <p>Once such a presumption is established, the burden of proof shifts to the employer. <em>The employer</em> must demonstrate that the pay difference is not based on gender but on objective, gender-neutral criteria. If they cannot, they are liable — under current law.</p>
+      <h3>Reversal of the burden of proof — a pan-European principle</h3>
+      <p>Under the directive (Art. 18), once a presumption of pay discrimination is established, the burden of proof shifts to the employer. <em>The employer</em> must demonstrate that the pay difference is not based on gender but on objective, gender-neutral criteria. If they cannot, they are liable.</p>
 
-      <p>The Pay Transparency Directive takes this even further: in cases of <strong>transparency violations</strong> — for example, when a company fails to meet its reporting obligations — the reversal of the burden of proof applies <strong>automatically</strong>, without the claimant even having to present circumstantial evidence (Art. 18 of the directive).</p>
+      <p>In cases of <strong>transparency violations</strong> — for example, when a company fails to meet its reporting obligations — the reversal of the burden of proof applies <strong>automatically</strong>, without the claimant even having to present circumstantial evidence. This applies in every EU member state.</p>
 
-      <p>The message is clear: the directive is not a future concern. The courts have already brought key elements into the present.</p>
+      <p>The message is clear: the directive is not a future concern. Courts are already bringing key elements into the present.</p>
 
       <h2>Reporting obligations: Staggered, but urgent</h2>
 
@@ -1137,16 +1138,16 @@ export const blogPosts: BlogPost[] = [
       <p>Critically: <strong>metrics 1 to 5 must be made publicly accessible</strong> — for example on the company website. The era of keeping pay data strictly internal is over.</p>
 
       <h3>2026 data baseline — the clock is ticking now</h3>
-      <p>A detail many overlook: the data baseline for the first report is <strong>calendar year 2026</strong>. This means: data collection must be prepared <em>now</em>. Companies that cannot systematically capture, structure, and break down their pay data by gender will simply be unable to produce the report.</p>
+      <p>A detail many overlook: the data baseline for the first report is <strong>calendar year 2026</strong>. This means: data collection must be prepared <em>now</em>. Companies that cannot systematically capture, structure, and break down their pay data by gender will simply be unable to produce the report — regardless of which member state they operate in.</p>
 
       <p>And if the gender pay gap in an employee category exceeds <strong>5%</strong> and cannot be justified by objective, gender-neutral factors? That's when things get serious.</p>
 
       <h3>Joint pay assessment (Art. 10)</h3>
-      <p>If a gap above 5% cannot be objectively justified and is not remedied within <strong>six months</strong>, the employer is required to conduct a <strong>joint pay assessment</strong> together with the works council (Betriebsrat). This assessment has seven mandatory components and can entail significant organisational and financial consequences.</p>
+      <p>If a gap above 5% cannot be objectively justified and is not remedied within <strong>six months</strong>, the employer is required to conduct a <strong>joint pay assessment</strong> together with employee representatives. The structure of employee representation varies by country — from works councils (Betriebsrat) in Germany and Luxembourg to other forms of employee delegation. This assessment has seven mandatory components and can entail significant organisational and financial consequences.</p>
 
       <h2>What happens when you violate the rules</h2>
 
-      <p>The directive means business. The consequences for non-compliance are substantial — and go far beyond what Germany's existing Pay Transparency Act provided:</p>
+      <p>The directive means business. The consequences for non-compliance are substantial — and apply across all member states:</p>
 
       <h3>Unlimited compensation (Art. 16)</h3>
       <p>There is <strong>no cap</strong> on compensation claims. Employees who were disadvantaged in pay because of their gender are entitled to full redress — including lost pay, bonuses, benefits in kind, and non-material damages.</p>
@@ -1155,17 +1156,32 @@ export const blogPosts: BlogPost[] = [
       <p>If a company has violated its transparency obligations — whether in reporting, salary disclosures in job ads, or the right to information — the burden of proof <strong>automatically reverses</strong>. The employer must then prove that <em>no</em> pay discrimination exists. The claimant doesn't even have to present circumstantial evidence.</p>
 
       <h3>Fines</h3>
-      <p>The directive requires member states to impose <strong>effective, proportionate, and dissuasive penalties</strong>. The specifics are up to national legislators. For reference: in France, fines for violations of pay equity rules can already reach <strong>up to 1% of annual revenue</strong>.</p>
+      <p>The directive requires member states to impose <strong>effective, proportionate, and dissuasive penalties</strong>. The specifics are up to national legislators — and the range is significant. For reference: in France, fines for violations of pay equity rules can already reach <strong>up to 1% of annual revenue</strong>.</p>
 
       <h3>Exclusion from public procurement (Art. 24)</h3>
-      <p>Companies that violate the directive can be <strong>excluded from public procurement</strong>. For businesses that operate in the public sector or regularly participate in tenders, this is an existential risk.</p>
+      <p>Companies that violate the directive can be <strong>excluded from public procurement</strong>. For businesses operating in Luxembourg's financial services sector, in Germany's public infrastructure, or in any member state where government contracts are a revenue stream, this is an existential risk.</p>
 
       <h3>Collective action rights (Art. 15)</h3>
-      <p>Trade unions and employee representatives gain an <strong>independent right to bring legal action</strong>. They can sue on behalf of employees — in certain cases even without their individual authorisation. This significantly increases the likelihood of lawsuits: it's no longer the individual employee who has to navigate the legal process, but an organisation with resources and strategic intent.</p>
+      <p>Trade unions and employee representatives gain an <strong>independent right to bring legal action</strong>. They can sue on behalf of employees — in certain cases even without their individual authorisation. This significantly increases the likelihood of lawsuits across Europe.</p>
+
+      <h2>The European landscape: Where do different countries stand?</h2>
+
+      <p>The gender pay gap varies dramatically across the EU (Eurostat, 2024 data):</p>
+
+      <ul>
+        <li><strong>Luxembourg: -0.8%</strong> — the only EU country where women earn slightly <em>more</em> than men on average. But even here, the directive introduces new obligations that go beyond current legislation.</li>
+        <li><strong>EU average: 11.1%</strong> — a persistent gap that the directive aims to close through binding transparency.</li>
+        <li><strong>Germany: ~16%</strong> — among the worst performers in the EU, driven by structural factors in the private sector.</li>
+        <li><strong>Estonia: 18.8%</strong> — the highest gap in the EU.</li>
+      </ul>
+
+      <p>A key Eurostat finding: the gender pay gap is consistently <strong>higher in the private sector</strong> than in the public sector across almost all member states — precisely because public sector pay is typically determined by transparent wage grids. The directive aims to bring this same transparency to private employers.</p>
+
+      <p>For companies in the <strong>financial services sector</strong> — particularly relevant in Luxembourg — the challenge is even greater: the financial and insurance sector records the highest gender pay gaps in the EU, reaching up to 40% in some countries (Eurostat, 2024).</p>
 
       <h2>Five steps you should take now</h2>
 
-      <p>The transposition deadline is approaching, the courts aren't waiting, and data collection for 2026 is already underway. Here are five measures you should tackle <strong>now</strong>:</p>
+      <p>The transposition deadline is approaching, courts in some member states aren't waiting, and data collection for 2026 is already underway. Here are five measures every European employer should tackle <strong>now</strong>:</p>
 
       <h3>1. Remove pay secrecy clauses</h3>
       <p>Review all existing employment contracts for clauses that prohibit employees from discussing their pay. These clauses will become void once the directive takes effect — and their mere existence can be interpreted as a signal of non-compliance. Remove them proactively.</p>
@@ -1182,11 +1198,11 @@ export const blogPosts: BlogPost[] = [
       <h3>5. Review and update your job grading</h3>
       <p>The directive requires that job evaluations be based on <strong>objective, gender-neutral criteria</strong>. The four key factors are: skills, effort, responsibility, and working conditions. If your existing grading system doesn't reflect these criteria or perpetuates historically grown inequalities, now is the time for an overhaul.</p>
 
-      <h2>82 days is short. But it's enough — if you start now.</h2>
+      <h2>The deadline is close. But it's enough — if you start now.</h2>
 
-      <p>The Pay Transparency Directive is not a bureaucratic nuisance you can sit out. It's a paradigm shift in how compensation works across Europe. Germany may be lagging behind on transposition — with a gender pay gap of <strong>16% (Destatis, 2024)</strong> against an EU average of 13%, the country is among the worst performers. But the directive is coming. The courts are already here. And the market — applicants, employees, trade unions — will demand transparency, whether your company is ready or not.</p>
+      <p>The Pay Transparency Directive is not a bureaucratic nuisance you can sit out. It's a paradigm shift in how compensation works across Europe. Even Luxembourg — the EU's best performer with a gender pay gap of <strong>-0.8% (Eurostat, 2024)</strong> — must comply with the new obligations. For countries like Germany, with a gap of 16%, the impact will be seismic. The courts are already here. And the market — applicants, employees, trade unions — will demand transparency, whether your company is ready or not.</p>
 
-      <p>We help companies bring their pay structures into compliance — <strong>pragmatically, systematically, and confidentially</strong>. No audit theatre, no death-by-PowerPoint. Just a clear analysis of where you stand, what you need to do, and how to get it done.</p>
+      <p>Based in Luxembourg and operating across Europe, we help companies bring their pay structures into compliance — <strong>pragmatically, systematically, and confidentially</strong>. No audit theatre, no death-by-PowerPoint. Just a clear analysis of where you stand, what you need to do, and how to get it done.</p>
 
       <p><strong><a href="/en/equal-pay">Book a free initial consultation</a></strong> — before your employees, trade unions, or courts have the conversation for you.</p>
     `,
@@ -1194,52 +1210,52 @@ export const blogPosts: BlogPost[] = [
       {
         question: "When does the EU Pay Transparency Directive take effect?",
         answer:
-          "EU member states must transpose Directive (EU) 2023/970 into national law by 7 June 2026. From that date, the new obligations apply — regardless of whether the respective member state has completed transposition on time. As of March 2026, Germany has not yet published a draft bill.",
+          "EU member states must transpose Directive (EU) 2023/970 into national law by 7 June 2026. From that date, the new obligations apply — regardless of whether the respective member state has completed transposition on time. As of March 2026, most countries — including Germany and Luxembourg — are still working on their national implementation. Only Sweden has fully transposed the directive.",
       },
       {
         question: "Does the Pay Transparency Directive apply to small businesses?",
         answer:
-          "Yes. The core obligations — salary information in job postings, the ban on salary history questions, gender-neutral job titles, transparent pay criteria, and the individual right to information — apply to all employers, regardless of company size. The periodic reporting obligations kick in on a staggered basis starting at 100 employees.",
+          "Yes. The core obligations — salary information in job postings, the ban on salary history questions, gender-neutral job titles, transparent pay criteria, and the individual right to information — apply to all employers across the EU, regardless of company size. The periodic reporting obligations kick in on a staggered basis starting at 100 employees.",
       },
       {
-        question: "What is the pair comparison under the BAG ruling?",
+        question: "How are courts already applying the directive before transposition?",
         answer:
-          "On 23 October 2025 (case no. 8 AZR 300/24), the German Federal Labour Court (BAG) ruled that a so-called pair comparison is sufficient to establish a presumption of gender-based pay discrimination. This means: it is enough if a single colleague of the other gender in the same or equivalent role is paid more. A statistical group comparison is not required.",
+          "In Germany, the Federal Labour Court (BAG) ruled on 23 October 2025 (case no. 8 AZR 300/24) that a pair comparison with a single colleague of the other gender is sufficient to establish a presumption of pay discrimination. No statistical group comparison is required. This landmark ruling signals the direction of travel for courts across Europe as the directive takes effect.",
       },
       {
         question: "What penalties apply for violations of the Pay Transparency Directive?",
         answer:
-          "The directive provides for unlimited compensation with no cap, automatic reversal of the burden of proof for transparency violations, effective and dissuasive fines (already up to 1% of annual revenue in France), possible exclusion from public procurement, and collective action rights for trade unions.",
+          "The directive provides for unlimited compensation with no cap, automatic reversal of the burden of proof for transparency violations, effective and dissuasive fines (already up to 1% of annual revenue in France), possible exclusion from public procurement, and collective action rights for trade unions. Specific penalty levels will be determined by each member state's national legislation.",
       },
       {
         question: "What is a joint pay assessment?",
         answer:
-          "If reporting reveals a gender pay gap exceeding 5% in an employee category that cannot be justified by objective factors and is not remedied within six months, the employer must conduct a joint pay assessment with the works council (Betriebsrat) under Art. 10 of the directive. This assessment has seven mandatory components and aims to eliminate the inequality.",
+          "If reporting reveals a gender pay gap exceeding 5% in an employee category that cannot be justified by objective factors and is not remedied within six months, the employer must conduct a joint pay assessment with employee representatives under Art. 10 of the directive. The structure of employee representation varies by country — from works councils in Germany and Luxembourg to other forms of employee delegation. This assessment has seven mandatory components and aims to eliminate the inequality.",
       },
       {
         question: "Do salaries have to be listed in job advertisements?",
         answer:
-          "Yes. Under Art. 5 of the directive, applicants must be informed about the salary range or starting pay before the job interview. This can be included directly in the job posting or communicated through other means. Additionally, employers may no longer ask about the applicant's previous salary.",
+          "Yes. Under Art. 5 of the directive, applicants must be informed about the salary range or starting pay before the job interview. This can be included directly in the job posting or communicated through other means. Additionally, employers may no longer ask about the applicant's previous salary. This applies to all employers across the EU.",
       },
       {
         question: "Are employees allowed to discuss their pay?",
         answer:
-          "Yes — and this right is explicitly protected. Art. 7 para. 5 of the directive voids pay secrecy clauses. Employees are free to discuss their compensation. Contractual clauses prohibiting this become unenforceable. Employers should proactively remove such clauses from existing contracts.",
+          "Yes — and this right is explicitly protected across all EU member states. Art. 7 para. 5 of the directive voids pay secrecy clauses. Employees are free to discuss their compensation. Contractual clauses prohibiting this become unenforceable. Employers should proactively remove such clauses from existing contracts.",
       },
       {
-        question: "How large is the gender pay gap in Germany?",
+        question: "How large is the gender pay gap across the EU?",
         answer:
-          "The unadjusted gender pay gap in Germany stands at 16% (Destatis, 2024). This makes Germany one of the worst performers in the EU, where the average is approximately 13%. The Pay Transparency Directive aims to close this gap through binding transparency and reporting obligations.",
+          "The unadjusted gender pay gap in the EU averages 11.1% (Eurostat, 2024). The range is dramatic: Luxembourg has the lowest gap at -0.8% (the only country where women earn slightly more), while Estonia has the highest at 18.8%. Germany, at approximately 16%, is among the worst performers. The directive aims to close these gaps through binding transparency and reporting obligations.",
       },
       {
         question: "What does reversal of the burden of proof mean in pay discrimination cases?",
         answer:
-          "Under Art. 18 of the directive, the employer must prove that no pay discrimination exists once a presumption has been established. In cases of transparency violations, the reversal applies automatically — the claimant doesn't even have to present circumstantial evidence. The BAG already applies this principle through the pair comparison approach.",
+          "Under Art. 18 of the directive, the employer must prove that no pay discrimination exists once a presumption has been established. In cases of transparency violations, the reversal applies automatically — the claimant doesn't even have to present circumstantial evidence. This principle applies in all EU member states. In Germany, the Federal Labour Court already applies this through the pair comparison approach.",
       },
       {
         question: "What metrics must companies report on pay equity?",
         answer:
-          "The directive requires seven metrics: the mean gender pay gap, the median gap, the gap in variable pay, distribution by pay quartile, and the gender pay gap by employee category for base salary, variable pay, and total compensation. The first five metrics must be made publicly accessible — for example on the company website.",
+          "The directive requires seven metrics: the mean gender pay gap, the median gap, the gap in variable pay, distribution by pay quartile, and the gender pay gap by employee category for base salary, variable pay, and total compensation. The first five metrics must be made publicly accessible — for example on the company website. These requirements are identical across all EU member states.",
       },
     ],
   },
