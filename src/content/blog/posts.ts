@@ -1685,17 +1685,17 @@ export const blogPosts: BlogPost[] = [
     slug: "vergutungssysteme-neu-denken",
     title: "Why Equal Pay Compliance Isn't Enough: Rethinking Compensation Systems",
     description:
-      "Equal pay is more than ticking a box. Why smart companies are modernising their compensation systems — and turning it into a competitive edge.",
+      "Equal pay is more than ticking a box. Why smart companies across Europe are modernising their compensation systems — and turning it into a competitive edge.",
     date: "2026-03-17",
     author: "Jens Druckenmüller",
     keywords: [
       "Compensation System Modernisation",
-      "Equal Pay Strategy",
-      "Pay Equity Companies",
-      "Daimler Equal Pay Ruling",
-      "BAG Pair Comparison Employers",
-      "Salary Transparency Employer Branding",
+      "Equal Pay Strategy Europe",
+      "Pay Equity Companies EU",
+      "Daimler Equal Pay Case Study",
+      "Pay Transparency Employer Branding",
       "Gender-Neutral Compensation Structure",
+      "Luxembourg Pay Equity",
     ],
     lang: "en",
     content: `
@@ -1705,33 +1705,35 @@ export const blogPosts: BlogPost[] = [
 
       <p>Because one thing the courts have already made clear: <strong>opaque compensation systems are legally vulnerable.</strong> And the consequences go far beyond fines.</p>
 
-      <h2>The Daimler case: A wake-up call for every company</h2>
+      <h2>Case study — The Daimler ruling: A wake-up call for every European employer</h2>
 
-      <p>What happens when a senior executive discovers after 15 years that she earns significantly less than her male colleagues? She sues. And the German Federal Labour Court (BAG) rules in her favour.</p>
+      <p>The most powerful example of what happens when compensation systems fail the transparency test comes from Germany — but the lessons apply across the EU.</p>
 
-      <p>The case of a department head at Daimler Trucks is the most powerful signal yet to German employers. The woman had spent 15 years at the third management level of the company. After returning from parental leave, she discovered she was paid significantly less than male colleagues in comparable positions. She knew the specific salary of one colleague — and sued for the difference.</p>
+      <p>What happens when a senior executive discovers after 15 years that she earns significantly less than her male colleagues? She sues. And Germany's highest labour court rules in her favour.</p>
+
+      <p>The case of a department head at Daimler Trucks sent shockwaves through European boardrooms. The woman had spent 15 years at the third management level of the company. After returning from parental leave, she discovered she was paid significantly less than male colleagues in comparable positions. She knew the specific salary of one colleague — and sued for the difference.</p>
 
       <h3>The state court: Only the median</h3>
 
-      <p>The Stuttgart Higher Labour Court (LAG) initially awarded her compensation of approximately <strong>€130,000 for four years</strong> — based on the median salary of male department heads. A claim for the salary of the highest-paid colleague? Denied. The reasoning: the principle of pay equity is not designed to raise below-average salaries to the level of above-average ones.</p>
+      <p>The Stuttgart Higher Labour Court initially awarded her compensation of approximately <strong>€130,000 for four years</strong> — based on the median salary of male department heads. A claim for the salary of the highest-paid colleague? Denied. The reasoning: the principle of pay equity is not designed to raise below-average salaries to the level of above-average ones.</p>
 
-      <h3>The BAG: Pair comparison is permissible</h3>
+      <h3>Germany's highest court: Pair comparison is permissible</h3>
 
-      <p>The Federal Labour Court saw it differently. On <strong>23 October 2025 (case no. 8 AZR 300/24)</strong>, the 8th Senate clarified: to establish a presumption of gender-based pay discrimination, a so-called <strong>pair comparison</strong> is sufficient. It is enough if <em>a single</em> colleague of the other gender in the same or equivalent position is paid more. The size of the comparison group and the level of median salaries are irrelevant for triggering the presumption.</p>
+      <p>The Federal Labour Court (BAG) saw it differently. On <strong>23 October 2025 (case no. 8 AZR 300/24)</strong>, the 8th Senate clarified: to establish a presumption of gender-based pay discrimination, a so-called <strong>pair comparison</strong> is sufficient. It is enough if <em>a single</em> colleague of the other gender in the same or equivalent position is paid more. The size of the comparison group and the level of median salaries are irrelevant for triggering the presumption.</p>
 
       <p>GFF attorney Sarah Lincoln put it succinctly during the hearing: <strong>"Women don't have to settle for mediocrity."</strong> If a woman identifies a male colleague performing the same or equivalent work who is paid more, she can compare herself with him. The employer must then prove why the unequal treatment is objectively justified.</p>
 
       <h3>The scale: €420,000 — and it's not over</h3>
 
-      <p>The claimant sought a total of <strong>€420,000</strong>. The BAG referred the case back to the state court — giving Daimler another chance to present objective reasons for the difference. But the direction is clear: if the employer cannot rebut the presumption, the woman is entitled to the same salary as the colleague she compared herself with.</p>
+      <p>The claimant sought a total of <strong>€420,000</strong>. The court referred the case back to the state level — giving Daimler another chance to present objective reasons for the difference. But the direction is clear: if the employer cannot rebut the presumption, the woman is entitled to the same salary as the colleague she compared herself with.</p>
 
-      <p>Particularly concerning: according to the Society for Civil Liberties (GFF), <strong>90% of women at Daimler earn below the male median</strong>. Six additional claimants have already joined the action. The Daimler case is not an isolated incident — it's the beginning of a wave.</p>
+      <p>Particularly concerning: according to the Society for Civil Liberties (GFF), <strong>90% of women at Daimler earn below the male median</strong>. Six additional claimants have already joined the action. The Daimler case is not an isolated incident — it's the beginning of a wave that will reach every EU member state once the directive takes effect.</p>
 
-      <h3>What CEOs must learn from this</h3>
+      <h3>Why this matters for every European employer</h3>
 
-      <p>The presiding judge Martina Ahrendt criticised during the hearing that the salary determination process for Daimler Trucks executives was <strong>"not very transparent"</strong> and did not follow <strong>fixed criteria</strong>. The BAG described the defendant's pay system simply as <strong>"opaque"</strong>.</p>
+      <p>The presiding judge criticised during the hearing that the salary determination process for Daimler Trucks executives was <strong>"not very transparent"</strong> and did not follow <strong>fixed criteria</strong>. The court described the defendant's pay system simply as <strong>"opaque"</strong>.</p>
 
-      <p>That's the central message: an opaque compensation system is not just unfair — it is <strong>indefensible</strong>. In court and in the public eye.</p>
+      <p>That's the central message — and it applies to every employer in the EU, not just in Germany: an opaque compensation system is not just unfair — it is <strong>indefensible</strong>. In court and in the public eye. With the EU directive, employees across all 27 member states will have the tools to challenge exactly this kind of opacity.</p>
 
       <h2>What counts as justification — and what doesn't</h2>
 
@@ -1743,11 +1745,11 @@ export const blogPosts: BlogPost[] = [
 
       <p><strong>Relevant professional experience and qualifications:</strong> Additional expertise or specialised experience can justify higher pay — but only if it is <strong>specifically relevant to the current role</strong> and genuinely impacts work outcomes. Someone who has been at the company for 20 years but performs the same tasks as a colleague with 5 years of experience cannot rely on seniority alone. The question is always: does the experience make a measurable difference in today's role?</p>
 
-      <p><strong>Market and location factors:</strong> If a company pays all employees at its Frankfurt office a cost-of-living allowance, that's an objective criterion. But if a single candidate gets €15,000 more "because of the market" than a female colleague in the same role, that's thin. Location and market-based differentiations must follow <strong>company-wide rules</strong> that are transparent and documented for all — not applied on a case-by-case basis.</p>
+      <p><strong>Market and location factors:</strong> If a company pays all employees at its Luxembourg or London office a cost-of-living allowance, that's an objective criterion. But if a single candidate gets €15,000 more "because of the market" than a female colleague in the same role, that's thin. Location and market-based differentiations must follow <strong>company-wide rules</strong> that are transparent and documented for all — not applied on a case-by-case basis.</p>
 
       <h3>❌ Impermissible justifications</h3>
 
-      <p><strong>Negotiation skills:</strong> "He just negotiated better" — that may sound plausible, but since the BAG's 2023 ruling, it's off the table as justification. The reason: negotiation strength is not an objective qualification. It depends on socialisation, confidence, and power dynamics — all factors that systematically correlate with gender. The directive specifically aims to break this mechanism.</p>
+      <p><strong>Negotiation skills:</strong> "He just negotiated better" — that may sound plausible, but under the directive and recent case law (including a landmark ruling by Germany's Federal Labour Court), it's off the table as justification. The reason: negotiation strength is not an objective qualification. It depends on socialisation, confidence, and power dynamics — all factors that systematically correlate with gender. The directive specifically aims to break this mechanism.</p>
 
       <p><strong>Personal circumstances:</strong> Whether someone has children, is married, or pays alimony has no place in salary decisions. Compensation must be based on the role, not the employee's personal situation. Exceptions apply only to objective, gender-neutral supplementary benefits available to all equally.</p>
 
@@ -1783,7 +1785,7 @@ export const blogPosts: BlogPost[] = [
 
       <p>Crucially — and neglected by many companies: <strong>Art. 4 para. 4 explicitly requires that soft skills be appropriately taken into account.</strong> Communication ability, empathy, team leadership, conflict resolution — these competencies must not be systematically underweighted in role evaluations. In practice, this is exactly what happens: roles with physical demands are often valued higher than those with psychological or emotional strain. The result is a structural undervaluation of roles disproportionately held by women.</p>
 
-      <p>A compensation system that follows these criteria is not just compliant — it is <strong>fair, explainable, and defensible</strong>. Exactly what Daimler lacked.</p>
+      <p>A compensation system that follows these criteria is not just compliant — it is <strong>fair, explainable, and defensible</strong>. Exactly what Daimler lacked — and what every European employer now needs.</p>
 
       <h2>The business case: Why modernisation pays off</h2>
 
@@ -1807,7 +1809,7 @@ export const blogPosts: BlogPost[] = [
 
       <h3>4. Reporting goes public: Every company becomes comparable</h3>
 
-      <p>Metrics 1 to 5 of the reporting obligation must be <strong>made publicly accessible</strong> — on the company website or through equivalent means. This means: applicants see your gender pay gap before they apply. Employees compare your company with competitors. Journalists, trade unions, and NGOs create rankings.</p>
+      <p>Metrics 1 to 5 of the reporting obligation must be <strong>made publicly accessible</strong> — on the company website or through equivalent means. This means: applicants see your gender pay gap before they apply. Employees compare your company with competitors. Journalists, trade unions, and NGOs create rankings. In Luxembourg's financial sector — where gender pay gaps are among the highest in any EU industry — this visibility will be particularly impactful.</p>
 
       <p>Companies with a high, unexplained gap won't just have a compliance problem — they'll have a <strong>reputation problem</strong>. Those who proactively modernised and can show strong numbers will win in the comparison.</p>
 
@@ -1819,20 +1821,20 @@ export const blogPosts: BlogPost[] = [
 
       <p><strong>Compliance is the beginning. Transformation is the goal.</strong></p>
 
-      <p>We help companies make their compensation systems not just directive-compliant but future-proof — as a strategic advantage, not as bureaucratic overhead. Pragmatic, structured, and confidential.</p>
+      <p>Based in Luxembourg and advising companies across Europe, we help organisations make their compensation systems not just directive-compliant but future-proof — as a strategic advantage, not as bureaucratic overhead. Pragmatic, structured, and confidential.</p>
 
       <p><strong><a href="/en/equal-pay">Book a free initial consultation →</a></strong></p>
     `,
     faqItems: [
       {
-        question: "What does the Daimler ruling mean for my company?",
+        question: "What does the Daimler ruling mean for employers across Europe?",
         answer:
-          "The BAG ruling of 23 October 2025 (case no. 8 AZR 300/24) in the Daimler case has fundamental implications for all employers: a pair comparison with a single higher-paid colleague of the other gender is sufficient to establish a presumption of pay discrimination. The employer must then prove the difference is objectively justified. The BAG also criticised Daimler's pay system as opaque. Companies without transparent compensation criteria face lawsuits with no line of defence.",
+          "The German Federal Labour Court ruling of 23 October 2025 (case no. 8 AZR 300/24) in the Daimler case has implications for all European employers: a pair comparison with a single higher-paid colleague of the other gender is sufficient to establish a presumption of pay discrimination. The employer must then prove the difference is objectively justified. The court also criticised Daimler's pay system as opaque. With the EU directive taking effect across all member states, companies without transparent compensation criteria will face similar challenges everywhere.",
       },
       {
         question: "Is negotiation skill a valid reason for pay differences?",
         answer:
-          "No. The BAG ruled in 2023 that superior negotiation skill does not constitute an objective justification for gender-based pay differences. The EU Pay Transparency Directive specifically aims to prevent pay from depending on individual negotiation strength, as this demonstrably correlates with gender, socialisation, and power dynamics. Only objective, gender-neutral criteria such as measurable performance, relevant professional experience, or demonstrable qualifications are accepted.",
+          "No. Under the EU Pay Transparency Directive and recent case law — including a landmark ruling by Germany's Federal Labour Court — superior negotiation skill does not constitute an objective justification for gender-based pay differences. The directive specifically aims to prevent pay from depending on individual negotiation strength, as this demonstrably correlates with gender, socialisation, and power dynamics. Only objective, gender-neutral criteria such as measurable performance, relevant professional experience, or demonstrable qualifications are accepted.",
       },
       {
         question: "What are objective criteria for compensation?",
@@ -1845,9 +1847,9 @@ export const blogPosts: BlogPost[] = [
           "Yes — each individual pay component must be non-discriminatory on its own. It is not sufficient to offset differences in base salary through higher bonuses or other supplementary benefits. Base salary, variable pay, allowances, special payments, benefits in kind, and occupational pension must each be based on objective and gender-neutral criteria. Cross-subsidisation between pay components is not permissible.",
       },
       {
-        question: "What does the BAG pair comparison ruling mean?",
+        question: "What does the pair comparison principle mean for employers?",
         answer:
-          "The BAG ruled on 23 October 2025 that a pair comparison with a single comparator of the other gender is sufficient to establish a presumption of gender-based pay disadvantage. No statistical group comparison or balance of probabilities is required. If the employer cannot rebut the presumption, they must pay the same as the colleague used for comparison — not just the difference to the median.",
+          "Germany's Federal Labour Court ruled on 23 October 2025 that a pair comparison with a single comparator of the other gender is sufficient to establish a presumption of gender-based pay disadvantage. No statistical group comparison or balance of probabilities is required. If the employer cannot rebut the presumption, they must pay the same as the colleague used for comparison — not just the difference to the median. As the EU directive takes effect, courts across member states are expected to apply similar principles.",
       },
       {
         question: "How will the gender pay gap be made public?",
@@ -1862,7 +1864,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "What happens if our compensation system is deemed opaque?",
         answer:
-          "An opaque compensation system is virtually indefensible in court. In the Daimler case, the BAG explicitly criticised that salary decisions for executives did not follow fixed criteria and were opaque. Without documented, objective compensation criteria, the employer effectively cannot rebut a presumption of pay discrimination. Additionally: for violations of transparency obligations, the reversal of the burden of proof under Art. 18 of the directive applies automatically — without the claimant needing to present evidence.",
+          "An opaque compensation system is virtually indefensible in court. In the Daimler case, Germany's Federal Labour Court explicitly criticised that salary decisions for executives did not follow fixed criteria and were opaque. Under Art. 18 of the EU directive — which applies across all member states — the reversal of the burden of proof for transparency violations applies automatically, without the claimant needing to present evidence. Without documented, objective compensation criteria, an employer effectively cannot rebut a presumption of pay discrimination.",
       },
     ],
   },
