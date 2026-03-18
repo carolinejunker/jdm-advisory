@@ -1870,18 +1870,19 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "entgelttransparenz-kmu",
-    title: "Pay Transparency for SMEs: Small Businesses Must Act Too",
+    title: "Pay Transparency for SMEs: Small Businesses Across Europe Must Act Too",
     description:
-      "The Pay Transparency Directive applies to SMEs too. What small businesses must do from June 2026 — and how to prepare pragmatically.",
+      "The EU Pay Transparency Directive applies to SMEs too. What small businesses across Europe must do from June 2026 — and how to prepare pragmatically.",
     date: "2026-03-17",
     author: "Jens Druckenmüller",
     keywords: [
-      "Pay Transparency SME",
-      "Equal Pay Small Business",
+      "Pay Transparency SME Europe",
+      "Equal Pay Small Business EU",
       "Salary Transparency Mid-Market",
       "Pay Transparency Directive Small Companies",
       "Employee Right to Information SME",
-      "Wage Transparency Employer Obligations",
+      "Wage Transparency Employer Obligations EU",
+      "Luxembourg SME Pay Compliance",
     ],
     lang: "en",
     content: `
@@ -1891,7 +1892,7 @@ export const blogPosts: BlogPost[] = [
 
       <p>The EU Pay Transparency Directive (EU) 2023/970, which must be transposed into national law by 7 June 2026, does differentiate by company size — but only for <strong>reporting obligations</strong>. The directive's core obligations apply to all employers. Regardless of whether you have 5, 50, or 5,000 employees.</p>
 
-      <p>And SMEs are more vulnerable than they think. In small teams, pay differences surface faster. Without a works council, there's no buffer. And the automatic reversal of the burden of proof for transparency violations applies — even in a 10-person company.</p>
+      <p>And SMEs are more vulnerable than they think. In small teams, pay differences surface faster. Without formal employee representation, there's no buffer. And the automatic reversal of the burden of proof for transparency violations applies — even in a 10-person company.</p>
 
       <p>This article clarifies: which obligations apply to SMEs? Why are small companies particularly affected? And how do you implement the requirements pragmatically — without unnecessary red tape?</p>
 
@@ -1936,13 +1937,13 @@ export const blogPosts: BlogPost[] = [
 
       <p>Many SMEs rely on contractual secrecy clauses to prevent pay discussions. <strong>From 7 June 2026, these clauses are void</strong> (Art. 7 para. 5). Employees may freely discuss their pay. This isn't an optional concession — it's a protected right. Clauses that restrict it become unenforceable. Full stop.</p>
 
-      <h3>3. No works council as a buffer</h3>
+      <h3>3. No formal employee representation as a buffer</h3>
 
-      <p>In large companies, much goes through the works council (Betriebsrat). Complaints are channelled, conflicts mediated, information filtered. Most SMEs don't have a works council. That means: if an employee notices a pay disparity and feels treated unfairly, the <strong>next step is a lawsuit</strong> — not a works council meeting.</p>
+      <p>In large companies, much goes through employee representatives — works councils in Germany, staff delegations in Luxembourg, or equivalent bodies elsewhere. Complaints are channelled, conflicts mediated, information filtered. Most SMEs don't have these structures (though notably in Luxembourg, staff delegations are mandatory from just 15 employees). Without formal representation, if an employee notices a pay disparity and feels treated unfairly, the <strong>next step is a lawsuit</strong> — not an internal mediation.</p>
 
       <h3>4. The pair comparison works in small businesses too</h3>
 
-      <p>The German Federal Labour Court (BAG) clarified on 23 October 2025 (case no. 8 AZR 300/24) that a <strong>pair comparison with a single colleague</strong> of the other gender is sufficient to establish a presumption of pay discrimination. No statistics, no group comparison. In a 20-person company, it's enough if a female employee finds a male colleague who performs the same or equivalent work and earns more. The burden of proof then shifts to the employer.</p>
+      <p>Courts are already applying the directive's principles. In Germany, the Federal Labour Court clarified on 23 October 2025 (case no. 8 AZR 300/24) that a <strong>pair comparison with a single colleague</strong> of the other gender is sufficient to establish a presumption of pay discrimination. No statistics, no group comparison. In a 20-person company, it's enough if a female employee finds a male colleague who performs the same or equivalent work and earns more. The burden of proof then shifts to the employer. As the directive takes effect across the EU, this principle will apply in every member state.</p>
 
       <h3>5. Automatic reversal of the burden of proof</h3>
 
@@ -1954,7 +1955,7 @@ export const blogPosts: BlogPost[] = [
 
       <h3>Salary information in job postings (Art. 5)</h3>
 
-      <p>Applicants must be informed about the salary range or starting pay <strong>before the job interview</strong>. This can be included in the job posting itself or communicated through other means. The key point: the information must be available <em>before</em> salary negotiations begin. This also applies to postings on platforms like StepStone, Indeed, or LinkedIn.</p>
+      <p>Applicants must be informed about the salary range or starting pay <strong>before the job interview</strong>. This can be included in the job posting itself or communicated through other means. The key point: the information must be available <em>before</em> salary negotiations begin. This also applies to postings on platforms like Indeed, LinkedIn, or national job boards.</p>
 
       <h3>Ban on salary history questions (Art. 5 para. 2)</h3>
 
@@ -1966,11 +1967,11 @@ export const blogPosts: BlogPost[] = [
 
       <h3>Transparent pay criteria (Art. 6)</h3>
 
-      <p>Employers must disclose the criteria used to determine pay and career progression. These criteria must be <strong>objective and gender-neutral</strong>. For SMEs with fewer than 50 employees, the directive includes a potential easement: member states <em>may</em> exempt them from the obligation to also disclose criteria for pay progression (promotions, grade increases). Whether Germany will use this option remains to be seen.</p>
+      <p>Employers must disclose the criteria used to determine pay and career progression. These criteria must be <strong>objective and gender-neutral</strong>. For SMEs with fewer than 50 employees, the directive includes a potential easement: member states <em>may</em> exempt them from the obligation to also disclose criteria for pay progression (promotions, grade increases). How each country will implement this option remains to be seen.</p>
 
       <h3>Individual right to information (Art. 7)</h3>
 
-      <p><strong>Every employee</strong> — in every company, regardless of size — has the right to request information about the average pay level of comparable colleagues, broken down by gender. The employer must respond within <strong>two months</strong>. Germany's existing Pay Transparency Act (Entgelttransparenzgesetz) previously limited this right to companies with 200+ employees. <strong>That threshold is gone.</strong></p>
+      <p><strong>Every employee</strong> — in every company, regardless of size — has the right to request information about the average pay level of comparable colleagues, broken down by gender. The employer must respond within <strong>two months</strong>. In several member states, existing legislation limited this right to larger companies — for example, Germany's Pay Transparency Act restricted it to companies with 200+ employees. <strong>Those thresholds fall with the EU directive.</strong></p>
 
       <h3>Removal of all pay secrecy clauses (Art. 7 para. 5)</h3>
 
@@ -2012,9 +2013,9 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Government support is coming — but waiting is not an option</h2>
 
-      <p>Art. 11 of the directive obliges member states to provide <strong>technical support and training for SMEs</strong> to help them comply. The expert commission recommends free tools and interfaces with common software such as DATEV or AGENDA.</p>
+      <p>Art. 11 of the directive obliges member states to provide <strong>technical support and training for SMEs</strong> to help them comply.</p>
 
-      <p>In Luxembourg, the <strong>LOGIB tool</strong> is already available — a free analysis instrument that enables companies to calculate their gender pay gap. Similar tools are expected in Germany as well.</p>
+      <p>Some countries are already ahead: in <strong>Luxembourg</strong>, the LOGIB tool is available as a free, state-provided analysis instrument that enables companies to calculate their gender pay gap. Luxembourg also benefits from existing infrastructure — employee delegations with semi-annual reporting from just 15 employees, and the ITM (Inspection du Travail et des Mines) as supervisory authority. In Germany, the expert commission recommends free tools and interfaces with common software such as DATEV or AGENDA. Other member states are expected to follow suit.</p>
 
       <p><strong>But:</strong> the core obligations apply from 7 June 2026 — <strong>with or without support tools</strong>. Secrecy clauses must be removed, job postings updated, information processes established. Waiting for the government to provide a tool is not a strategy — it's a risk.</p>
 
@@ -2022,7 +2023,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2>The advantage of small structures</h2>
 
-      <p>There's a silver lining too: SMEs are often <strong>faster and more agile</strong> than large corporations. Where a DAX-listed company needs months to roll out a global compensation policy, a mid-sized business can adapt its structures in weeks.</p>
+      <p>There's a silver lining too: SMEs are often <strong>faster and more agile</strong> than large corporations. Where a multinational needs months to roll out a global compensation policy, a mid-sized business can adapt its structures in weeks.</p>
 
       <p>A simple, transparent compensation system is not a disadvantage for an SME — it's a <strong>competitive advantage</strong>. In recruiting, it signals fairness and professionalism. For existing employees, it builds trust. And in a lawsuit, it provides a documented foundation that no court can ignore.</p>
 
@@ -2034,7 +2035,7 @@ export const blogPosts: BlogPost[] = [
 
       <p>The good news: with the right steps, implementation for SMEs is manageable. No mammoth project, no six-figure consulting budget. Just pragmatic measures that protect your company — and position it as a fair employer.</p>
 
-      <p>We support small and medium-sized enterprises with the pragmatic implementation of the Pay Transparency Directive — from contract review through compensation structure to the information request process. Structured, efficient, and tailored to SME needs.</p>
+      <p>Based in Luxembourg and advising SMEs across Europe, we support small and medium-sized enterprises with the pragmatic implementation of the Pay Transparency Directive — from contract review through compensation structure to the information request process. Structured, efficient, and tailored to SME needs.</p>
 
       <p><strong><a href="/en/equal-pay">Book a free initial consultation →</a></strong></p>
     `,
@@ -2057,7 +2058,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Can employees in small companies request pay information?",
         answer:
-          "Yes. Art. 7 of the directive gives every employee — regardless of company size — the right to request information about the average pay level of comparable colleagues, broken down by gender. The employer must respond within two months. Germany's existing Pay Transparency Act previously limited this right to companies with 200+ employees — that threshold falls with the EU directive's transposition.",
+          "Yes. Art. 7 of the directive gives every employee — regardless of company size — the right to request information about the average pay level of comparable colleagues, broken down by gender. The employer must respond within two months. In several member states, existing legislation limited this right to larger companies (e.g. 200+ employees in Germany). Those thresholds fall with the EU directive's transposition.",
       },
       {
         question: "Can employment contracts still contain pay secrecy clauses?",
@@ -2067,12 +2068,12 @@ export const blogPosts: BlogPost[] = [
       {
         question: "What does non-compliance cost small businesses?",
         answer:
-          "The consequences are significant: the directive provides for unlimited compensation with no cap, automatic reversal of the burden of proof for transparency violations, and effective, dissuasive fines. Additionally, the BAG has established with its pair comparison ruling (case no. 8 AZR 300/24) that a single higher-paid colleague of the other gender is sufficient to establish a presumption of discrimination. In a lawsuit, the employer must then prove no discrimination exists — even in a small business.",
+          "The consequences are significant: the directive provides for unlimited compensation with no cap, automatic reversal of the burden of proof for transparency violations, and effective, dissuasive fines. Courts are already applying the directive's principles — in Germany, for instance, the Federal Labour Court has established that a single higher-paid colleague of the other gender is sufficient to establish a presumption of discrimination (case no. 8 AZR 300/24). In a lawsuit, the employer must then prove no discrimination exists — even in a small business.",
       },
       {
         question: "Is there support available for SMEs with implementation?",
         answer:
-          "Yes. Art. 11 of the directive obliges member states to provide technical support and training for SMEs. In Luxembourg, the free LOGIB tool is already available. For Germany, the expert commission recommends free analysis tools and interfaces with common software such as DATEV or AGENDA. However: the core obligations apply from 7 June 2026 — with or without government support tools. Waiting is not an option.",
+          "Yes. Art. 11 of the directive obliges member states to provide technical support and training for SMEs. Luxembourg is already ahead with the free LOGIB analysis tool, existing employee delegation structures from 15 employees, and the ITM as supervisory authority. In Germany, the expert commission recommends free tools and interfaces with common software such as DATEV or AGENDA. Other member states are expected to develop similar support. However: the core obligations apply from 7 June 2026 — with or without government support tools. Waiting is not an option.",
       },
       {
         question: "Do I need to act as a freelancer with employees?",
