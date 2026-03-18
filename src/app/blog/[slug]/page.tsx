@@ -109,6 +109,16 @@ export default async function BlogPostPage({ params }: PageProps) {
             </section>
           )}
 
+          {/* Disclaimer */}
+          <div className="mt-12 p-4 border border-navy-lighter/50 rounded-sm">
+            <p className="text-slate/40 text-xs leading-relaxed">
+              <strong className="text-slate/50">Hinweis:</strong> Die Inhalte dieses Artikels dienen
+              der allgemeinen Information und stellen keine Rechtsberatung dar. Für
+              eine verbindliche Einschätzung Ihrer individuellen Situation wenden Sie
+              sich bitte an einen Rechtsanwalt.
+            </p>
+          </div>
+
           {/* Author */}
           <BlogAuthorBox lang="de" />
 
