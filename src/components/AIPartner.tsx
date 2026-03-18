@@ -49,8 +49,8 @@ export default function AIPartner() {
               <p>
                 Warum wir das offen zeigen? Weil Transparenz kein
                 Risiko ist — sondern unser Prinzip. Wer seinen Kunden
-                Entgelttransparenz empfiehlt, sollte bei der eigenen
-                Arbeitsweise nicht weniger ehrlich sein.
+                Transparenz und Qualität verspricht, sollte bei der
+                eigenen Arbeitsweise nicht weniger ehrlich sein.
               </p>
               <p className="text-cream font-medium">
                 20 Jahre Boardroom-Erfahrung. Modernste KI-Technologie.

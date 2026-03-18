@@ -47,9 +47,9 @@ export default function AIPartnerEn() {
               </p>
               <p>
                 Why do we show this openly? Because transparency is
-                not a risk — it&apos;s our principle. If we advise
-                our clients on pay transparency, we should be no less
-                honest about how we work.
+                not a risk — it&apos;s our principle. If we promise
+                our clients transparency and quality, we should be no
+                less honest about how we work.
               </p>
               <p className="text-cream font-medium">
                 20 years of boardroom experience. Cutting-edge AI technology.
