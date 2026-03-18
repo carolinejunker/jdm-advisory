@@ -560,10 +560,10 @@ export default function EqualPayPage() {
             <div className="text-center">
               <p className="text-slate text-sm mb-2">Oder direkt per E-Mail:</p>
               <a
-                href="mailto:jens@jdm-advisory.com?subject=Equal%20Pay%20Erstgespr%C3%A4ch"
+                href="mailto:jens.druckenmueller@jdm-advisory.com?subject=Equal%20Pay%20Erstgespr%C3%A4ch"
                 className="inline-block text-gold hover:text-gold-light transition-colors text-sm uppercase tracking-widest"
               >
-                jens@jdm-advisory.com
+                jens.druckenmueller@jdm-advisory.com
               </a>
             </div>
           </div>

@@ -34,7 +34,7 @@ export default function DatenschutzPage() {
               <div className="mt-2 space-y-1">
                 <p className="text-cream">Jens Druckenmüller</p>
                 <p>1, enner Fuuss, L-5441 Remerschen, Luxemburg</p>
-                <p>E-Mail: <a href="mailto:jens@jdm-advisory.com" className="text-gold hover:text-gold-light transition-colors">jens@jdm-advisory.com</a></p>
+                <p>E-Mail: <a href="mailto:jens.druckenmueller@jdm-advisory.com" className="text-gold hover:text-gold-light transition-colors">jens.druckenmueller@jdm-advisory.com</a></p>
                 <p>Telefon: <a href="tel:+352621751959" className="text-gold hover:text-gold-light transition-colors">+352 621 751 959</a></p>
               </div>
             </section>
@@ -177,7 +177,7 @@ export default function DatenschutzPage() {
               </ul>
               <p className="mt-4">
                 Zur Ausübung Ihrer Rechte wenden Sie sich an:{" "}
-                <a href="mailto:jens@jdm-advisory.com" className="text-gold hover:text-gold-light transition-colors">jens@jdm-advisory.com</a>
+                <a href="mailto:jens.druckenmueller@jdm-advisory.com" className="text-gold hover:text-gold-light transition-colors">jens.druckenmueller@jdm-advisory.com</a>
               </p>
             </section>
 

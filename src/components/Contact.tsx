@@ -32,10 +32,10 @@ export default function Contact() {
         {/* Direct contact */}
         <div className="text-center">
           <a
-            href="mailto:jens@jdm-advisory.com"
+            href="mailto:jens.druckenmueller@jdm-advisory.com"
             className="inline-block text-gold hover:text-gold-light transition-colors text-sm uppercase tracking-widest"
           >
-            jens@jdm-advisory.com
+            jens.druckenmueller@jdm-advisory.com
           </a>
 
           <div className="mt-8 flex items-center justify-center gap-8">

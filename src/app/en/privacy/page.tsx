@@ -33,7 +33,7 @@ export default function PrivacyPage() {
               <div className="mt-2 space-y-1">
                 <p className="text-cream">Jens Druckenmüller</p>
                 <p>1, enner Fuuss, L-5441 Remerschen, Luxembourg</p>
-                <p>Email: <a href="mailto:jens@jdm-advisory.com" className="text-gold hover:text-gold-light transition-colors">jens@jdm-advisory.com</a></p>
+                <p>Email: <a href="mailto:jens.druckenmueller@jdm-advisory.com" className="text-gold hover:text-gold-light transition-colors">jens.druckenmueller@jdm-advisory.com</a></p>
                 <p>Phone: <a href="tel:+352621751959" className="text-gold hover:text-gold-light transition-colors">+352 621 751 959</a></p>
               </div>
             </section>
@@ -161,7 +161,7 @@ export default function PrivacyPage() {
               </ul>
               <p className="mt-4">
                 To exercise your rights, contact:{" "}
-                <a href="mailto:jens@jdm-advisory.com" className="text-gold hover:text-gold-light transition-colors">jens@jdm-advisory.com</a>
+                <a href="mailto:jens.druckenmueller@jdm-advisory.com" className="text-gold hover:text-gold-light transition-colors">jens.druckenmueller@jdm-advisory.com</a>
               </p>
             </section>
 

@@ -39,7 +39,7 @@ export default function ImprintPage() {
             <section>
               <h2 className="text-cream font-medium mb-3">Contact</h2>
               <p>Phone: <a href="tel:+352621751959" className="text-gold hover:text-gold-light transition-colors">+352 621 751 959</a></p>
-              <p>Email: <a href="mailto:jens@jdm-advisory.com" className="text-gold hover:text-gold-light transition-colors">jens@jdm-advisory.com</a></p>
+              <p>Email: <a href="mailto:jens.druckenmueller@jdm-advisory.com" className="text-gold hover:text-gold-light transition-colors">jens.druckenmueller@jdm-advisory.com</a></p>
             </section>
 
             <section>
