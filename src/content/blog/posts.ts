@@ -1263,19 +1263,20 @@ export const blogPosts: BlogPost[] = [
     slug: "gap-assessment-gehaltsunterschiede-aufdecken",
     title: "Pay Gap Assessment: How Companies Uncover Salary Disparities",
     description:
-      "Pay gap assessment: Systematically analyse salary disparities, understand the 5% threshold, and prepare your pay data for directive compliance.",
+      "Pay gap assessment: Systematically analyse salary disparities, understand the 5% threshold, and prepare your pay data for EU directive compliance.",
     date: "2026-03-17",
     author: "Jens Druckenmüller",
     keywords: [
       "Pay Gap Assessment",
       "Salary Disparities Analysis",
-      "Gender Pay Gap Analysis",
+      "Gender Pay Gap Analysis EU",
       "Pay Comparison Methods",
       "Compensation Analysis Companies",
       "Employee Categories Pay Transparency",
       "5 Percent Threshold Pay Transparency",
-      "Joint Pay Assessment",
-      "Pay Equity Audit",
+      "Joint Pay Assessment EU",
+      "Pay Equity Audit Europe",
+      "Luxembourg Pay Gap",
     ],
     lang: "en",
     content: `
@@ -1283,7 +1284,7 @@ export const blogPosts: BlogPost[] = [
 
       <p>This is exactly where a pay gap assessment comes in. It's the structured process through which companies analyse their compensation data, identify gender-related disparities, and — crucially — determine whether those disparities are objectively justified or not.</p>
 
-      <p>Sounds like a compliance exercise? It is. But one that can determine your company's future. Because if you can't explain a gap above 5%, you trigger a <strong>joint pay assessment</strong> with the works council (Betriebsrat) — with far-reaching consequences. And if you haven't analysed anything at all, you'll face a lawsuit with no line of defence.</p>
+      <p>Sounds like a compliance exercise? It is. But one that can determine your company's future. Because if you can't explain a gap above 5%, you trigger a <strong>joint pay assessment</strong> with employee representatives — with far-reaching consequences. And if you haven't analysed anything at all, you'll face a lawsuit with no line of defence.</p>
 
       <p>This article explains what a gap assessment involves, which metrics the directive requires, and which mistakes you absolutely must avoid in your analysis.</p>
 
@@ -1301,7 +1302,7 @@ export const blogPosts: BlogPost[] = [
 
       <p>Specifically: if the gap cannot be remedied or objectively justified within <strong>six months</strong> of reporting, the employer is required to conduct a <strong>joint pay assessment</strong> with employee representatives. This assessment is not an informal conversation — it has seven mandatory components and can entail significant organisational and financial consequences.</p>
 
-      <p>The 5% threshold is not a safe harbour. It does not mean that gaps below 5% are unproblematic. It is merely the <strong>trigger for the mandatory joint assessment</strong>. Even smaller gaps can be subject to individual information requests and lawsuits — especially since the German Federal Labour Court (BAG) recognised the pair comparison as sufficient (case no. 8 AZR 300/24).</p>
+      <p>The 5% threshold is not a safe harbour. It does not mean that gaps below 5% are unproblematic. It is merely the <strong>trigger for the mandatory joint assessment</strong>. Even smaller gaps can be subject to individual information requests and lawsuits — especially since courts in some member states are already applying the directive's principles. In Germany, for instance, the Federal Labour Court (BAG) ruled in October 2025 that a pair comparison with a single higher-paid colleague of the other gender is sufficient to establish a presumption of discrimination (case no. 8 AZR 300/24).</p>
 
       <h2>The 7 reporting metrics under Art. 9</h2>
 
@@ -1410,7 +1411,9 @@ export const blogPosts: BlogPost[] = [
 
       <p>A structured gap assessment gives you back <strong>control</strong>: you know where you stand. You can explain or remedy gaps. And you have the data foundation to meet your reporting obligations — without nasty surprises.</p>
 
-      <p><strong>Our experts support you with systematic analysis</strong> — from data preparation through category formation to root-cause analysis. Pragmatic, confidential, and fully compliant.</p>
+      <p>Even in countries like Luxembourg — where the overall gender pay gap is the EU's lowest at -0.8% (Eurostat, 2024) — individual companies can have significant internal disparities, particularly in the financial services sector where gaps reach up to 40% in some EU countries. A solid assessment reveals what the national averages don't.</p>
+
+      <p><strong>Based in Luxembourg and advising companies across Europe</strong>, we support you with systematic analysis — from data preparation through category formation to root-cause analysis. Pragmatic, confidential, and fully compliant.</p>
 
       <p><strong><a href="/en/equal-pay">Book an initial consultation →</a></strong></p>
     `,
@@ -1423,7 +1426,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "At what gap level does it become critical?",
         answer:
-          "Under Art. 10 of the EU Pay Transparency Directive, a gender pay gap exceeding 5% in an employee category becomes critical if it cannot be justified by objective, gender-neutral criteria. If the gap is not remedied or explained within six months, the employer must conduct a joint pay assessment with the works council (Betriebsrat).",
+          "Under Art. 10 of the EU Pay Transparency Directive, a gender pay gap exceeding 5% in an employee category becomes critical if it cannot be justified by objective, gender-neutral criteria. If the gap is not remedied or explained within six months, the employer must conduct a joint pay assessment with employee representatives.",
       },
       {
         question: "Which pay components count as 'pay' under the directive?",
@@ -1453,7 +1456,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "What happens if there's a gap above 5%?",
         answer:
-          "If a gender pay gap exceeding 5% exists in an employee category that cannot be justified by objective criteria, and this gap is not remedied within six months of reporting, the employer must conduct a joint pay assessment with the works council under Art. 10. This assessment has seven mandatory components and can have significant organisational and financial consequences — up to and including mandatory pay adjustments.",
+          "If a gender pay gap exceeding 5% exists in an employee category that cannot be justified by objective criteria, and this gap is not remedied within six months of reporting, the employer must conduct a joint pay assessment with employee representatives under Art. 10. The structure of employee representation varies by member state — from works councils in Germany and Luxembourg to other forms of delegation. This assessment has seven mandatory components and can have significant organisational and financial consequences — up to and including mandatory pay adjustments.",
       },
     ],
   },
