@@ -1464,19 +1464,20 @@ export const blogPosts: BlogPost[] = [
     slug: "equal-pay-compliance-checkliste-geschaeftsfuehrer",
     title: "Equal Pay Compliance: The Checklist for CEOs and Managing Directors",
     description:
-      "Equal pay checklist: 7 immediate actions for CEOs to prepare for the EU Pay Transparency Directive. Deadlines, obligations, liability risks.",
+      "Equal pay checklist: 7 immediate actions for CEOs across Europe to prepare for the EU Pay Transparency Directive. Deadlines, obligations, liability risks.",
     date: "2026-03-17",
     author: "Jens Druckenmüller",
     keywords: [
       "Equal Pay Compliance Checklist",
-      "Pay Transparency CEO",
-      "Equal Pay Employer Obligations",
+      "Pay Transparency CEO Europe",
+      "Equal Pay Employer Obligations EU",
       "Pay Equity Measures",
       "Gender Pay Gap Reporting Obligation",
       "Pay Transparency Checklist",
       "Equal Pay CEO Liability",
       "Pay Transparency Directive Implementation",
-      "Salary Transparency Measures",
+      "Salary Transparency Europe",
+      "Luxembourg Pay Compliance",
     ],
     lang: "en",
     content: `
@@ -1508,7 +1509,7 @@ export const blogPosts: BlogPost[] = [
         <li>Companies with 250+ employees: Annual reporting</li>
         <li>Companies with 150–249 employees: Reporting every 3 years</li>
         <li>7 reporting metrics, 5 of which must be publicly accessible</li>
-        <li>For gaps above 5%: Joint pay assessment with works council (Art. 10)</li>
+        <li>For gaps above 5%: Joint pay assessment with employee representatives (Art. 10)</li>
       </ul>
 
       <h3>7 June 2031 — SME reporting</h3>
@@ -1517,6 +1518,9 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <p>The critical point: the <strong>data baseline for the first report is calendar year 2026</strong>. This means data collection systems must be in place by now. Companies that need to report in June 2027 cannot start collecting data in January 2027.</p>
+
+      <h3>Where do member states stand?</h3>
+      <p>Transposition progress varies significantly across the EU. In <strong>Luxembourg</strong>, the Council of Government (Conseil de Gouvernement) reviewed the transposition bill on 13 March 2026 — it must still pass the Chamber of Deputies (Chambre des Députés). Luxembourg already has significant infrastructure in place: employee delegations with semi-annual reporting obligations for companies with 15+ employees, the ITM (Inspection du Travail et des Mines) as the supervisory authority, and LOGIB as a state-provided analysis tool. In <strong>Germany</strong>, no draft bill has been published yet. <strong>Sweden</strong> remains the only country to have fully transposed the directive. Regardless of national progress: the directive's obligations apply from 7 June 2026 — whether or not your country has completed transposition.</p>
 
       <h2>The 7 immediate actions for CEOs</h2>
 
@@ -1556,11 +1560,11 @@ export const blogPosts: BlogPost[] = [
 
       <p><strong>Action:</strong> Review your existing job grading system. Does it reflect the directive's four criteria? Are soft skills and non-physical demands given equal weight? Or does it perpetuate historically grown inequalities? If the latter: revise it — before a court does it for you.</p>
 
-      <h3>7. Engage the works council early</h3>
+      <h3>7. Engage employee representatives early</h3>
 
-      <p>The directive significantly strengthens the role of employee representatives. For gaps above 5%, a <strong>joint pay assessment with the works council</strong> (Betriebsrat) is mandatory (Art. 10). But even in developing transparent pay criteria and forming employee categories, involving the works council is advisable — and in many cases already subject to co-determination rights.</p>
+      <p>The directive significantly strengthens the role of employee representatives. For gaps above 5%, a <strong>joint pay assessment</strong> is mandatory (Art. 10). But even in developing transparent pay criteria and forming employee categories, involving employee representatives is advisable — and in many countries already subject to co-determination rights. In Germany, this means the works council (Betriebsrat); in Luxembourg, the staff delegation (délégation du personnel) — which already has semi-annual reporting obligations for companies with 15 or more employees.</p>
 
-      <p><strong>Action:</strong> Seek dialogue with your works council now. Inform them about the upcoming requirements, align on timelines, and build a cooperative foundation. A works council that first learns about pay gaps through the report will react very differently from one that was involved from the start.</p>
+      <p><strong>Action:</strong> Seek dialogue with your employee representatives now. Inform them about the upcoming requirements, align on timelines, and build a cooperative foundation. Representatives who first learn about pay gaps through the report will react very differently from those who were involved from the start.</p>
 
       <h2>Differentiation by company size</h2>
 
@@ -1582,18 +1586,18 @@ export const blogPosts: BlogPost[] = [
         <li>From 100 employees: Regular reporting (every 3 years, from 2031)</li>
         <li>From 150 employees: Regular reporting (every 3 years, from 2027)</li>
         <li>From 250 employees: Annual reporting (from 2027)</li>
-        <li>For gaps above 5%: Joint pay assessment with works council</li>
+        <li>For gaps above 5%: Joint pay assessment with employee representatives</li>
       </ul>
 
-      <p>But caution: even companies with fewer than 100 employees can face <strong>individual information requests and lawsuits</strong>. The reversal of the burden of proof applies to all. And the BAG has made clear with the pair comparison (case no. 8 AZR 300/24) that a single case is enough to establish a presumption of discrimination.</p>
+      <p>But caution: even companies with fewer than 100 employees can face <strong>individual information requests and lawsuits</strong>. The reversal of the burden of proof applies to all. Note that in Luxembourg, employee delegation obligations already start at 15 employees — well below the EU reporting thresholds.</p>
 
-      <h2>The BAG ruling as a wake-up call</h2>
+      <h2>Courts aren't waiting — and neither should you</h2>
 
-      <p>Anyone waiting for the German legislature to transpose the directive before taking action is making a strategic mistake. The German Federal Labour Court (BAG) has already incorporated key elements of the directive into existing case law on 23 October 2025.</p>
+      <p>Anyone waiting for their national legislature to transpose the directive before taking action is making a strategic mistake. Courts in some member states are already incorporating the directive's principles into existing case law.</p>
 
-      <p>The <strong>pair comparison</strong> makes it significantly easier for employees to assert pay discrimination. A single higher-paid colleague of the other gender in a comparable position is sufficient. No statistics, no group comparison. And then the burden of proof shifts to the employer.</p>
+      <p>In Germany, the Federal Labour Court (BAG) ruled on 23 October 2025 that a <strong>pair comparison</strong> — a single higher-paid colleague of the other gender in a comparable position — is sufficient to establish a presumption of discrimination. No statistics, no group comparison. And then the burden of proof shifts to the employer.</p>
 
-      <p>The message is clear: <strong>the directive is already having an effect — even without national transposition.</strong> Companies that wait until the German law is passed will have waited too long.</p>
+      <p>The message is clear: <strong>the directive is already having an effect — even without national transposition.</strong> Companies that wait for the law to be formally passed will have waited too long.</p>
 
       <h2>Procurement exclusion: Compliance as a business prerequisite</h2>
 
@@ -1623,9 +1627,9 @@ export const blogPosts: BlogPost[] = [
 
       <p>As a CEO or managing director, you bear the responsibility: for your company's compliance, for protection against liability risks, and for your brand's reputation as an employer. The seven immediate actions in this article are your starting point.</p>
 
-      <p>But a checklist alone isn't enough. Implementation requires a <strong>systematic analysis of your compensation structures</strong>, the adjustment of processes and systems, and — often underestimated — the right communication with the works council and workforce.</p>
+      <p>But a checklist alone isn't enough. Implementation requires a <strong>systematic analysis of your compensation structures</strong>, the adjustment of processes and systems, and — often underestimated — the right communication with employee representatives and your workforce.</p>
 
-      <p>We support CEOs and HR leaders with pragmatic implementation — from the initial assessment through to full compliance. No audit theatre. No consultant jargon. Just clear analysis, concrete actions, and robust results.</p>
+      <p>Based in Luxembourg and advising companies across Europe, we support CEOs and HR leaders with pragmatic implementation — from the initial assessment through to full compliance. No audit theatre. No consultant jargon. Just clear analysis, concrete actions, and robust results.</p>
 
       <p><strong><a href="/en/equal-pay">Start with a free initial consultation →</a></strong></p>
     `,
@@ -1651,14 +1655,14 @@ export const blogPosts: BlogPost[] = [
           "The costs of non-compliance are substantial and multifaceted: unlimited compensation with no cap for affected employees, back-payment of lost pay including bonuses and benefits in kind, fines from supervisory authorities (already up to 1% of annual revenue in France), possible exclusion from public procurement, and reputational damage from publicly visible gender pay gaps. Add the cost of a forced joint pay assessment for gaps above 5%.",
       },
       {
-        question: "Must the works council be involved?",
+        question: "Must employee representatives be involved?",
         answer:
-          "Yes, and early on. The directive significantly strengthens the role of employee representatives. For a gender pay gap above 5% in an employee category, a joint pay assessment with the works council (Betriebsrat) is mandatory (Art. 10). Developing transparent pay criteria and forming employee categories are also frequently subject to co-determination rights. Early involvement creates cooperation rather than confrontation.",
+          "Yes, and early on. The directive significantly strengthens the role of employee representatives. For a gender pay gap above 5% in an employee category, a joint pay assessment with employee representatives is mandatory (Art. 10). The structure varies by country: works councils (Betriebsrat) in Germany, staff delegations (délégation du personnel) in Luxembourg, and other forms elsewhere. Developing transparent pay criteria and forming employee categories are also frequently subject to co-determination rights. Early involvement creates cooperation rather than confrontation.",
       },
       {
         question: "Is negotiation skill a valid reason for pay differences?",
         answer:
-          "No. Under the EU Pay Transparency Directive and current case law from the German Federal Labour Court (BAG), individual negotiation skill is not an objective justification for gender-based pay differences. The directive specifically aims to prevent pay from depending on individual negotiation strength. Only objective, gender-neutral criteria such as demonstrable qualifications, measurable performance, or role-relevant professional experience are accepted.",
+          "No. Under the EU Pay Transparency Directive, individual negotiation skill is not an objective justification for gender-based pay differences. This has also been confirmed by case law — for instance, the German Federal Labour Court (BAG) has explicitly ruled along these lines. The directive specifically aims to prevent pay from depending on individual negotiation strength. Only objective, gender-neutral criteria such as demonstrable qualifications, measurable performance, or role-relevant professional experience are accepted.",
       },
       {
         question: "When must we start reporting on the gender pay gap?",
