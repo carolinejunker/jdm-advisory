@@ -25,6 +25,19 @@ const ventures = [
       </svg>
     ),
   },
+  {
+    title: "EU AI Act Readiness",
+    subtitle: "AI Governance for Businesses",
+    description:
+      "First obligations are already in effect. We help with AI inventory, readiness assessment and governance setup — practical and clear.",
+    href: "/en/ai-act",
+    badge: "New",
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714a2.25 2.25 0 00.659 1.591L19 14.5M14.25 3.104c.251.023.501.05.75.082M19 14.5l-2.47 2.47a2.25 2.25 0 01-1.591.659H9.061a2.25 2.25 0 01-1.591-.659L5 14.5m14 0V17a2.25 2.25 0 01-2.25 2.25H7.25A2.25 2.25 0 015 17v-2.5" />
+      </svg>
+    ),
+  },
 ];
 
 export default function ServicesEn() {
@@ -43,7 +56,7 @@ export default function ServicesEn() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {ventures.map((v) => (
             <a
               key={v.title}
