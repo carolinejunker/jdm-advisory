@@ -308,7 +308,7 @@ export default function SecondOpinionPageEn() {
                 good deliverables look like — and where the typical weaknesses hide.
               </p>
               <p className="text-cream/60 text-sm italic">
-                Based in Luxembourg · Dubai
+                Based in Luxembourg · United Arab Emirates
               </p>
             </div>
           </div>

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Your Second Opinion — Independent Reviews & Due Diligence | Jens Druckenmüller",
   description:
-    "Independent review of advisory deliverables, due diligence and internal audit. AI-augmented analysis, human judgement. Luxembourg & Dubai.",
+    "Independent review of advisory deliverables, due diligence and internal audit. AI-augmented analysis, human judgement. Luxembourg & UAE.",
   openGraph: {
     title: "Your Second Opinion — Jens Druckenmüller",
     description:

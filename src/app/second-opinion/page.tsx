@@ -309,7 +309,7 @@ export default function SecondOpinionPage() {
                 wo die typischen Schwachstellen liegen.
               </p>
               <p className="text-cream/60 text-sm italic">
-                Standorte: Luxemburg · Dubai
+                Standorte: Luxemburg · United Arab Emirates
               </p>
             </div>
           </div>
