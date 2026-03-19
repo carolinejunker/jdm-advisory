@@ -1,10 +1,14 @@
 import { BlogPost } from "./types";
 import { aiActArticle1DE } from "./ai-act-article-1-de";
 import { aiActArticle1EN } from "./ai-act-article-1-en";
+import { aiActArticle2DE } from "./ai-act-article-2-de";
+import { aiActArticle2EN } from "./ai-act-article-2-en";
 
 export const blogPosts: BlogPost[] = [
   aiActArticle1DE,
   aiActArticle1EN,
+  aiActArticle2DE,
+  aiActArticle2EN,
   {
     slug: "entgelttransparenzrichtlinie-2026",
     title:
