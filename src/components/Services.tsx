@@ -3,7 +3,7 @@ const ventures = [
     title: "Equal Pay Compliance",
     subtitle: "EU-Entgelttransparenzrichtlinie 2026",
     description:
-      "Von der Bestandsaufnahme bis zur vollständigen Implementierung — damit Ihr Unternehmen bis Juni 2026 compliant ist.",
+      "Von der Bestandsaufnahme bis zur Implementierung — damit Ihr Unternehmen organisatorisch auf die Anforderungen ab Juni 2026 vorbereitet ist.",
     href: "/equal-pay",
     badge: "Neu",
     icon: (

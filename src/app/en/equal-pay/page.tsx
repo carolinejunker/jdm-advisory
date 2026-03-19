@@ -71,7 +71,7 @@ const complianceSteps = [
     price: "Custom",
     duration: "As needed",
     description:
-      "Implementation of all measures to achieve full compliance: reporting, processes, documentation.",
+      "Implementation support: reporting, processes, documentation.",
     deliverables: [
       "Information request process setup",
       "GPG reporting preparation",
@@ -241,7 +241,7 @@ export default function EqualPayEnPage() {
             </p>
 
             <p className="text-base md:text-lg text-slate max-w-2xl mx-auto leading-relaxed mb-12">
-              Others make you compliant. I make you better.
+              Others make you &ldquo;compliant.&rdquo; I make you better.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

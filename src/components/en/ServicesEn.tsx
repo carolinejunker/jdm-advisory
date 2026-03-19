@@ -3,7 +3,7 @@ const ventures = [
     title: "Equal Pay Compliance",
     subtitle: "EU Pay Transparency Directive 2026",
     description:
-      "From initial assessment to full implementation — making sure your organisation is compliant before the June 2026 deadline.",
+      "From initial assessment to implementation — preparing your organisation for the requirements taking effect in June 2026.",
     href: "/en/equal-pay",
     badge: "New",
     icon: (

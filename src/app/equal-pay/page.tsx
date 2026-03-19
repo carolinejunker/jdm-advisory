@@ -71,7 +71,7 @@ const complianceSteps = [
     price: "Individuell",
     duration: "Nach Bedarf",
     description:
-      "Umsetzung aller Maßnahmen bis zur vollständigen Compliance: Reporting, Prozesse, Dokumentation.",
+      "Begleitung bei der Umsetzung: Reporting, Prozesse, Dokumentation.",
     deliverables: [
       "Auskunftsprozess etablieren",
       "GPG-Reporting vorbereiten",
@@ -241,7 +241,7 @@ export default function EqualPayPage() {
             </p>
 
             <p className="text-base md:text-lg text-slate max-w-2xl mx-auto leading-relaxed mb-12">
-              Andere machen Sie compliant. Ich mache Sie besser.
+              Andere machen Sie &bdquo;compliant&ldquo;. Ich mache Sie besser.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
