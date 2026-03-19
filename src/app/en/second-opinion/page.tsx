@@ -293,7 +293,7 @@ export default function SecondOpinionPageEn() {
                 Who&apos;s behind this
               </p>
               <h2 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl text-cream leading-tight">
-                Jens Druckenmüller
+                Jens Druckenmüller, LL.M.
               </h2>
             </div>
 

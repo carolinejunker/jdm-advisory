@@ -4,12 +4,12 @@ interface BlogAuthorBoxProps {
 
 const text = {
   de: {
-    name: "Jens Druckenmüller",
+    name: "Jens Druckenmüller, LL.M.",
     role: "Unternehmer & unabhängiger Berater",
     bio: "20 Jahre Erfahrung in Boardrooms, Due Diligence und Unternehmensberatung. Heute als unabhängiger Berater in Luxemburg — mit wechselnden Themen, aber immer dem gleichen Anspruch.",
   },
   en: {
-    name: "Jens Druckenmüller",
+    name: "Jens Druckenmüller, LL.M.",
     role: "Entrepreneur & Independent Advisor",
     bio: "20 years of experience in boardrooms, due diligence and advisory. Today as an independent advisor based in Luxembourg — the topics change, but the standards never do.",
   },
