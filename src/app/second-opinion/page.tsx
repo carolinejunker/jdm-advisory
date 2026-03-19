@@ -27,8 +27,7 @@ const process = [
   {
     nr: "01",
     title: "Erstgespräch",
-    price: "Kostenlos",
-    duration: "30 Minuten",
+    label: "Kostenlos · 30 Minuten",
     description:
       "Sie schildern die Situation, wir klären ob und wie wir helfen können. Kein Verkaufsgespräch — eine ehrliche Einschätzung.",
     deliverables: [
@@ -40,8 +39,7 @@ const process = [
   {
     nr: "02",
     title: "Dokumentenanalyse",
-    price: "Ab 2.500 €",
-    duration: "3–5 Werktage",
+    label: "3–5 Werktage",
     description:
       "AI-gestützte Analyse der vorliegenden Unterlagen. Wir identifizieren Inkonsistenzen, Lücken und offene Fragen — schneller und gründlicher als rein manuell.",
     deliverables: [
@@ -54,8 +52,7 @@ const process = [
   {
     nr: "03",
     title: "Second Opinion Report",
-    price: "Ab 5.000 €",
-    duration: "1–2 Wochen",
+    label: "1–2 Wochen",
     description:
       "Ein vollständiger, unabhängiger Bericht mit klarer Bewertung: Was stimmt, was fehlt, was sollten Sie hinterfragen — und was wir anders sehen.",
     deliverables: [
@@ -68,8 +65,7 @@ const process = [
   {
     nr: "04",
     title: "Management-Briefing",
-    price: "Inklusive",
-    duration: "60 Minuten",
+    label: "60 Minuten",
     description:
       "Persönliche Präsentation der Ergebnisse für Ihre Entscheidungsträger. Klartext, keine PowerPoint-Schlachten.",
     deliverables: [
@@ -222,7 +218,7 @@ export default function SecondOpinionPage() {
                 Von der Frage zum Ergebnis
               </h2>
               <p className="text-slate mt-4 max-w-2xl mx-auto">
-                Klar strukturiert, transparent bepreist. Sie wissen vorher, was Sie bekommen.
+                Klar strukturiert, individuell zugeschnitten. Scope und Kosten besprechen wir im Erstgespräch — kostenlos und unverbindlich.
               </p>
             </div>
 
@@ -238,12 +234,9 @@ export default function SecondOpinionPage() {
                   <h4 className="text-cream font-medium mt-3 mb-1">
                     {s.title}
                   </h4>
-                  <div className="flex items-baseline gap-2 mb-3">
-                    <span className="text-gold text-lg font-medium">
-                      {s.price}
-                    </span>
-                    <span className="text-slate text-xs">{s.duration}</span>
-                  </div>
+                  <p className="text-gold/60 text-xs uppercase tracking-wider mb-3">
+                    {s.label}
+                  </p>
                   <p className="text-slate text-xs leading-relaxed mb-4">
                     {s.description}
                   </p>
