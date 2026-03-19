@@ -121,7 +121,21 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-cream font-medium text-lg mb-3">7. Cookies</h2>
+              <h2 className="text-cream font-medium text-lg mb-3">7. AI-Generated Content and Use of AI</h2>
+              <p>
+                The profile image of Caroline Junker was created using artificial
+                intelligence (Midjourney). Caroline Junker is an AI-powered assistant
+                and <strong className="text-cream">not a natural person</strong>.
+              </p>
+              <p className="mt-2">
+                We use AI tools in a supporting capacity when delivering our advisory
+                services, particularly for document and data analysis. Jens Druckenmüller
+                bears full responsibility for all results and recommendations.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-cream font-medium text-lg mb-3">8. Cookies</h2>
               <p>
                 This website currently <strong className="text-cream">does not use cookies</strong>.
                 Should this change in the future (e.g. through the integration of
@@ -131,7 +145,7 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-cream font-medium text-lg mb-3">8. Analytics and Tracking</h2>
+              <h2 className="text-cream font-medium text-lg mb-3">9. Analytics and Tracking</h2>
               <p>
                 This website currently <strong className="text-cream">does not use any analytics or
                 tracking tools</strong>. No user profiles are created and no tracking
@@ -140,7 +154,7 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-cream font-medium text-lg mb-3">9. Newsletter (planned)</h2>
+              <h2 className="text-cream font-medium text-lg mb-3">10. Newsletter (planned)</h2>
               <p>
                 We plan to set up a newsletter service. Once available, we will update
                 this privacy policy with the relevant information. Subscription will
@@ -149,7 +163,7 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-cream font-medium text-lg mb-3">10. Your Rights</h2>
+              <h2 className="text-cream font-medium text-lg mb-3">11. Your Rights</h2>
               <p>Under the GDPR, you have the following rights:</p>
               <ul className="mt-2 space-y-2">
                 <li><strong className="text-cream">Right of access</strong> (Art. 15 GDPR) — You may request information about your stored data.</li>
@@ -166,7 +180,7 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-cream font-medium text-lg mb-3">11. Right to Lodge a Complaint</h2>
+              <h2 className="text-cream font-medium text-lg mb-3">12. Right to Lodge a Complaint</h2>
               <p>
                 You have the right to lodge a complaint with a data protection
                 supervisory authority. The competent authority in Luxembourg:
@@ -183,7 +197,7 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-cream font-medium text-lg mb-3">12. Changes</h2>
+              <h2 className="text-cream font-medium text-lg mb-3">13. Changes</h2>
               <p>
                 We reserve the right to update this privacy policy to ensure it always
                 complies with current legal requirements and reflects the actual state

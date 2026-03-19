@@ -132,7 +132,24 @@ export default function DatenschutzPage() {
 
             {/* 7 */}
             <section>
-              <h2 className="text-cream font-medium text-lg mb-3">7. Cookies</h2>
+              <h2 className="text-cream font-medium text-lg mb-3">7. KI-generierte Inhalte und KI-Einsatz</h2>
+              <p>
+                Das Profilbild von Caroline Junker wurde mittels künstlicher
+                Intelligenz (Midjourney) erstellt. Caroline Junker ist eine
+                KI-gestützte Assistenz und <strong className="text-cream">keine
+                natürliche Person</strong>.
+              </p>
+              <p className="mt-2">
+                Bei der Erbringung unserer Beratungsdienstleistungen setzen wir
+                KI-Tools unterstützend ein, insbesondere zur Analyse von Dokumenten
+                und Daten. Die inhaltliche Verantwortung für alle Ergebnisse und
+                Empfehlungen liegt stets bei Jens Druckenmüller.
+              </p>
+            </section>
+
+            {/* 8 */}
+            <section>
+              <h2 className="text-cream font-medium text-lg mb-3">8. Cookies</h2>
               <p>
                 Diese Website verwendet derzeit <strong className="text-cream">keine Cookies</strong>.
                 Sollte sich dies in Zukunft ändern (z.B. durch die Einbindung von
@@ -144,7 +161,7 @@ export default function DatenschutzPage() {
 
             {/* 8 */}
             <section>
-              <h2 className="text-cream font-medium text-lg mb-3">8. Analyse und Tracking</h2>
+              <h2 className="text-cream font-medium text-lg mb-3">9. Analyse und Tracking</h2>
               <p>
                 Diese Website nutzt derzeit <strong className="text-cream">keine Analyse- oder
                 Tracking-Tools</strong>. Es werden keine Nutzungsprofile erstellt und
@@ -154,7 +171,7 @@ export default function DatenschutzPage() {
 
             {/* 9 */}
             <section>
-              <h2 className="text-cream font-medium text-lg mb-3">9. Newsletter (geplant)</h2>
+              <h2 className="text-cream font-medium text-lg mb-3">10. Newsletter (geplant)</h2>
               <p>
                 Wir planen, einen Newsletter-Dienst einzurichten. Sobald dieser
                 verfügbar ist, werden wir diese Datenschutzerklärung um die
@@ -165,7 +182,7 @@ export default function DatenschutzPage() {
 
             {/* 10 */}
             <section>
-              <h2 className="text-cream font-medium text-lg mb-3">10. Ihre Rechte</h2>
+              <h2 className="text-cream font-medium text-lg mb-3">11. Ihre Rechte</h2>
               <p>Sie haben nach der DSGVO folgende Rechte:</p>
               <ul className="mt-2 space-y-2">
                 <li><strong className="text-cream">Auskunftsrecht</strong> (Art. 15 DSGVO) — Sie können Auskunft über Ihre gespeicherten Daten verlangen.</li>
@@ -183,7 +200,7 @@ export default function DatenschutzPage() {
 
             {/* 11 */}
             <section>
-              <h2 className="text-cream font-medium text-lg mb-3">11. Beschwerderecht</h2>
+              <h2 className="text-cream font-medium text-lg mb-3">12. Beschwerderecht</h2>
               <p>
                 Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu
                 beschweren. Zuständige Aufsichtsbehörde in Luxemburg:
@@ -201,7 +218,7 @@ export default function DatenschutzPage() {
 
             {/* 12 */}
             <section>
-              <h2 className="text-cream font-medium text-lg mb-3">12. Änderungen</h2>
+              <h2 className="text-cream font-medium text-lg mb-3">13. Änderungen</h2>
               <p>
                 Wir behalten uns vor, diese Datenschutzerklärung anzupassen, um sie
                 stets den aktuellen rechtlichen Anforderungen und tatsächlichen
