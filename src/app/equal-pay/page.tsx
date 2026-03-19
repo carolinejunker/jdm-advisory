@@ -40,7 +40,7 @@ const complianceSteps = [
   {
     nr: "02",
     title: "Überblicks-Workshop",
-    price: "350 €",
+    price: "395 €",
     duration: "90 Minuten",
     description:
       "Alles, was Sie über die EU-Richtlinie wissen müssen: Pflichten, Fristen, Risiken und erste Quick Wins.",

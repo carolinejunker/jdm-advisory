@@ -40,7 +40,7 @@ const complianceSteps = [
   {
     nr: "02",
     title: "Overview Workshop",
-    price: "€350",
+    price: "€395",
     duration: "90 minutes",
     description:
       "Everything you need to know about the EU Directive: obligations, deadlines, risks and first quick wins.",
