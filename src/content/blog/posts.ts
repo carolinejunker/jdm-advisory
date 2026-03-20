@@ -30,7 +30,7 @@ export const blogPosts: BlogPost[] = [
     ],
     lang: "de",
     content: `
-      <p><strong>82 Tage.</strong> So viel Zeit bleibt bis zum 7. Juni 2026 — dem Stichtag, an dem die EU-Entgelttransparenzrichtlinie (EU) 2023/970 in nationales Recht umgesetzt sein muss. Und Deutschland? Hat noch nicht einmal einen Referentenentwurf vorgelegt. Von 27 Mitgliedstaaten haben bisher nur zwei die Richtlinie umgesetzt — Schweden als einziges Land vollständig.</p>
+      <p><strong><span data-deadline="2026-06-07">82 Tage</span>.</strong> So viel Zeit bleibt bis zum 7. Juni 2026 — dem Stichtag, an dem die EU-Entgelttransparenzrichtlinie (EU) 2023/970 in nationales Recht umgesetzt sein muss. Und Deutschland? Hat noch nicht einmal einen Referentenentwurf vorgelegt. Von 27 Mitgliedstaaten haben bisher nur zwei die Richtlinie umgesetzt — Schweden als einziges Land vollständig.</p>
 
       <p>Das klingt nach einer Schonfrist. Ist es aber nicht.</p>
 
@@ -148,7 +148,7 @@ export const blogPosts: BlogPost[] = [
       <h3>5. Job-Grading prüfen und anpassen</h3>
       <p>Die Richtlinie verlangt, dass die Bewertung von Tätigkeiten auf <strong>objektiven, geschlechtsneutralen Kriterien</strong> basiert. Die vier maßgeblichen Faktoren sind: Kompetenzen, Belastungen, Verantwortung und Arbeitsbedingungen. Wenn Ihr bestehendes Grading-System diese Kriterien nicht abbildet oder historisch gewachsene Ungleichheiten zementiert, ist jetzt der Zeitpunkt für eine Überarbeitung.</p>
 
-      <h2>82 Tage sind kurz. Aber sie reichen — wenn Sie jetzt starten.</h2>
+      <h2><span data-deadline="2026-06-07" data-fallback="Die Zeit läuft. Handeln Sie jetzt.">82 Tage</span> — das reicht, wenn Sie jetzt starten.</h2>
 
       <p>Die Entgelttransparenzrichtlinie ist kein bürokratisches Übel, das man aussitzen kann. Sie ist ein Paradigmenwechsel in der Art, wie Vergütung in Europa funktioniert. Deutschland mag bei der Umsetzung hinterherhinken — mit einem Gender Pay Gap von <strong>16 % (Destatis, 2024)</strong> bei einem EU-Durchschnitt von 13 % gehört das Land zu den Schlusslichtern. Aber die Richtlinie kommt. Die Rechtsprechung ist bereits da. Und der Markt — Bewerber, Beschäftigte, Gewerkschaften — wird Transparenz einfordern, ob Ihr Unternehmen bereit ist oder nicht.</p>
 

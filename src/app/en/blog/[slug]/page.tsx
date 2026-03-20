@@ -7,6 +7,7 @@ import FooterEn from "@/components/en/FooterEn";
 import BlogFAQ from "@/components/blog/BlogFAQ";
 import BlogAuthorBox from "@/components/blog/BlogAuthorBox";
 import BlogJsonLd from "@/components/blog/BlogJsonLd";
+import DynamicBlogContent from "@/components/blog/DynamicBlogContent";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -94,10 +95,7 @@ export default async function BlogPostPageEn({ params }: PageProps) {
           </header>
 
           {/* Content */}
-          <div
-            className="prose-blog"
-            dangerouslySetInnerHTML={{ __html: post.content }}
-          />
+          <DynamicBlogContent html={post.content} />
 
           {/* FAQ */}
           {post.faqItems.length > 0 && (
