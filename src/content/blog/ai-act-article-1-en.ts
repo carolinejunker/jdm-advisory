@@ -22,6 +22,7 @@ export const aiActArticle1EN = {
     "AI governance",
   ],
   lang: "en" as const,
+  category: "ai-act" as const,
   content: `
     <p><strong>You use ChatGPT at work? Microsoft Copilot? An AI tool for screening job applicants?</strong> Then the EU AI Act applies to you. Not someday — now.</p>
 

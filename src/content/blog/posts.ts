@@ -29,6 +29,8 @@ export const blogPosts: BlogPost[] = [
       "EU-Richtlinie 2023/970",
     ],
     lang: "de",
+    category: "equal-pay",
+    featured: true,
     content: `
       <p><strong><span data-deadline="2026-06-07">82 Tage</span>.</strong> So viel Zeit bleibt bis zum 7. Juni 2026 — dem Stichtag, an dem die EU-Entgelttransparenzrichtlinie (EU) 2023/970 in nationales Recht umgesetzt sein muss. Und Deutschland? Hat noch nicht einmal einen Referentenentwurf vorgelegt. Von 27 Mitgliedstaaten haben bisher nur zwei die Richtlinie umgesetzt — Schweden als einziges Land vollständig.</p>
 
@@ -233,6 +235,7 @@ export const blogPosts: BlogPost[] = [
       "Gemeinsame Entgeltbewertung",
     ],
     lang: "de",
+    category: "equal-pay",
     content: `
       <p>Die EU-Entgelttransparenzrichtlinie (EU) 2023/970 verlangt von Unternehmen nicht nur Berichtspflichten — sie verlangt <strong>Antworten</strong>. Zahlen Sie Männer und Frauen für gleiche oder gleichwertige Arbeit gleich? Können Sie das belegen? Und wenn nicht: Wissen Sie überhaupt, wo die Unterschiede liegen?</p>
 
@@ -431,6 +434,7 @@ export const blogPosts: BlogPost[] = [
       "Gehaltstransparenz Maßnahmen",
     ],
     lang: "de",
+    category: "equal-pay",
     content: `
       <p>Equal Pay ist keine HR-Aufgabe. Equal Pay ist <strong>Chefsache</strong>.</p>
 
@@ -649,6 +653,7 @@ export const blogPosts: BlogPost[] = [
       "Vergütungsstruktur geschlechtsneutral",
     ],
     lang: "de",
+    category: "equal-pay",
     content: `
       <p>Die meisten Unternehmen betrachten Equal Pay als regulatorische Pflichtübung. Etwas, das man abhaken muss — wie eine Datenschutzerklärung oder ein Brandschutzkonzept. <strong>Das ist ein strategischer Fehler.</strong></p>
 
@@ -838,6 +843,7 @@ export const blogPosts: BlogPost[] = [
       "Lohntransparenz Pflichten Arbeitgeber",
     ],
     lang: "de",
+    category: "equal-pay",
     content: `
       <p><strong>„Das betrifft uns nicht. Wir haben nur 30 Mitarbeiter."</strong></p>
 
@@ -1072,6 +1078,8 @@ export const blogPosts: BlogPost[] = [
       "Luxembourg Pay Transparency",
     ],
     lang: "en",
+    category: "equal-pay",
+    featured: true,
     content: `
       <p><strong>7 June 2026.</strong> That's the deadline by which all 27 EU member states must transpose the Pay Transparency Directive (EU) 2023/970 into national law. As of March 2026, only Sweden has done so fully. Most countries — including Germany and Luxembourg — are still working on their national implementation.</p>
 
@@ -1287,6 +1295,7 @@ export const blogPosts: BlogPost[] = [
       "Luxembourg Pay Gap",
     ],
     lang: "en",
+    category: "equal-pay",
     content: `
       <p>The EU Pay Transparency Directive (EU) 2023/970 doesn't just demand reporting — it demands <strong>answers</strong>. Do you pay men and women equally for the same or equivalent work? Can you prove it? And if not: do you even know where the disparities lie?</p>
 
@@ -1488,6 +1497,7 @@ export const blogPosts: BlogPost[] = [
       "Luxembourg Pay Compliance",
     ],
     lang: "en",
+    category: "equal-pay",
     content: `
       <p>Equal pay is not an HR task. Equal pay is a <strong>boardroom issue</strong>.</p>
 
@@ -1706,6 +1716,7 @@ export const blogPosts: BlogPost[] = [
       "Luxembourg Pay Equity",
     ],
     lang: "en",
+    category: "equal-pay",
     content: `
       <p>Most companies treat equal pay as a regulatory box-ticking exercise. Something to be checked off — like a privacy policy or a fire safety plan. <strong>That's a strategic mistake.</strong></p>
 
@@ -1893,6 +1904,7 @@ export const blogPosts: BlogPost[] = [
       "Luxembourg SME Pay Compliance",
     ],
     lang: "en",
+    category: "equal-pay",
     content: `
       <p><strong>"This doesn't apply to us. We only have 30 employees."</strong></p>
 
@@ -2098,7 +2110,15 @@ export const blogPosts: BlogPost[] = [
 ];
 
 export function getPostsByLang(lang: "de" | "en"): BlogPost[] {
-  return blogPosts.filter((post) => post.lang === lang);
+  return blogPosts
+    .filter((post) => post.lang === lang)
+    .sort((a, b) => {
+      // Featured posts first
+      if (a.featured && !b.featured) return -1;
+      if (!a.featured && b.featured) return 1;
+      // Then by date descending
+      return new Date(b.date).getTime() - new Date(a.date).getTime();
+    });
 }
 
 export function getPostBySlug(

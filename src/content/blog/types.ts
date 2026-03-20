@@ -12,5 +12,7 @@ export interface BlogPost {
   keywords: string[];
   content: string; // HTML string
   lang: "de" | "en";
+  category: "equal-pay" | "ai-act" | "second-opinion" | "insights";
+  featured?: boolean;
   faqItems: FAQItem[];
 }

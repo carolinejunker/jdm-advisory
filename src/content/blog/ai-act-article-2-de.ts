@@ -23,6 +23,7 @@ export const aiActArticle2DE = {
     "KI Bewerbungsscreening",
   ],
   lang: "de" as const,
+  category: "ai-act" as const,
   content: `
     <p><strong>KI im Personalwesen ist längst Alltag.</strong> Bewerbungen vorfiltern, Stellenausschreibungen optimieren, Leistung bewerten, Gehälter benchmarken — in vielen Unternehmen erledigt das inzwischen ein Algorithmus. Effizient, schnell, skalierbar.</p>
 

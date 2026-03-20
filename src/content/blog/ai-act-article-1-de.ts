@@ -23,6 +23,7 @@ export const aiActArticle1DE = {
     "KI-Governance",
   ],
   lang: "de" as const,
+  category: "ai-act" as const,
   content: `
     <p><strong>Sie nutzen ChatGPT im Büro? Microsoft Copilot? Ein KI-Tool für Bewerbungsscreening?</strong> Dann betrifft Sie der EU AI Act. Nicht irgendwann — jetzt.</p>
 

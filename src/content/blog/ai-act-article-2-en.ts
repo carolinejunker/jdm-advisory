@@ -23,6 +23,7 @@ export const aiActArticle2EN = {
     "AI screening",
   ],
   lang: "en" as const,
+  category: "ai-act" as const,
   content: `
     <p><strong>AI in human resources is already everyday reality.</strong> Pre-filtering applications, optimising job ads, evaluating performance, benchmarking salaries — in many companies, an algorithm handles all of this. Efficient, fast, scalable.</p>
 

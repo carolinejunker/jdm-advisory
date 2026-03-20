@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { getPostsByLang } from "@/content/blog";
 import Nav from "@/components/Nav";
 import FooterEn from "@/components/en/FooterEn";
+import BlogFilter from "@/components/blog/BlogFilter";
 
 export const metadata: Metadata = {
   title: "Blog — JDM Advisory | Jens Druckenmüller",
@@ -38,43 +38,18 @@ export default function BlogPageEn() {
             matter to business leaders and decision-makers.
           </p>
 
-          {posts.length === 0 ? (
-            <p className="text-slate/60">No articles yet. More coming soon.</p>
-          ) : (
-            <div className="grid gap-8">
-              {posts.map((post) => (
-                <Link
-                  key={post.slug}
-                  href={`/en/blog/${post.slug}`}
-                  className="group block border border-navy-lighter hover:border-gold/30 rounded-lg p-8 transition-all duration-300 hover:bg-navy-light/50"
-                >
-                  <time className="text-slate/60 text-sm tracking-wide">
-                    {new Date(post.date).toLocaleDateString("en-US", {
-                      year: "numeric",
-                      month: "long",
-                      day: "numeric",
-                    })}
-                  </time>
-                  <h2 className="font-[family-name:var(--font-heading)] text-2xl text-cream mt-2 mb-3 group-hover:text-gold transition-colors duration-200">
-                    {post.title}
-                  </h2>
-                  <p className="text-slate leading-relaxed">
-                    {post.description}
-                  </p>
-                  <div className="mt-4 flex flex-wrap gap-2">
-                    {post.keywords.slice(0, 4).map((kw) => (
-                      <span
-                        key={kw}
-                        className="text-xs text-gold/60 border border-gold/15 rounded-full px-3 py-1"
-                      >
-                        {kw}
-                      </span>
-                    ))}
-                  </div>
-                </Link>
-              ))}
-            </div>
-          )}
+          <BlogFilter
+            posts={posts.map((p) => ({
+              slug: p.slug,
+              title: p.title,
+              description: p.description,
+              date: p.date,
+              keywords: p.keywords,
+              category: p.category,
+              featured: p.featured,
+            }))}
+            locale="en"
+          />
         </div>
       </main>
       <FooterEn />
