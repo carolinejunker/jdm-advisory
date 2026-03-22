@@ -1,7 +1,12 @@
+"use client";
+
 /**
  * Shared layout for Obermark Wissens-Artikel pages.
  * Renders blog content HTML with Obermark styling, rewrites internal links.
+ * Client component for dynamic deadline countdown.
  */
+
+import { useEffect, useRef } from "react";
 
 interface WissenArticleLayoutProps {
   title: string;
@@ -14,14 +19,42 @@ function rewriteLinks(html: string): string {
     .replace(/href="\/equal-pay[^"]*"/g, 'href="/mandanten/obermark#kontakt"')
     .replace(/href="\/blog[^"]*"/g, 'href="/mandanten/obermark#kontakt"')
     .replace(/href="\/kontakt[^"]*"/g, 'href="/mandanten/obermark#kontakt"')
-    .replace(/href="\/leistungen[^"]*"/g, 'href="/mandanten/obermark#kontakt"');
+    .replace(/href="\/leistungen[^"]*"/g, 'href="/mandanten/obermark#kontakt"')
+    .replace(/href="\/en\/equal-pay[^"]*"/g, 'href="/mandanten/obermark#kontakt"');
 }
 
 export default function WissenArticleLayout({
   title,
   content,
 }: WissenArticleLayoutProps) {
+  const articleRef = useRef<HTMLElement>(null);
   const cleanContent = rewriteLinks(content);
+
+  useEffect(() => {
+    if (!articleRef.current) return;
+
+    const els = articleRef.current.querySelectorAll<HTMLSpanElement>(
+      "span[data-deadline]"
+    );
+
+    els.forEach((el) => {
+      const dateStr = el.getAttribute("data-deadline");
+      if (!dateStr) return;
+
+      const deadline = new Date(`${dateStr}T00:00:00+02:00`);
+      const now = new Date();
+      const diff = Math.ceil(
+        (deadline.getTime() - now.getTime()) / (1000 * 60 * 60 * 24)
+      );
+
+      if (diff <= 0) {
+        el.textContent =
+          el.getAttribute("data-fallback") || "Die Frist ist abgelaufen.";
+      } else {
+        el.textContent = `${diff} Tage`;
+      }
+    });
+  }, [cleanContent]);
 
   return (
     <>
@@ -51,6 +84,7 @@ export default function WissenArticleLayout({
 
         {/* Article Content */}
         <article
+          ref={articleRef}
           className="max-w-3xl mx-auto px-6 prose-obermark"
           dangerouslySetInnerHTML={{ __html: cleanContent }}
         />
