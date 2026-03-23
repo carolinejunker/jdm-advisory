@@ -1,11 +1,11 @@
 const milestones = [
   {
-    period: "2004 – 2020",
+    period: "2004 – 2018",
     role: "Unternehmensberatung & Audit",
     detail: "Due Diligence, Internal Audit, General Advisory für internationale Mandanten",
   },
   {
-    period: "2020 – 2024",
+    period: "2018 – 2024",
     role: "Direktor & Generalsekretär",
     detail: "Geschäftsleitung luxemburgischer Staatsunternehmen",
   },

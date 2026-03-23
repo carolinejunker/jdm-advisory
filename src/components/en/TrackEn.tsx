@@ -1,11 +1,11 @@
 const milestones = [
   {
-    period: "2004 – 2020",
+    period: "2004 – 2018",
     role: "Management Consulting & Audit",
     detail: "Due diligence, internal audit, and general advisory for international clients",
   },
   {
-    period: "2020 – 2024",
+    period: "2018 – 2024",
     role: "Director & Secretary General",
     detail: "Executive management of Luxembourg state-owned enterprises",
   },

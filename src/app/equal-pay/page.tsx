@@ -521,6 +521,14 @@ export default function EqualPayPage() {
                 Aktuell begleite ich erste Pilotprojekte zur Implementierung
                 moderner Vergütungssysteme im Kontext der EU-Richtlinie.
               </p>
+              <p className="text-slate/80 mt-3">
+                Übrigens: Wer Vergütungssysteme modernisiert, sollte den{" "}
+                <a href="/ai-act" className="text-gold hover:text-gold-light underline underline-offset-2 transition-colors">
+                  EU AI Act
+                </a>{" "}
+                gleich mitdenken — denn KI-gestützte HR-Tools fallen unter die neuen Regulierungen.
+                Ich berate auch hier.
+              </p>
             </div>
           </div>
         </section>
