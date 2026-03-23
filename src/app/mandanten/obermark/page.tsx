@@ -276,6 +276,10 @@ export default function ObermarkPage() {
               <span className="text-gold">wird Pflicht.</span>
             </h1>
 
+            <p className="text-gold/50 text-xs uppercase tracking-[0.3em] mb-6">
+              Vertraulich erstellt für die Obermark-Gruppe
+            </p>
+
             <div className="w-16 h-px bg-gold/60 mx-auto mb-8" />
 
             <p className="text-lg md:text-xl text-cream/90 max-w-3xl mx-auto leading-relaxed mb-4">
