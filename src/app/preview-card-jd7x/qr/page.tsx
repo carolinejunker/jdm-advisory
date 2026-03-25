@@ -33,19 +33,23 @@ URL:https://jdm-advisory.com
 END:VCARD`;
 
   useEffect(() => {
-    // Load QR library dynamically
     const script = document.createElement("script");
     script.src = "https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js";
     script.onload = () => {
       setQrLoaded(true);
-      renderQRCodes();
+    };
+    script.onerror = () => {
+      console.error("Failed to load QR library");
     };
     document.head.appendChild(script);
   }, []);
 
   useEffect(() => {
-    if (qrLoaded) renderQRCodes();
-  }, [qrLoaded, mode]);
+    if (qrLoaded) {
+      // Small delay to ensure canvases are mounted
+      setTimeout(() => renderQRCodes(), 100);
+    }
+  }, [qrLoaded]);
 
   function renderQRCodes() {
     const w = window as any;
@@ -73,30 +77,30 @@ END:VCARD`;
     if (!ctx) return;
     
     const count = qr.getModuleCount();
-    const cellSize = Math.floor(280 / count);
-    const size = cellSize * count;
+    const pixelRatio = window.devicePixelRatio || 1;
+    const displaySize = 280;
+    const cellSize = displaySize / count;
     const padding = 20;
     
-    canvas.width = size + padding * 2;
-    canvas.height = size + padding * 2;
-    canvas.style.width = "280px";
-    canvas.style.height = "280px";
+    canvas.width = (displaySize + padding * 2) * pixelRatio;
+    canvas.height = (displaySize + padding * 2) * pixelRatio;
+    canvas.style.width = displaySize + padding * 2 + "px";
+    canvas.style.height = displaySize + padding * 2 + "px";
+    
+    ctx.scale(pixelRatio, pixelRatio);
     
     // Background
     ctx.fillStyle = "#0a0a0f";
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.fillRect(0, 0, displaySize + padding * 2, displaySize + padding * 2);
     
-    // QR modules with rounded corners
+    // QR modules
+    ctx.fillStyle = color;
     for (let row = 0; row < count; row++) {
       for (let col = 0; col < count; col++) {
         if (qr.isDark(row, col)) {
-          ctx.fillStyle = color;
           const x = padding + col * cellSize;
           const y = padding + row * cellSize;
-          const r = cellSize * 0.15;
-          ctx.beginPath();
-          ctx.roundRect(x, y, cellSize - 0.5, cellSize - 0.5, r);
-          ctx.fill();
+          ctx.fillRect(x, y, cellSize + 0.5, cellSize + 0.5);
         }
       }
     }
@@ -208,8 +212,12 @@ END:VCARD`;
           font-size: 12px; font-weight: 300; color: #555; line-height: 1.6;
         }
 
-        .qr-view { display: none; flex-direction: column; align-items: center; gap: 16px; }
-        .qr-view.active { display: flex; }
+        .qr-view { 
+          display: flex; flex-direction: column; align-items: center; gap: 16px;
+          position: absolute; opacity: 0; pointer-events: none;
+          transition: opacity 0.3s ease;
+        }
+        .qr-view.active { position: relative; opacity: 1; pointer-events: auto; }
       `}</style>
 
       <div className="qr-page">
