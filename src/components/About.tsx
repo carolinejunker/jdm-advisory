@@ -10,8 +10,6 @@ export default function About() {
               alt="Jens Druckenmüller"
               className="w-full h-full object-cover object-top"
             />
-            <div className="absolute inset-0 bg-[#1c1f26]/30 mix-blend-multiply" />
-            <div className="absolute inset-0 bg-gradient-to-b from-[#1c1f26]/50 via-transparent to-[#1c1f26]/30" />
           </div>
 
           {/* Text */}
