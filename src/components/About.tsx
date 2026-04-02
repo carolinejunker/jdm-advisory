@@ -6,9 +6,9 @@ export default function About() {
           {/* Photo */}
           <div className="relative aspect-[3/4] rounded-sm overflow-hidden border border-gold/20 bg-[#1c1f26]">
             <img
-              src="/jens.jpg"
+              src="/jens-v2.jpg"
               alt="Jens Druckenmüller"
-              className="w-full h-full object-cover object-top brightness-75 contrast-110 saturate-[0.9]"
+              className="w-full h-full object-cover object-top"
             />
             <div className="absolute inset-0 bg-[#1c1f26]/30 mix-blend-multiply" />
             <div className="absolute inset-0 bg-gradient-to-b from-[#1c1f26]/50 via-transparent to-[#1c1f26]/30" />
