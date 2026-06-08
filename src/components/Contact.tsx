@@ -1,3 +1,5 @@
+import CalendlyWidget from "@/components/CalendlyWidget";
+
 export default function Contact() {
   return (
     <section id="contact" className="py-24 md:py-32 bg-navy-light/30">
@@ -11,22 +13,14 @@ export default function Contact() {
           </h2>
           <p className="text-slate mt-4 max-w-lg mx-auto">
             Sie haben eine Frage, ein Projekt oder möchten herausfinden,
-            ob wir zueinander passen? Ich freue mich auf Ihre Nachricht.
+            ob wir zueinander passen? Buchen Sie direkt Ihr kostenloses
+            30-Minuten-Sparring.
           </p>
         </div>
 
-        {/* Calendly placeholder */}
-        <div className="mb-16 p-12 border border-dashed border-navy-lighter rounded-sm text-center">
-          <p className="text-slate text-sm mb-4">Calendly-Buchungswidget</p>
-          <a
-            href="#"
-            className="inline-block border border-gold/40 text-gold text-sm uppercase tracking-widest px-8 py-3 hover:bg-gold hover:text-navy transition-all duration-300"
-          >
-            Erstgespräch buchen
-          </a>
-          <p className="text-slate/40 text-xs mt-3">
-            Wird aktiviert sobald Calendly verbunden ist
-          </p>
+        {/* Calendly Widget */}
+        <div className="mb-16">
+          <CalendlyWidget url="https://calendly.com/jens-druckenmueller-jdm-advisory/30min" />
         </div>
 
         {/* Direct contact */}

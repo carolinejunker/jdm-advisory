@@ -1,3 +1,5 @@
+import CalendlyWidget from "@/components/CalendlyWidget";
+
 export default function ContactEn() {
   return (
     <section id="contact" className="py-24 md:py-32 bg-navy-light/30">
@@ -11,22 +13,13 @@ export default function ContactEn() {
           </h2>
           <p className="text-slate mt-4 max-w-lg mx-auto">
             Got a question, a project, or just want to find out if I&apos;m the
-            right fit? Get in touch.
+            right fit? Book your free 30-minute strategy call directly.
           </p>
         </div>
 
-        {/* Calendly placeholder */}
-        <div className="mb-16 p-12 border border-dashed border-navy-lighter rounded-sm text-center">
-          <p className="text-slate text-sm mb-4">Calendly booking widget</p>
-          <a
-            href="#"
-            className="inline-block border border-gold/40 text-gold text-sm uppercase tracking-widest px-8 py-3 hover:bg-gold hover:text-navy transition-all duration-300"
-          >
-            Book a call
-          </a>
-          <p className="text-slate/40 text-xs mt-3">
-            Will be activated once Calendly is connected
-          </p>
+        {/* Calendly Widget */}
+        <div className="mb-16">
+          <CalendlyWidget url="https://calendly.com/jens-druckenmueller-jdm-advisory/30min" />
         </div>
 
         <div className="text-center">
