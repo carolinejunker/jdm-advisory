@@ -1,4 +1,5 @@
 import Link from "next/link";
+import CalendlyWidget from "@/components/CalendlyWidget";
 
 const risks = [
   {
@@ -549,21 +550,7 @@ export default function EqualPayPage() {
               </p>
             </div>
 
-            {/* Calendly placeholder */}
-            <div className="mb-16 p-12 border border-dashed border-navy-lighter rounded-sm text-center">
-              <p className="text-slate text-sm mb-4">
-                Calendly-Buchungswidget
-              </p>
-              <a
-                href="#"
-                className="inline-block bg-gold text-navy text-sm uppercase tracking-widest px-8 py-3 hover:bg-gold-light transition-all duration-300"
-              >
-                Termin wählen
-              </a>
-              <p className="text-slate/40 text-xs mt-3">
-                Wird aktiviert sobald Calendly verbunden ist
-              </p>
-            </div>
+            <CalendlyWidget url="https://calendly.com/jens-druckenmueller-jdm-advisory/30min" />
 
             <div className="text-center">
               <p className="text-slate text-sm mb-2">Oder direkt per E-Mail:</p>
