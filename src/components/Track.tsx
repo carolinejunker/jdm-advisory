@@ -15,14 +15,9 @@ const milestones = [
     detail: "Board-Erfahrung in verschiedenen Organisationen",
   },
   {
-    period: "2025",
-    role: "Firmengründung Dubai",
-    detail: "Internationaler Beratungshub in den Vereinigten Arabischen Emiraten",
-  },
-  {
     period: "2026",
     role: "Unternehmer auf eigene Rechnung",
-    detail: "Beratung, digitale Produkte und Services — aus Luxemburg heraus",
+    detail: "Beratung, digitale Produkte und Services — international vernetzt",
   },
 ];
 

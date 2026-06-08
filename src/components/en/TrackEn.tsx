@@ -15,14 +15,9 @@ const milestones = [
     detail: "Non-executive board experience across various organisations",
   },
   {
-    period: "2025",
-    role: "Company Formation Dubai",
-    detail: "International advisory hub in the United Arab Emirates",
-  },
-  {
     period: "2026",
     role: "Entrepreneur",
-    detail: "Advisory, digital products, and services — based in Luxembourg",
+    detail: "Advisory, digital products, and services — internationally connected",
   },
 ];
 
