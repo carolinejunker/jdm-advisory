@@ -1,28 +1,16 @@
-"use client";
-
-import { useEffect } from "react";
-
-interface CalendlyWidgetProps {
-  url: string;
-}
-
-export default function CalendlyWidget({ url }: CalendlyWidgetProps) {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://assets.calendly.com/assets/external/widget.js";
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
+export default function CalendlyWidget({ url }: { url: string }) {
+  const iframeSrc = `${url}?hide_gdpr_banner=1&background_color=0d1b2a&text_color=e8e0d0&primary_color=c9a84c`;
 
   return (
-    <div
-      className="calendly-inline-widget w-full rounded-sm overflow-hidden"
-      data-url={`${url}?hide_gdpr_banner=1&background_color=0d1b2a&text_color=e8e0d0&primary_color=c9a84c`}
-      style={{ minWidth: "320px", height: "700px" }}
-    />
+    <div className="w-full rounded-sm overflow-hidden">
+      <iframe
+        src={iframeSrc}
+        width="100%"
+        height="700"
+        frameBorder="0"
+        title="Termin buchen"
+        style={{ border: "none", minWidth: "320px" }}
+      />
+    </div>
   );
 }
