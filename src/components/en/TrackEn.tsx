@@ -5,14 +5,14 @@ const milestones = [
     detail: "Due diligence, internal audit, and general advisory for international clients",
   },
   {
-    period: "2018 – 2024",
-    role: "Director & Secretary General",
-    detail: "Executive management of Luxembourg state-owned enterprises",
+    period: "2018 – 2025",
+    role: "CFO BeNeLux & Director",
+    detail: "CFO BeNeLux at Villeroy & Boch; subsequently Commercial Director & Secretary General at SEO Group",
   },
   {
-    period: "Since 2024",
+    period: "2024 – 2025",
     role: "Board Mandates",
-    detail: "Non-executive board experience across various organisations",
+    detail: "Board mandates at Cedecel France, Soler S.A., Cefralux and Delfi Asset",
   },
   {
     period: "2026",

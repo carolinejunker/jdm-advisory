@@ -5,14 +5,14 @@ const milestones = [
     detail: "Due Diligence, Internal Audit, General Advisory für internationale Mandanten",
   },
   {
-    period: "2018 – 2024",
-    role: "Direktor & Generalsekretär",
-    detail: "Geschäftsleitung luxemburgischer Staatsunternehmen",
+    period: "2018 – 2025",
+    role: "CFO BeNeLux & Direktor",
+    detail: "CFO BeNeLux bei Villeroy & Boch; anschließend Commercial Director & Generalsekretär bei SEO Group",
   },
   {
-    period: "Seit 2024",
+    period: "2024 – 2025",
     role: "Verwaltungsratsmandate",
-    detail: "Board-Erfahrung in verschiedenen Organisationen",
+    detail: "Board-Mandate in Cedecel France, Soler S.A., Cefralux und Delfi Asset",
   },
   {
     period: "2026",
