@@ -6,7 +6,7 @@ const milestones = [
   },
   {
     period: "2018 – 2025",
-    role: "CFO BeNeLux & Direktor",
+    role: "CFO BeNeLux & Kaufmännischer Direktor",
     detail: "CFO BeNeLux bei Villeroy & Boch; anschließend Commercial Director & Generalsekretär bei SEO Group",
   },
   {
